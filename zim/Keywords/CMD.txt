@@ -1,8 +1,8 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
-Creation-Date: 2023-01-31T00:53:14-03:00
+Creation-Date: 2023-01-31T01:21:56-03:00
 
-====== STRIG ======
+====== CMD ======
 
 //TO DO: Summary//
 
@@ -23,6 +23,7 @@ Creation-Date: 2023-01-31T00:53:14-03:00
 
 
 ===== Comments =====
+In the manual of Brazilian @msx1 Gradiente Expert DD Plus, the keyword is listed as "//command not implemented. It may be implemented by the user with good programming knowledge, for their own command//".
 
 
 ===== Related keywords =====
@@ -35,4 +36,3 @@ Creation-Date: 2023-01-31T00:53:14-03:00
 
 
 ===== Other tags =====
-@Functions 

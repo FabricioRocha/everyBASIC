@@ -1,8 +1,8 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
-Creation-Date: 2023-01-31T00:53:14-03:00
+Creation-Date: 2023-01-31T01:17:05-03:00
 
-====== STRIG ======
+====== ATTR$ ======
 
 //TO DO: Summary//
 
@@ -23,7 +23,7 @@ Creation-Date: 2023-01-31T00:53:14-03:00
 
 
 ===== Comments =====
-
+The keyword is listed in @msx1 reference manuals just as "not implemented function", and why it is there remains a mystery for decades.
 
 ===== Related keywords =====
 
@@ -35,4 +35,3 @@ Creation-Date: 2023-01-31T00:53:14-03:00
 
 
 ===== Other tags =====
-@Functions 

@@ -1,8 +1,8 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
-Creation-Date: 2023-01-31T00:53:14-03:00
+Creation-Date: 2023-01-31T01:36:08-03:00
 
-====== STRIG ======
+====== RENUM ======
 
 //TO DO: Summary//
 
@@ -35,4 +35,4 @@ Creation-Date: 2023-01-31T00:53:14-03:00
 
 
 ===== Other tags =====
-@Functions 
+@Commands 
