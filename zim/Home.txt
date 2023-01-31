@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-01-30T23:18:47-03:00
+
+====== Home ======
+Criado segunda-feira 30 janeiro 2023
+
+//The admittedly impossible mission of documenting every BASIC ever implemented//
+
+Welcome to EveryBASIC.

@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-01-31T00:15:07-03:00
+
+====== THEN ======
+
+Jump to another part of the program if a conditional expression, previously evaluated by [[IF]], was met.
+
+**Implemented by: ** 
+
+**With variations: ** 
+
+**Also written as: ** 
+
+===== Usage =====
+Any usage of THEN without a preceding IF remains unknown.
+
+==== Variations ====
+
+
+
+===== Examples =====
+
+
+===== Comments =====
+
+
+===== Related keywords =====
+[[IF]] , [[ELSE]] , [[GOTO]]
+
+===== Similar keywords =====
+[[GOTO]]
+
+===== In other languages... =====
+
+
+===== Other tags =====
+@ProgramFlow , @Statements 
