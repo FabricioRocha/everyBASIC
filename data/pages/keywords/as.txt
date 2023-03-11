@@ -1,0 +1,42 @@
+====== AS ======
+
+Usually along [[OPEN]], designates a handler
+
+**Implemented by:** [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
+
+**With variations:** 
+
+**Also written as: ** 
+
+===== Usage =====
+
+
+==== Variations ====
+
+
+
+===== Examples =====
+
+This is a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//, //thinbasic//, //vb//, //vbnet//, //xbasic// or //zxbasic//.
+
+<code gwbasic>
+10 PRINT "HELLO"
+</code>
+
+===== Comments =====
+
+
+===== Related keywords =====
+
+
+===== Similar keywords =====
+
+
+===== In other languages... =====
+
+
+===== Other tags =====
+
+
+===== References =====
+

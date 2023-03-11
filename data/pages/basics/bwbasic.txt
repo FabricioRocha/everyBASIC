@@ -1,0 +1,104 @@
+bwbasic
+====== Bywater BASIC ======
+{{tag>bwbasic}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+An [[https://sourceforge.net/projects/bwbasic/|open source]] BASIC interpreter written in C whose history started back in 1982 — and a quite interesting one: it was written by a Texan grandmom, Verda Spell, and after her death the source files on a CP/M disk were found in her knitting bag by her grandson, Ted Campbell, a historian who transfered the code to a PC and published it in 1993.((https://manpages.ubuntu.com/manpages/xenial/man1/bwbasic.1.html))
+
+It has been ported to DOS, Windows, Linux and some other platforms and operating systems. As you can read anywhere, it "//implements a large superset of the ANSI Standard for [[.:ansi:ansimin|Minimal BASIC (X3.60-1978)]] and a significant subset of the ANSI Standard for [[.:ansi:ansifull|Full BASIC (X3.113-1987)]]//".
+
+This might have been true until version 2.20, but the most current version as of 2023, [[~bw32|3.20]], seems to drive the somewhat dull, text-only bwBASIC to a niche purpose of emulating other BASIC dialects − including //its own// and the one of version 2.20! Here the emulated keywords are not considered, however, and version 2.20 is the baseline version of our keywords listing.
+
+In spite of portability being one of its primary goals, bwBASIC is not much written about — probably because it is a plain "serious" BASIC with no commands for graphics and sound, just in tune with its CP/M roots. After version 2.20, it was removed from Debian, and as of February 2023 its maintainer, UNIX veteran Ken Martin, seemed undecided about whether to use Sourceforge or GitHub for version 3.20 updates, and on //how// to use such repositories. It seems that its only published UNIX ''man'' page is the one for 2.20. It's fairly complete and as light to read as possible for a man page, but there is a lot more documentation available in its newest installable packages.
+
+
+
+===== Where it is/was used =====
+  * Operating systems: UNIX, GNU/Linux, MS-DOS, FreeDOS, Windows, OS/2((https://ecsoft2.org/bywater-basic-interpreter))
+
+
+===== Noteworthy characteristics =====
+
+  * Variable names are case-sensitive in bwBASIC (statements, functions and commands are not). Their names can not start with digits, but can be composed by letters, numbers, "."and "_".
+
+  * Variables can be suffixed with # and !, like in Microsoft BASICs, but this will not have any special meaning about the precision of the variable. Multiple suffixes may be configured for more types than the traditional "Microsoft" ones. There is only one level of precision defined when bwBASIC is compiled from C, and by default it is the same precision of a C double in the platform.
+
+  * Sizes of integers, floats and doubles are compiler- and system-dependant. Data files created with a version of bwBASIC may not be read correctly by another compilation of bwBASIC.
+
+  * TRUE and FALSE boolean constants are available to programs. By default, they evaluate to -1 and 0 respectively; they are defined in bwBASIC's C source code.
+
+===== Environment and usage =====
+
+  * The command/statement [[:keywords:OPTION]] VERSION can be used to activate the many BASIC "dialects" supported by bwBASIC, inside double quotes, such as TRS-80, RBASIC, DARTMOUTH, ECMA-55, ECMA-116, MARK-I, SYSTEM/360, XBASIC, HEATH, PDP-8 and others. Its default dialect is BYWATER, and BYWATER-2 is supported as well.
+
+  * Line numbers are required for typing a program into the interpreter's REPL, but lines and the REPL are not really required. A program may be written in an ASCII text file without numbers and run from the command line with something like ''bwbasic myprog.bas''. Also, bwBASIC can be compiled without the REPL interface.
+
+  * An external text editor can be used with the EDIT command for editing the in-memory program. One way to define it is the ''OPTION EDIT progname$'' setting.
+ 
+  * From a console/terminal window, type the executable's filename (usually ''bwbasic'') and Enter. A default build of the interpreter will show the text-mode, line-driven REPL interface with a ''bwBASIC:'' prompt.
+
+  * To exit the REPL interface, type ''[[:keywords:quit|quit]]''.
+
+  * Quite standard here: to execute a program stored in memory, type ''[[:keywords:run|run]]''.
+
+  * To remove a line of a stored program, just type its number without anything else and press Enter.
+
+  * The REPL implements the commands [[:keywords:DO NUM]] and [[:keywords:UNNUM]] for, respectively, adding or removing line numbers of a program. They won't touch any reference to lines in [[:keyword:GOTO]]s, [[:keyword:GOSUB]]s etc though. 
+
+  * The prompt accepts immediate commands and statements, and lines starting with a number are stores as a program listing, just like old-school 8-it BASICs.
+
+  * A built-in help system is available with the ''[[:keywords:help]]'' command, followed by the keyword for which information is desired, such as in ''help goto''((https://opensource.com/article/21/6/freedos-bywater-basic)). Typing ''help'' alone lists all available keywords, too fast to be read.
+
+  * The REPL's [[:keywords:LIST]] command has some auto-formatting features which includes, for example, indentation of commands within [[:keywords:FOR]] loops.
+
+  * Up to some version before 2017's 3.20, commands from the underlying operating system's shell could be used as commands or even used in programs, and some BASIC keywords for file manipulation were also adapted to better integrate to the environment((https://www.ossblog.org/bwbasic-bywater-basic-interpreter/)). However, something like typing ''dir'' or ''ls'' on bwBASIC 3.20 under FreeDOS or GNU/Linux caused an ''ILLEGAL COMMAND AFTER LINE NUMBER: 1'' error message. According to its maintainer, Ken Martin, "this is how 3.x works today"((https://sourceforge.net/p/bwbasic/support-requests/8/)).
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+Bywater BASIC has a fame of being slow, compared to other BASIC interpreters, and this is straightly admitted in its official documentation.
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+  * **[[~bw32|Bywater BASIC 3.20]]** - looks like a fork of version 2.20 aimed at emulating a LOT of classic BASICs
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+
+  * https://manpages.ubuntu.com/manpages/xenial/man1/bwbasic.1.html (''man'' page for version 2.20)
+  * https://github.com/kenmartin-unix/BwBasic
+  * https://github.com/kenmartin-unix/Bwbasic-3.2a-for-BeagleBone/blob/master/Bwbasic-3-2-changelog.txt
+  * http://purple.niagara.edu/boxer/essays/soft/bwbasic.htm , last checked 2023-02-11
+  * http://progopedia.com/implementation/bywater-basic/ , last checked 2023-02-11
+
+</WRAP>
+{{tag>Interpreters "Open Source" Active FreeDOS DOS Windows Linux UNIX "OS/2"}}

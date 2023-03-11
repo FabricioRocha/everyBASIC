@@ -1,0 +1,13 @@
+====== Welcome to everyBASIC ======
+
+This website has the futile, unattainable, lifelong and pedantic purpose of gathering bits of information and reference about every known implementation of the BASIC language, from the GE-235 mainframe at the Dartmouth College to the one that runs in a single-page application on your web browser, passing by the golden age when BASIC pioneered the idea that //everybody can program a computer//.
+
+Much has been written about BASIC and its history, so the main parts of this site strive to be objective and somehow structured:
+  * The **[[:keywords:|Keywords Reference]]** section compiles references from various books and online sources about statements, functions, commands and special variables found in different BASIC implementations — most of all, their variations, equivalences, relationships with other keywords and use scenarios.
+
+  * The infinite **[[:basics:|BASICs]]** section lists known implementations and versions of BASIC throughout history (and they are literally //uncountable// ones), in a sort of hierarchical organization of "families" and relationship with one another.
+
+
+This website is a wiki, but not open for self-registration, comments and discussion, due to maintenance and security issues. Those who would like to contribute will be welcome to ask me for an account.
+
+//Fabricio Rocha, 2023//

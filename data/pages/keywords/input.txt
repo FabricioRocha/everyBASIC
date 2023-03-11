@@ -1,0 +1,44 @@
+====== INPUT ======
+Prompts the user for typing a line of text or numbers, finished by RETURN/ENTER; may be used for reading from devices
+
+**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+
+**With variations:** [[:basics:CBM:]], [[:basics:trs80:trsdisk]] (with the # for sequential files), [[:basics:trs80:level3]] (INPUT#LEN variation)
+
+**Also written as: ** /* Alternative spellings and abbreviations this keyword has. No need to refer to a BASIC, there is a section for that later. */
+
+===== Usage =====
+
+
+
+==== Variations ====
+
+
+
+===== Examples =====
+
+Very early versions of INPUT accepted numbers only.
+
+A common variation allows a message to be displayed before the ? prompt:
+
+<code gwbasic>
+10 INPUT "What is your name"; N$
+</code>
+
+===== Comments =====
+/* Origin of the keyword, opinions, history... */
+
+===== Related keywords =====
+/* Keywords that are often or always used along this one */
+
+===== Similar keywords =====
+/* Keywords with the same or similar functionality found in other versions of BASIC */
+
+===== In other languages... =====
+/* For parallels and comparisons with other modern-day languages */
+
+
+===== References =====
+/* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
+
+{{tag>Statement Console}}

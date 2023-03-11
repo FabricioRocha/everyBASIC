@@ -1,0 +1,58 @@
+====== REM ======
+Introduces a single-line comment; sometimes used for embedded //meta-commands// in the code
+
+
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:Dartmouth:dartmouth2]], [[:basics:Dartmouth:dartmouth3]], [[:basics:Dartmouth:dartmouth4]], [[:basics:Dartmouth:dartmouth5]], [[:basics:Dartmouth:dartmouth6]], [[:basics:Dartmouth:dartmouth7]], [[:basics:Dartmouth:dartmouth8]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+
+**With variations:** [[:basics:Applesoft:tasc]] (contents not ignored if started with !)
+
+**Also written as: **
+  * ' (single quote) - Most Microsoft BASICs such as [[:basics:ms80basic]], [[:basics:msqb]], etc
+  * ! - [[:basics:ansi:standard]], [[:basics:truebasic]]
+
+===== Usage =====
+/* This is a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//, //thinbasic//, //vb//, //vbnet//, //xbasic// or //zxbasic//. */
+
+<code gwbasic>
+10 REM THIS IS A ONE-LINE COMMENT
+20 ' THIS IS ALSO A COMMENT IN ALMOST EVERY BASIC
+30 ! BUT THIS IS A COMMENT IN TRUEBASIC
+</code>
+
+In most if not all BASICs, //anything// after a REM statement will be ignored in the same line, so it is never a good idea to insert a colon and more instructions after a REM.
+
+
+==== Variations ====
+
+In the [[:basics:msqb:|QuickBASIC]] family, REM can be used for //meta-commands// related to matrices:
+  * ''REM $STATIC'' declares all matrices as static
+  * ''REM $DYNAMIC'' declares all matrices as dynamic
+
+[[:basics:bwbasic|Bywater BASIC]] does **not** accept an abbreviation such as ' as of its version 2.20 .
+
+
+
+===== Comments =====
+REM, from "remark", is one of the original keywords of BASIC and it must have been implemented in every BASIC since.
+
+Its abbreviated form as the apostrophe character (') dates back to [[:basics:dartmouth:dartmouth4|Dartmouth 4th Edition]], but strangely came from the same Dartmouth College the oddball idea to replace it with ''!'', something that made into the [[:basics:ansi:standard|ANSI "Full Basic" specification]] in one of its contradictions to the [[:basics:ansi:minimal|Minimal specification]]! As of February 2023, it seems that the ''!''abbreviation of REM had been implemented solely by Dartmouth chaps' [[:basics:truebasic:|TrueBASIC]].
+
+
+===== Related keywords =====
+/* Keywords that are often or always used along this one */
+
+===== Similar keywords =====
+/* Keywords with the same or similar functionality found in other versions of BASIC */
+
+===== In other languages... =====
+
+It is difficult to remember a modern language which uses a word-like statement for introducing single-line comments. Most of them use characters such as ''#'', %%//%%, '';'' and so on.
+
+Apparently, the lack of block comments like C's ''/* ... */'' hasn't bothered BASIC implementors and users, as alternatives are very rare.
+
+
+
+===== References =====
+/* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
+
+{{tag>Statements Comments Original}}

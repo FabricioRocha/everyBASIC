@@ -1,0 +1,75 @@
+.:ansi:ansimin
+====== ANSI Minimal BASIC ======
+{{tag>:ansi:ansimin}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The very limited specification made by the first ANSI committee created to set a standard for the BASIC language. It was not much more than a formalization of [[..:dartmouth:dartmouth1|the original Version 1 of Dartmouth BASIC]]. Apparently, the X3J2 committee just wanted to show //something// quickly without having to discuss too much.
+
+
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+According to Arthur Luehrmann, the ANSI X3J2 committee was made up of around 30 members who, in the end, knew that the Minimal BASIC specification was "more a toy than an actual language", that would still have to be enhanced to become useful, probably in non-standard ways. 
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+  * [[.:dartmouth:dartmouth1|Dartmouth BASIC version 1]]
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:ansi:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * {{:basics:ansi:ecma-55_1st_edition_january_1978-minimalbasic.pdf|The ECMA-55 Minimal BASIC standard}} in PDF format
+  * LUEHRMANN, Arthur. "Structured Programming In Basic". Creative Computing Volume 10, number 9, September 1984. Available at https://archive.org/details/creativecomputing-1984-09/page/n175, last checked 2023-02-27.
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/

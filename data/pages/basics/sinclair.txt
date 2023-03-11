@@ -1,0 +1,71 @@
+sinclair
+====== Sinclair BASIC ======
+{{tag>sinclair}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The extremely popular and successful computers from England-based legendary **Sinclair Research** were shipped with BASICs developed by Nine Tiles Networks Ltd, also an English company. These BASICs were pretty similar among its own evolutions and also to [[.:ms80basic:|Microsoft BASIC-80]]-based interpreters which were so common at the time. It was not hard to port programs written for the Sinclair Spectrum to a [[:basics:MSX:]] machine, for example.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+Several extensions were published by third-party companies and by Sinclair itself.
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+  * [[.:sinclair:zx80|The ZX-80]] **4K** was the first Sinclair BASIC, severely limited by the hardware it runned on.
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Sinclair "Nine Tiles" Interpreters}}

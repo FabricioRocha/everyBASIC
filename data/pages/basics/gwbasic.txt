@@ -1,0 +1,78 @@
+gwbasic
+====== Microsoft GW-BASIC ======
+{{tag>gwbasic}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+If it was not the last, GW-BASIC was certainly the most advanced evolution of the original, [[linenumbered|line-numbered]], first-generation [[ms80basic|Microsoft BASIC-80]]. Its original source-code has been open by Microsoft and it has at least one modern, open-source implementation for modern operating systems, so it can still be considered an active BASIC which can make old-time programmers "feel at home".
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * IBM-PC and compatibles with DOS 3.22 or later
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+GW-BASIC's interpreter was an executable in the MS-DOS floppy disk which could be started from DOS with ''gwbasic''. Command-line options could be given to redirect input or output, to set the maximum number of open files and the size of their buffers and records (like the [[:keywords:MAXFILES]] keyword), to determine memory block size and highest address, and to force some mathematical functions to return double-precision values instead of single-precision values. Also, the command-line can be used for running a BASIC program file (''.BAS'' extension) without the REPL environment being shown.
+
+The environment is very similar to previous [[ms80basic|Microsoft BASIC-80]]-derived ones: a standard REPL interface where commands and statements can be used in direct mode, or numbered lines can be entered to be stored as part of a program. Overwriting, inserting or deleting content of a listed line will change the stored contents as long as RETURN is pressed after the modification.
+
+The bottom line of the interpreter screen shows commands or statements that can be entered by pressing function keys (Fn), just like in the [[msx|MSX BASIC]] environment. Likewise, such shortcuts can be edited. 
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+  * [[https://github.com/robhagemans/pcbasic/|PC-BASIC]] is a self-proclaimed "bug for bug" implementation of GW-BASIC and its versions in Python for modern machines running Windows, GNU/Linux and Mac. It actually does much more than that, by emulating different PC hardware of GW-BASIC's time, such as EGA/VGA/Hercules video cards and Tandy 3-voice sounds, and by happily working with Unicode and a number of DOS codepages. Its [[https://robhagemans.github.io/pcbasic|website]] has a fairly extensive documentation with a complete keywords reference.
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://hwiegman.home.xs4all.nl/gw-man/index.html - an online, HTML version of Microsoft's //GW-BASIC User's Guide// and //GW-Basic User's Reference//
+
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters IBM IBM-PC Windows Linux Mac linenumbered}}

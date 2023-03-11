@@ -1,0 +1,7 @@
+**With variations:** 
+**Implemented by:** [[:basics:ANSI:ansifull]]
+====== BASIC keywords reference ======
+
+Here we try to list keywords from every known BASIC implementation, inspired by //The BASIC Handbook// by David A. Lien.
+
+You will surely find some keywords are missing, and contributions are more than welcome. Please adhere to the template used for these pages, so we can keep this information as structured and standardized as possible.

@@ -1,0 +1,78 @@
+minibasicmm
+====== minibasic (McLean's) ======
+{{tag>minibasicmm}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+A very simple, open-source BASIC interpreter implemented in ANSI C by Malcolm McLean, [[https://github.com/MalcolmMcLean/minibasic|published on GitHub]] since January 2017.
+
+In spite of the name and the authors initials, it has nothing to do with [[.minibasicjs|Joe Strout's MiniBASIC for the Mini Micro]]. Malcolm's design goals were also pretty different: console-only, portability, //embeddability// and easy learning((https://malcolmmclean.github.io/minibasic/web/MiniBasicHome.html, last checked 2023-03-01)).
+
+According to the author, his BASIC //"is not really intended as a standalone program, except for teaching purposes"//. This is somewhat similar to the original purposes of "tool" or "glue" languages such as Lua and Tcl/Tk, and some tips on this usage of minibasic are there among its somewhat sparse documentation. 
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+This is unclear. The repository contains no makefiles or tips on how to build and run minibasic.
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+McLeans minibasic is a [[linenumbered|line-numbered]], console-only BASIC interpreter.
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://malcolmmclean.github.io/minibasic/web/keywords.html
+  * https://malcolmmclean.github.io/minibasic/web/design.html
+  * 
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters Open-Source linenumbered}}

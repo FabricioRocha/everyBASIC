@@ -1,0 +1,52 @@
+dartmouth1
+====== Dartmouth BASIC, Version One ======
+{{tag>dartmouth1}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The very first BASIC ever written, with its 15 keywords.
+
+===== Where it is/was used =====
+  * GE-225 and Datanet DN-30, the pair known and sold as GE-265
+
+===== Noteworthy characteristics =====
+
+  * [[:keywords:LET]] was //required// for assignments and expressions. A direct mention of a variable was not valid, as it became in later BASICs.
+  * Every variable might be used as an array of 10 elements, numbered from 1, even without being declared with [[:keywords:DIM]].
+  * It was //not// meant to create interactive programs. No [[:keyword:INPUT]], dear. The [[:keywords:DATA]] statement was the original way to give something for the program to munch.
+===== Environment and usage =====
+
+//TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set...//
+
+
+===== Extensions =====
+
+//TO DO: Famous libraries tools and extension packages made for this BASIC//
+
+===== Curiosities =====
+
+//TO DO: Historical notes, anecdotes, what people said about it//
+
+===== Related to... =====
+
+
+==== Influenced by ====
+  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences
+
+==== Influence for ====
+  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences
+
+===== Versions and successors =====
+  * list of other BASICs
+
+
+===== References =====
+//TO DO: Books, magazines and web pages with information used in this page//
+
+</WRAP>
+
+{{tag>Compilers GE-225 GE-265}}

@@ -1,0 +1,80 @@
+minibasicjs
+====== MiniBASIC (Joe Strout's) ======
+{{tag>minibasicjs}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+Don't let the name and the "js" in the tag name fool you: [[https://github.com/JoeStrout/minibasic|Joe Strout's MiniBASIC]], announced at February 26th, 2023, has no relationship with the previous [[.minibasicmm|Malcolm McLean's minibasic]] project, nor is it a JavaScript implementation.
+
+Beware of the differential letters here as well, because, out of pure coincidence, Joe's MiniBASIC runs on his **[[https://joestrout.itch.io/mini-micro|Mini Micro]]**, a kind of a virtual, fantasy retrocomputer emulator. An online, browser-based version with some limitations is available at https://joestrout.itch.io/minibasic (last checked 2023-03-01). Joe's MiniBASIC is implemented using Mini Micro's own language, called //Mini Script//, and is supposedly easily extensible with it. 
+
+
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * **[[https://joestrout.itch.io/mini-micro|Mini Micro]]** fantasy 1980s computer emulator
+
+===== Noteworthy characteristics =====
+
+Simplicity with 8-bit, 1980s retro flavour is surely the goal of this [[linenumbered|line-numbered]] BASIC interpreter, whose //"feature set is just a bit beyond the best of the 1980s home computer"// with //"all the little bits of polish that didn't exist at the time"//, in the author's words ((https://dev.to/joestrout/announcing-minibasic-1i6f, last checked 2023-03-01)). It implements a subset of the most common [[ms80basic|Microsoft-based interpreters]] of the golden era, with traces of [[.:applesoft:|Applesoft]] inclination, just enough to be able to run some games and simple type-in programs (some are included as examples).
+
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+  * [[.applesoft:|Applesoft]] influence detected by implementation of statements such as [[:keywords:HTAB]], [[:keywords:VTAB]], [[:keywords:HOME]] and [[:keywords:GET]]
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:ansi:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://dev.to/joestrout/announcing-minibasic-1i6f
+  * https://github.com/JoeStrout/minibasic/blob/main/DOCUMENTATION.md
+  * https://joestrout.itch.io/minibasic
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters linenumbered Active Open-Source}}

@@ -1,0 +1,12 @@
+====== Numbered Lines BASIC ======
+{{tag>linenumbered}}
+
+This was, we can say, the whole huge first generation of BASIC, from 1964 to early 1990s. Very tipically, such BASICs shared the following characteristics:
+
+  * Each line of a program was preceded by a successive line number and such lines were executed sequentially
+  * The execution order was manipulated by explicit jump instructions to another numbered line, such as ''GOTO 290'' and from there execution followed sequentially until the end or another jump.
+  * A numbered line could have more than one instruction in most of such BASICs
+
+Line numbers were inherited from the FORTRAN of the days when BASIC was created. They were usual in many other languages by then, and in fact the idea of a sequence of instructions and jumps comes very directly from machine code and Assembly.
+
+Some newer BASICs kept support to numbered-line programming just for compatibility with older code, but did not really //require// line numbers to work anymore. These are not "line-numbered BASICs" in the context of this site. 

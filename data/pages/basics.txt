@@ -1,0 +1,9 @@
+====== BASICs we know of ======
+
+I would not put money on anyone who proclaimed to know //every// BASIC ever made, but here is a humble attempt to take note of known interpreters, compilers, environment and versions of the language.
+
+There is a tag for each of them, and they build a taxonomy used throughout this site, especially in the Reference section.
+
+<catlist :basics: -hideNotFoundMsg -noNSInBold -forceHeadTitle>
+
+

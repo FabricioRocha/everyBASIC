@@ -1,0 +1,78 @@
+hptsb
+====== HP Time-Shared BASIC ======
+{{tag>hptsb}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+One of the earliest and most influential deviations from the original [[.:dartmouth:|Dartmouth BASIC]], the Hewlett-Packard Time-Shared BASIC was a cheaper, minicomputer-based and very popular alternative time-sharing system for the late 1960s.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * HP 2000 minicomputers line by Hewlett-Packard
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+Probably the first big split caused in early BASIC implementations was HPTSB's way to manipulate string variables. All string variables had to be explicitely declared with [[:keywords:DIM]], and from then on they should be dealt with as "arrays of characters", much like the C language would work when created some few years later. As a side effect, arrays of strings were not supported.
+
+"HP-style strings" were adopted by some early microcomputer BASICs such as [[.:a2int|Apple BASIC]], [[.:atari:|Atari BASIC]] and [[.:sinclair:zx80|Sinclair ZX-80]], in contrast with implementations which took inspiration from [[.:decbasic|DEC's BASIC-PLUS]] string handling, especially those derived from [[.:altair:|Micro-Soft BASIC for the MITS Altair]].
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+  * [[.:a2int|Apple BASIC]]
+  * [[.:atari:|Atari BASIC]]
+  * [[.:sinclair:zx80|Sinclair ZX-80]]
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://en.wikipedia.org/wiki/HP_Time-Shared_BASIC
+  * http://bitsavers.org/pdf/hp/2000TSB/22687-90001_AccessBasic9-75.pdf - The //HP-2000/Access BASIC Reference Manual//, last checked 2023-03-02
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters Time-Shared HP Hewlett-Packard linenumbered}}

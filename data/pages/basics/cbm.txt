@@ -1,0 +1,82 @@
+cbm
+====== Commodore BASIC ======
+{{tag>cbm}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The BASIC used in the famous 8-bit Commodore machines such as PET, VIC-20, C64, 16, Plus/4 and C128. Originally, it was pretty much the Microsoft port of its [[:basics:ms80basic|BASIC-80]] for the 6502 processor, later improved by Commodore developers into a number of versions with some meaningful differences. None of them however was nearly as popular as the one known as *V2*, which is the baseline to what this site refers to as "Commodore BASIC".  
+
+===== Where it is/was used =====
+  * PET
+  * VIC-20
+  * Commodore 64/64c
+  * Commodore C128
+  * Commodore C16
+  * Commodore Plus/4
+
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+Commodore's numbering scheme for the versions of its BASIC was, well, awkward. It does not follow the chronological order of releases as told by Wikipedia, here simplified:
+
+  * After V1 for the PET 2001 with calculator keyboard, came the first release of V2 for the newer PET 2001
+  * **[[~:cbmv4|Commodore BASIC V4]]** was launched with the PET/CBM 4000 and 8000 series
+  * Then V2 had its second release with the VIC-20, and would later be used with the C64 as well
+  * **[[~:cbmv4plus|Commodore BASIC V4+]]** was then released with the CBM-II machines
+  * **[[cbm:cbmv35|Commodore BASIC V3.5]]** came with the C16 and Plus/4 machines
+  * **[[cbm:cbmv7|Commodore BASIC V7]]** was the last released version with the C128
+  
+  * **[[https://github.com/mist64/cbmbasic|cbmbasic]]** is an open-source, portable C version of Commodore BASIC V2 which claims to be 100% compatible and has been tested on MacOS X, Linux and Windows NT. 
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://www.c64-wiki.com/wiki/Main_Page - the C64-Wiki
+  * //Commodore 64 Programmer's Reference Guide//. Commodore Business Machines, Inc., 1982. Available at https://archive.org/details/commodore-64-programmers-reference-guide_202205 , last check 2023-03-08
+  * https://en.wikipedia.org/wiki/Commodore_BASIC , last check 2023-03-08
+
+</WRAP>
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters linenumbered Commodore}}

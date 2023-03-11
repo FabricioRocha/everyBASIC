@@ -1,0 +1,75 @@
+====== ONERR ======
+/* Remove the comments after creating content for each section.*/
+
+Sets an error-handling trap which jumps execution to a given line with [[GOTO]]
+
+/*
+  For the lines below, just create links, separated by commas, to other pages of the BASICs section,
+  like [[:basics:basicTagName]].
+  
+  "Implemented by" should mention BASICs which implement the keyword like described, in a more usual and standard way.
+  
+  "With variations" should point to BASICs where this keyword is used a bit differently.
+  
+  "Also written as" should list alternative spellings and abbreviations this keyword has. No need to
+  refer to a BASIC, there is a section for that later.
+*/
+
+**Implemented by:** [[:basics:Applesoft:]]
+
+**With variations:** 
+
+**Also written as: ** 
+
+===== Usage =====
+/* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+This is the [[:basics:applesoft|Applesoft]] equivalent to [[ON ERROR]] found in other BASICs.
+
+It is known to have a "deficiency" that may cause a crash, as Wikipedia says((https://en.wikipedia.org/wiki/Applesoft_BASIC)), according to the //Applesoft BASIC Programmers Reference Manual//((https://archive.org/details/applesoft-basic-programmers-reference-manual-vol-1-for-iie-only)): if [[RESUME]] is not found in the error-handling routine, the system stack is not reset.
+
+==== Variations ====
+
+
+
+===== Examples =====
+/*
+  Below is an example of a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be
+  //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//,
+  //thinbasic//, //vb//, //vbnet//, //xbasic// or //zxbasic//. 
+
+  <code gwbasic>
+  10 PRINT "HELLO"
+  </code>
+*/
+
+
+
+===== Comments =====
+/* Origin of the keyword, opinions, history... */
+
+
+===== Related keywords =====
+/* Keywords that are often or always used along this one */
+  * [[RESUME]]
+  * [[GOTO]]
+
+===== Similar keywords =====
+/* Keywords with the same or similar functionality found in other versions of BASIC */
+  * [[ON ERROR]]
+
+===== In other languages... =====
+/* For parallels and comparisons with other modern-day languages */
+
+
+===== References =====
+/* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
+
+/*
+  ===== TAGS =====
+  Please use the syntax below for adding tags to this page, separated by spaces (use quotes for tags with spaces).
+  The most important tags to be used are, separated by groups:
+    - Statements | Commands | SpecialVariables | Operators
+  
+  {{tag>tagName}}
+*/
+{{tag>Statements Error-Handling}}

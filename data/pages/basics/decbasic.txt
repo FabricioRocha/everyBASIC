@@ -1,0 +1,78 @@
+decbasic
+====== DEC BASIC-PLUS ======
+{{tag>decbasic}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+One of the oldest and most influential BASIC implementations, developed by the Digital Equipment Corporation (DEC) and released in 1970.
+
+It is said to be highly influenced by JOSS, a Rand Corporation time-sharing programming language which also influenced other languages such as FOCAL and MUMPS((https://en.wikipedia.org/wiki/JOSS)).
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * DEC PDP-11, under the RSTS/E operating system
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+  * The to-be-famous string manipulation functions [[:keywords:LEFT$]], [[:keywords:MID$]], [[:keywords:RIGHT$]] were born with BASIC-PLUS.
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+  * **[[altair|Altair BASIC by Micro-Soft]]** - Bill Gates used BASIC-PLUS on the PDP-11 during high school and his experience influenced the first BASIC for microcomputers
+  * **[[ms80basic|Microsoft BASIC-80]]** - took even more from DEC BASIC and spread through all of its descendents
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+  * **[[vsi|VSI BASIC for OpenVMS]]** - through this day, a direct heir of the original BASIC-PLUS
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://en.wikipedia.org/wiki/BASIC-PLUS
+  * https://en.wikipedia.org/wiki/Microsoft_BASIC
+
+
+</WRAP>
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Compilers DEC}}

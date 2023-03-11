@@ -1,0 +1,91 @@
+a2int
+====== Apple II INTEGER BASIC ======
+{{tag>a2int}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+In all-caps letters like some purists require, this was the original 1976 BASIC for the Apple I and Apple II computers, written by Stephen Wozniak himself. This name, however, only became used later, to differentiate it from the newer [[applesoft|Applesoft floating-point BASIC]].
+
+Wozniak's admitted main goal was to have a BASIC which himself and his Homebrew Computer Club friends could use for writing games. Integer maths was enough and fast for that purpose. Floating-point support was however a major desire expressed by users and Woz even wrote a library for that, but had to turn his attention to Apple's Disk-II while Steve Jobs licensed the 6502-processor port of [[ms80basic|BASIC-80]] from Microsoft.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Apple I, loaded from cassette tape (USA, 1976)
+  * Apple II, from ROM (USA, 1978)
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+Apart from being able to perform only 16-bit integer mathematics, INTEGER BASIC had its share of peculiarities.
+
+  * Strings were implemented and manipulated like character arrays, as done by [[hptsb|HP Time-Shared BASIC]] and later [[.:atari:|Atari BASIC]]. Likewise, arrays of strings were not supported. Array variables had to be [[keywords:DIM]]ensioned before used and substrings were obtained from a 0-based index, like in ''PRINT S$(0,3)'' for the first 4 characters of S$.
+
+  * Just like ATARI BASIC as well, INTEGER BASIC imposed no limits on size for variables names, but they could not contain any language keyword.
+
+  * Program line size was limited to 128 characters.
+
+  * It implemented [[keywords:ASC]], but not its counterpart [[keywords:CHRS|CHR$]].
+
+  * The //device slots// so important for the Apple I/Apple II were accessed by input or output //redirection// with, respectively, [[keywords:IN]] and [[keywords:PR]]. From the moment they were used, commands like [[keywords:INPUT]] and [[keywords:PRINT]] would operate on the chosen device. ''PR#0'' and ''IN#0'' would bring I/O back to the console.
+
+  * [[keywords:TAB]] and [[keywords:VTAB]] were implemented as statements and did not require parenthesis around their arguments, as opposed to Microsoft BASICs.
+
+  * [[keywords:DATA]] and [[keywords:READ]] were not implemented.
+
+  * [[keywords:FOR]]...[[keywords:NEXT]] loops could be interrupted with the [[keywords:POP]] statement.
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+INTEGER BASIC was an interpreter with a REPL (Read, Eval, Print, Loop) interface just as almost every microcomputer of its era. It had a ''>'' sign as its prompt, which differentiated it from [[Applesoft]] with its '']'' prompt.
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+Apple BASIC has a peculiar command that is not listed up there and we'd better not create a page for. **CON** was replaced by **[[keywords:CONT]]** in [[Applesoft]] and most BASICs, and works pretty much the same way. Problem is that **CON** is one of the [[https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file|forbidden file names on Windows]], even with an extension, and pages of this site are maintained mostly on Windows machines. This is something traced back to CP/M that Microsoft still maintains alive as of 2023 on Windows 10. Dude...
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+  * **[[hptsb|HP Time-Shared BASIC]]** - No surprise here: Woz had been an HP employee and used HP BASIC's manual as his reference for writing INTEGER BASIC. Its more noticeable influence is the array-based string implementation and usage, similar to the one found in [[.atari:|Atari BASIC]].
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://archive.org/details/Apple_II_Mini_Manual, last check 2023-03-03
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters Apple}}

@@ -1,0 +1,81 @@
+:bwbasic:bw32
+====== Bywater BASIC 3.20 ======
+{{tag>bw32}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The most current version of bwBASIC as of 2023 seems to be a strong diversion from 2.20 and previous versions, aimed at making the most for supporting a **LOT** of classic, especially mainframe and time-sharing BASIC dialects.
+
+Some of these are [[:basics:cbasic]], [[:basics:decbasic|DEC BASIC-PLUS]] for RSTS-11 and for PDP-8 and PDP-11, the original [[:basics:dartmouth:|Dartmouth BASIC]], [[:basics:trs80:|TRS-80 BASICs]] of its various levels, [[:basics:ms80basic:mbasic|Microsoft MBASIC for Xenix]] and many others. Even the previous version is emulated, as "bywater2".
+
+This emulation is not always precise and faithful, however. Some arbitrary design choices are made by its maintainers, and it seems that emulation emphasis is on supporting the keywords those BASICs had, while not so much on structural and syntactical oddities.
+
+Dialects and an incredible number of syntatic and "behavioural" [[:keywords:OPTION]]s are implemented by bwBASIC 3.20 and might allow the user to create its own "emulation" of particular dialects.
+
+As one might expect, the number of implemented keywords for all these dialects skyrocketed. But for the purposes of this site, the keywords considered are only those that bwBASIC 3.20 implements as its own "bywater3" dialect.
+
+ 
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * MS-DOS, FreeDOS
+  * Windows (32-bit?)
+  * GNU/Linux
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:bwbasic:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/

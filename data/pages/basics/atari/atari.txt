@@ -1,0 +1,92 @@
+atari
+====== Atari BASIC ======
+{{tag>atari}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The original, buggy and slow BASIC made by Shepardson Microsystems in 1979 for the first 8-bit home computers from Atari, the videogames giant of the day. It was not bundled with the machines, but sold separately, cramped into an 8kB cartridge which was not enough for [[:basics:ms80basic|Microsoft BASIC]]. Went through two revisions right from the start for bug-fixings, and famously implemented a somewhat different flavour of BASIC.
+
+===== Where it is/was used =====
+  * Atari 400
+  * Atari 800
+
+===== Noteworthy characteristics =====
+Statements and functions for string manipulations were possibly the most distinct feature of Atari BASIC, as strings had to be [[:keywords:DIM|DIMensioned]] and treated like arrays of characters, pretty much like in C language and akin to [[:basics:a2int|Apple Integer BASIC]]. No operator for string concatenation, nor [[:keywords:RIGHTS|RIGHT$]], [[:keywords:LEFTS|LEFT$]] nor [[:keywords:MIDS|MID$]]: string parts were accessed with base-1 indexes like in ''S$(5,10)''.
+
+The [[https://en.wikipedia.org/wiki/Atari_BASIC|Wikipedia article on Atari BASIC]] enumerates some other differences it had from the widespread [[:basics:ms80basic|Microsoft BASIC]], such as:
+
+  * Variable names are not restricted in size and all characters are significant
+
+  * Missing keywords: [[:keywords:INKEYS|INKEY$]] (there is [[:keywords:GET]]), [[:keywords:CLS]], [[:keywords:DEF FN]], [[:keywords:SPC]], [[:keywords:TAB]] and [[:keywords:ELSE]].
+
+  * Arrays must be explicitely declared and sized with [[:keywords:DIM]], while MS-BASIC implicitely allows any variable to be used as a 10-element array.
+
+  * Arrays of strings are not allowed.
+
+  * No integer variables.
+
+  * No bitwise operators.
+
+  *[[:keywords:INPUT]] does **not** allow a prompt string like in ''INPUT "What's your name"; N$''.
+
+  * ''?'' would not be automatically converted to [[:keywords:PRINT]] in listings, even though it would work as expected
+
+  * The target of [[:keywords:GOTO]] and [[:keywords:GOSUB]] can be a variable or expression.
+
+  * [[:keywords:RESTORE]] may take a numeric constant, variable, or expression as a parameter, causing the next [[:keywords:READ]] to begin from the specified line number
+
+  * The counter variable used in [[:keywords:FOR]] is a mandatory parameter for [[:keywords:NEXT]], and only _one_ counter variable.
+
+  * For displaying a range of lines, the [[:keywords:LIST]] uses a comma instead of a minus sign: ''LIST 40,100''. 
+
+But for its side, Atari BASIC had some interesting features as well:
+
+  * An uniform interface based on [[:keywords:OPEN]], [[:keywords:CLOSE]], [[:keywords:PRINT]], [[:keywords:GET]], [[:keywords:PUT]], [[:keywords:NOTE]], [[:keywords:POINT]] and [[:keywords:XIO]] for devices, due to Atari's Central Input/Output (CIO)
+
+  * Because [[:keywords:GOTO]] and [[:keywords:GOSUB]] could take variables as arguments, and such variables had no name size limit, variables could be used like _labels_ throughout the code
+
+  * Error-handling system based on the [[:keywords:TRAP]] keyword, similar to [[:keywords:ON ERROR]] of other machines
+
+  * Immediate syntax checking on each line entry
+===== Environment and usage =====
+
+//TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set...//
+
+
+===== Extensions =====
+
+//TO DO: Famous libraries tools and extension packages made for this BASIC//
+
+===== Curiosities =====
+
+//TO DO: Historical notes, anecdotes, what people said about it//
+
+===== Related to... =====
+
+
+==== Influenced by ====
+  * **[[:basics:hptsb|HP BASIC]]** - where the string-handling model came from
+  * **[[..:dgBusiness|Data General Business BASIC]]** - it was familiar to some of Shepardson developers.
+  * **[[:basics:cromemco|Cromemco BASIC]]** - developed just before by Shepardson, used a 6-digit BCD floating point format which was also adopted in Atari BASIC
+  
+
+==== Influence for ====
+  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences
+  * **[[.:atturboxl|Turbo BASIC XL]]**
+
+===== Versions and successors =====
+  * **[[.:ataplus|Atari BASIC A+]]**, actually a disk-based extension
+  * **[[.:atxl|Atari BASIC XL]]**
+
+
+===== References =====
+
+  * https://atariwiki.org/wiki/Wiki.jsp?page=Atari%20BASIC
+  * https://en.wikipedia.org/wiki/Atari_BASIC
+
+</WRAP>
+{{tag>Interpreters linenumbered Atari Atari8bit}}

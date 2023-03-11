@@ -1,0 +1,76 @@
+applesoft:
+====== Applesoft BASIC ======
+{{tag>applesoft}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The customized [[ms80basic|Microsoft BASIC]] for the Apple II, first sold in cassette tape before improved and incorporated into the ROM of the 1978 Apple II+, displacing Stephen Wozniak's original [[a2int|INTEGER BASIC]].
+
+Apple engineers adapted the original BASIC-65 port of Microsoft BASIC-80 in order to incorporate most keywords already in use in INTEGER BASIC. Though slower, Applesoft brought floating-point maths support to the Apple II and is generally described as a more complete and useful BASIC.
+===== Where it is/was used =====
+
+  * Apple II, Apple II+, Apple IIe, Apple IIc
+
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+Applesoft used '']'' as its prompt and this was the very first clue to the user that they were not in INTEGER BASIC, which used ''>''.
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+  * **[[adam|Coleco ADAM SmartBasic]]**
+  * **[[.:applesoft:mpf2|Micro-Professor II BASIC]]**
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+  * **[[.:applesoft:tasc|Microsoft TASC]]** - An Applesoft compiler made by Microsoft.
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://en.wikipedia.org/wiki/Applesoft_BASIC
+  * ALVES, Aventino J. S. //Apple II - Cartão de Referência//. LTC Livros Técnicos e Científicos Editora S.A.. Rio de Janeiro, Brasil, 1987.
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Microsoft Apple Interpreters linenumbered}}
+</WRAP>

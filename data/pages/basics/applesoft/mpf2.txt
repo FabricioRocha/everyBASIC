@@ -1,0 +1,81 @@
+:applesoft:mpf2
+====== Micro-Professor II BASIC ======
+{{tag>mpf2}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+Very much a clone of [[.:|Applesoft BASIC]] which proclaimed to be //almost// 100% compatible.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Multi-Tech (Acer) Micro-Professor II (Taiwan, 1982)
+  * Microdigital TK-2000 (Brazil, 1984)
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+In order to be cheaper in the Asian market, the MPF-II computer did not have a real text mode that would require a special and expensive character generator. It had no joystick port and its keyboard and second video buffer were not located in the same memory addresses of the Apple II family, so many of the [[:keywords:PEEK]]s and [[:keywords:POKE]]s of Applesoft program listings would not work under its BASIC. Also, its [[:keywords:GET]] statement worked in blocking mode.
+
+It is not clear so far whether the BASIC on the MPF-II was a licensed version of Applesoft or a reverse-engineered clone.
+
+Brazilian clone TK-2000 had a Disk-II compatible controller in the form of a cartridge and its BASIC had some keywords not found in Applesoft and possibly not even in the MPF-II, such as [[:keywords:SOUND]], [[:keywords:MOTOR]] and [[:keywords:DSK]].
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+  * **[[.:|Applesoft BASIC]]**
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://www.old-computers.com/museum/computer.asp?c=276
+  * https://en.wikipedia.org/wiki/Microprofessor_II
+  * http://apple2pro.com.br/forms/ficha/TK2K/ficha_MPFII.aspx
+  * http://apple2pro.com.br/forms/ficha/TK2K/ficha_TK2000.aspx
+
+</WRAP>
+
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters Applesoft}}

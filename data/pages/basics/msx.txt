@@ -1,0 +1,88 @@
+msx:
+====== MSX BASIC ======
+{{tag>msx}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The MSX platform standard anedoctally takes its name from "MicroSoft eXtended", and was developed by a Japanese subsidiary of Microsoft called ASCII in 1983, and its disk formats can be used with the IBM-PC. It was as Microsoft as an 8-bit computer might get, and the powerful MSX BASIC is arguably the last evolution of the [[:basics:ms80basic|Microsoft BASIC-80]] on its original processors.
+
+MSX BASIC was comprehensive enough to take advantage of much of the platform features, but also suffered from its limitations — the major one, probably, the already outdated and weak video chip, the Texas Instruments' TMS9918 released in 1979. Each new version of the standard had an extension of the original BASIC, but also had less machines following it.
+
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+
+Because MSX was a standard, a number of manufacturers adopted it for many machines, so it is easy to miss some in such a list:
+
+  * Gradiente Expert (Brazil)
+  * Sharp/Epcom HOTBIT (Brazil)
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+The [[.msx:msxdisk|Disk Basic]] extension was bundled with every cartridge connector for external disk drives, and incorporated into ROM for machines with internal drives.
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+  * **[[:basics:gwbasic|Microsoft GW-BASIC]]** - not a big surprise: both BASICs wre released and developed at the same time.
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+The BASIC of the original specification, known as MSX 1 (which this page is based on), was also updated along each successive version of the standard, and such versions were largely backwards compatible:
+
+  * [[.:msx:msx2|MSX BASIC 2.0 and 2.1]] - for MSX2 machines
+  * [[.:msx:msx3|MSX BASIC 3.0]] - for MSX 2+ machines
+  * [[.:msx:msx4|MSX BASIC 4.0 and 4.1]] - for the only MSX Turbo R machines, Panasonic FS-A1ST and FS-A1GT.
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://en.wikipedia.org/wiki/MSX_BASIC , last checked on 2023-02-11
+  * //Gradiente Expert DD Plus - Manual de Instruções//. Editora Aleph, 1989, Brazil.
+
+</WRAP>
+
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+
+ {{tag>Interpreters Microsoft MSX}}

@@ -1,0 +1,79 @@
+:applesoft:tasc
+====== TASC Applesoft Compiler ======
+{{tag>tasc}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+A compiler made by Microsoft for Applesoft BASIC.
+
+===== Where it is/was used =====
+  * Apple II, Apple IIe
+
+
+===== Noteworthy characteristics =====
+Presumably, TASC did not implement the typical interpreter environment commands [[:keywords:CONT]], [[:keywords:DEL]], [[:keywords:LIST]], [[:keywords:LOMEM]], [[:keywords:NO_TRACE]], [[:keywords:SHLOAD]] and [[:keywords:TRACE]].
+
+However, it also left out some possibly useful keywords such as [[:keywords:LOAD]], [[:keywords:RECALL]], [[:keywords:SAVE]], [[:keywords:STORE]] and ''&''.
+
+Also, there were differences in the usage of [[:keywords:CALL]], [[:keywords:CLEAR]], [[:keywords:COMMON]], [[:keywords:DEF_FN]], [[:keywords:DIM]], [[:keywords:GET]], [[:keywords:HIMEM]], [[:keywords:IF]], [[:keywords:MAXFILES]], [[:keywords:ONERR]], [[:keywords:READ]], [[:keywords:RUN]], [[:keywords:STOP]] and [[:keywords:USR]].
+
+In contrast, TASC implemented [[:keywords:CHAIN]], [[:keywords:DEFCOMMON]], [[:keywords:USECOMMON]] and an [[:keywords:INTEGER]] directive used with [[:keywords:REM]] for automatic conversion of floating-point variables to integer variables, so no runtime conversion would be needed. TASC documentation says //"the importance of effectively using integers cannot be over-emphasized"// and many operators, functions and statements were implemented to work with and/or return integer values.
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:applesoft:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+
+  * https://archive.org/details/mttac/ - A 1981 copy of the Microsoft TASC manual, last checked 2023-02-27.
+
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Compilers Apple Applesoft Microsoft}}

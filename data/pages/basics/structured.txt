@@ -1,0 +1,17 @@
+====== Structured BASICs ======
+{{tag>structured}}
+
+This is not an implementation or a specification of the language, but a programming model which marked a supposedly second generation of BASIC.
+
+Under growing influence of ALGOL 68, Pascal and Computer Science developments, block-based BASIC without numbered lines were conceived by the end of the 1960 decade and reached the "home market" by mid-1980s. Structured programming allowed for larger applications and better code maintenance.
+
+Most implementations of BASIC developed since the final 1980s adopted the structured model. While some still supported programs written with line numbers and line jumps, they were not necessary anymore, and support was offered mostly for portability of existing (and then immense) code.
+
+At the same time however, BASIC started a decline in popularity. Ready-to-use applications did not require one to know BASIC to "talk to their computer". Faster processors and bigger RAMs allowed many professional developers to migrate from machine code and BASIC to structured languages &mdash; Pascal was in a brief hype and C was quickly growing. Event-oriented programming was required for the graphical user interfaces created from 1984 onwards, and the reminiscences of numbered lines and global variables caused BASIC to be frowned upon until the early 1990s, when [[vb|Microsoft Visual Basic]] turned the table again.
+
+ 
+
+
+
+===== References =====
+//TO DO: Books, magazines and web pages with information used in this page//

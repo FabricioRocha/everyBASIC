@@ -1,0 +1,109 @@
+trs80:
+====== TRS-80 Level I ======
+{{tag>trs80}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+Radio Shack's legendary TRS-80 brand was kind of abused in very different computer lines, but here we refer to the BASICs used in the very popular line of Z80-based machines Model I, Model III and a handful of compatible clones.
+
+Actually, there were two official BASICs for the TRS-80 line, from different lineages, but made to look very similar. The original **Level I BASIC** had its roots in [[:basics:tiny|TinyBASIC]], but was not exactly that tiny. Most of its statements and commands were faithfully adapted to **Level II BASIC**, written by Microsoft from its [[:basics:altair|Altair BASIC]] codebase. Thus, Level I is the version this site refers to as "common TRS-80 BASIC".
+
+While the keyword set in both versions was quite similar, Level I was a 4KB ROM implementation of BASIC, made for a 4K RAM Model I. It had to cut down somewhere.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Tandy/Radio Shack TRS-80 Model I
+  * Tandy/Radio Shack TRS-80 Model III
+
+===== Noteworthy characteristics =====
+
+Level I BASIC was severely limited in variables and error messages. A program could use 26 single-letter numeric variables, 2 string variables called A$ and B$, and one single array variable named A. If something was wrong in the program, the interpreter would let you guess what happened by showing one of three single-word messages:
+  * ''HOW?''
+  * ''WHAT?''
+  * ''SORRY''
+
+Also, the interpreter did not implement tokenization of keywords, which allowed other BASICs to save a lot of memory for program listings. To circumvent this, there were 27 //abbreviations//, differently interpreted when used as commands in direct mode or as statements or functions within a program:
+
+  * A. for [[:keywords:ABS]]
+  * C. for [[:keywords:CONT]]
+  * D. for [[:keywords:DATA]]
+  * E. for [[:keywords:END]]
+  * F. for [[:keywords:FOR]]
+  * G. for [[:keywords:GOTO]]
+  * GOS. for [[:keywords:GOSUB]]
+  * I. for [[:keywords:INT]]
+  * IN. for [[:keywords:INPUT]]
+  * L. for [[:keywords:LIST]]
+  * M. for [[:keywords:MEM]]
+  * N. for [[:keywords:NEW]] or [[:keywords:NEXT]]
+  * P. for [[:keywords:PRINT]] and [[:keywords:POINT]]
+  * P.A. for [[:keywords:PRINT]][[:keywords:AT]]
+  * R. for the [[:keywords:RND]] function, the [[:keywords:RUN]] and the [[:keywords:RESET]] statement in graphics mode 
+  * REA. for [[:keywords:READ]]
+  * REST. for [[:keywords:RESTORE]]
+  * RET. for [[:keywords:RETURN]]
+  * S. for [[:keywords:STEP]] when used after a FOR, or [[:keywords:SET]] when in graphics mode
+  * ST. for [[:keywords:STOP]]
+  * T. for [[:keywords:THEN]] when following an [[:keywords:IF]], or [[:keywords:TAB]] when following a [[:keywords:PRINT]]
+
+If you think that understanding a program written with these abbreviations may be difficult, just think how it must have been to implement them, especially with some repeated letters. Man, those days were for the brave. Abbreviations were left behind with Level II BASIC, and programs written with them required a conversion utility for being read and executed by the newer version.
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+[[:keywords:LPRINT]] and [[:keywords:LLIST]] were late additions to Level I BASIC, implemented in the version offered with the TRS-80 Model III.
+
+Wikipedia's article about Level I says that floating-point support was implemented after Charles Tandy himself tried but could not enter his salary in a Model I prototype. 
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+  * **[[:basics:tiny|TinyBASIC]]**, more specifically Lin Chen's [[:basics:tinypa|Palo Alto Tiny BASIC]]
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+After Level I BASIC, the TRS-80 computer line had the following official extensions and versions:
+  * [[~level2|TRS-80 Level II BASIC]]
+  * [[~trsdisk|Disk BASIC]] was more like an extension for Level II, disk-equipped machines, which added not only disk-related keywords, but also some not disk-specific statements and commands which were common in other Microsoft BASICs
+  * [[~level3|Level III BASIC]] was sold apart as a spin-off of Disk BASIC which mostly allowed the mentioned not-disk-specific keywords to be used with cassette-only machine
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * //User's Manual for Level 1 - TRS-80 Micro Computer System//. Radio Shack. 2nd printing. Fort Worth, USA, 1978. Available at https://www.classic-computers.org.nz/system-80/software-manuals/manuals-Level-1-Users-Manual.pdf, last check 2023-03-08.
+  * Ira Goldklang's TRS-80 Revived Site - TRS-80 Model I - https://www.trs-80.com/wordpress/models/model-1/ , last check 2023-03-08
+  * https://en.wikipedia.org/wiki/TRS-80 , last check 2023-03-08
+  * Matthew Reed's TRS-80.org - Level I BASIC - http://www.trs-80.org/level-1-basic/ , last check 2023-03-08
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/

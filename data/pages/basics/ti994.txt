@@ -1,0 +1,77 @@
+ti994
+====== TI BASIC ======
+{{tag>ti994}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The BASIC developed by Texas Instruments for their pioneer 16-bit home computers 99/4 (1979) and 99/4A (1981). The user manual of this last machine was the guide for its implemented keywords listed here. The machines were plagued by hardware decisions, but TI BASIC was a very complete implementation of the language with some exclusive and interesting features.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Texas Instruments TI-99/4 and TI 99/4A
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+**[[.:ti994:ti994ext|TI Extended Basic]]** was a cartridge released by TI in 1981 with a lot of features highly missed.
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+Twice the word size, half the performance: the TI 99/4 machines were remarkably slow and their BASIC suffered the most. The Sieve of Erastothenes benchmark by BYTE Magazine took 3960 seconds, while the Apple II could do it in 2806 seconds.((BYTE Magazine, January 1983. Available at https://archive.org/details/byte-magazine-1983-01/page/n291/mode/2up , last checked 2021-02-11))
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+  * **[[:ansibasic:ansiminimal|The Minimal ANSI BASIC Specification]]** released in 1978 was noticeably followed close by TI BASIC.
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://en.wikipedia.org/wiki/TI_BASIC_(TI_99/4A), last check 2023-02-11
+  * https://archive.org/details/ti-99-4-a-users-reference-guide, last check 2023-03-03
+
+</WRAP>
+
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters ROM "TI/99"}}

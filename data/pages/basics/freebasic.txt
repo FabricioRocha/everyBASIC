@@ -1,0 +1,74 @@
+freebasic
+====== FreeBASIC ======
+{{tag>freebasic}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+One of the (if not //the//) most stable open-source BASICs [[https://www.freebasic.net/|in activity]] as of 2023, FreeBASIC is a large, modern and multi-platform compiler which started mostly influenced by [[.:msqb:|Microsoft QuickBASIC]] but, as time passed, adopted some influences from C++ to the point it had to work with separate "language modes" — one for QB compatibility and one of its own, which is the one considered for the [[:keywords:|Keywords Reference]] section of this site.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * MS-DOS, FreeDOS, DR-DOS
+  * Windows (32-bit x86, 64-bit amd64)
+  * GNU-Linux (32-bit x86, 64-bit amd64, 32-bit ARM, 64-bit ARM64/AArch64)
+  * FreeBSD (32-bit x86, 64-bit amd64)
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+  * [[.:msqb:|Microsoft QuickBASIC]] - once FreeBASIC was considered to be a free clone of QB, and still maintains a degree of compatibility with it when used with its ''lang -qb'' mode
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Compilers Windows Linux DOS Raspberry Open-Source Active}}

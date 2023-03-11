@@ -1,0 +1,65 @@
+altair
+====== Altair BASIC ======
+{{tag>altair}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The famous first product of a certain Micro-Soft, for the allegedly first personal computer in the market, would set the basis of what would soon become a //de facto// standard for the BASIC language.
+
+There were actually three MS-BASICs for the Altair computer, but here they are treated together for simplicity.
+
+The original version released in July 1975 was made for the 4KB version of the Altair and implemented only 30 keywords. It had only 4 mathematical functions, only one floating-point data type, and no support for string variables nor string manipulation. Most of its keywords were maintained as original in the later/bigger versions, so 4K is the version referred to by this page. 
+
+The following version was made for Altairs with dazzling 8KB of RAM. It supported string variables and implemented 61 keywords, among them all of the 4K version, trigonometric functions other than [[keywords:SIN]], [[:keywords:RND]], [[:keywords:PEEK]], [[:keywords:POKE]] and the family of string manipulation functions such as [[:keywords:MIDS|MID$]] and [[:keywords:LEFTS|LEFT$]], imported from [[decbasic|DEC's BASIC-PLUS]], which Bill Gates was acquainted to from his high-school days. This version was adopted as the [[ms80basic|Microsoft BASIC-80]] codebase which would soon rule the first generation of BASICs for microcomputers.
+
+The last "Extended" version, released in July 1978 for 12KB Altairs, was already very similar to the BASIC most of us became friends with. 21 keywords were added or improved, such as [[:keywords:ELSE]] for the [[:keywords:IF]]...[[:keywords:THEN]] decision structures, and [[:keywords:PRINT USING]]. It also implemented human-readable error messages, three different numerical types and their suffixes for variable names: % for 16-bit integers, ! for the default 32-bit floating point numbers and # for 64-bit, double-precision floating point values.
+
+===== Where it is/was used =====
+  * [[https://en.wikipedia.org/wiki/Altair_8800|Altair 8800]]
+
+===== Noteworthy characteristics =====
+TO DO: a list or prose text about this BASIC's features, bugs, Easter eggs, tricks, singularities
+
+===== Environment and usage =====
+
+TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set...
+
+
+===== Extensions =====
+
+
+
+===== Curiosities =====
+
+The young Bill Gates was not happy with the quick and widespread piracy of their BASIC among the computer enthusiasts, and wrote [[https://en.wikipedia.org/wiki/File:Bill_Gates_Letter_to_Hobbyists_ocr.pdf|his famous "An Open Letter to Hobbysts"]] in February 1976 equalling the "free distribution" of Altair BASIC to stealing. One of the many reactions from the community was the conception of [[tiny|TinyBASIC]] and its many implementations (some of them pretty current and in use).
+
+
+===== Related to... =====
+
+
+==== Influenced by ====
+  * **[[decbasic|DEC BASIC-PLUS]]** - not often remembered, this mainframe BASIC was the source of many caracteristics tipically found in every Microsoft BASICs
+
+==== Influence for ====
+  * **[[tiny|TinyBASIC]]** - well, more of an //ideological// than a technical influence
+  * **[[ms80basic|Microsoft BASIC-80]]** - The 8K version of the Altair BASIC would be refined and ported to other processors to become the basis for the largest part of BASICs released in the final 1970s and early 1980s
+
+
+===== Versions and successors =====
+  * [[~:altair8K]]
+  * [[~:altair12K]], the "Extended BASIC" version
+
+===== References =====
+  * https://archive.org/details/bitsavers_mitsMITSAl_6669937 - The MITS Altair BASIC Manual for 4k and 8k versions
+  * https://en.wikipedia.org/wiki/Altair_BASIC
+  * https://en.wikipedia.org/wiki/Microsoft_BASIC
+  * https://en.wikipedia.org/wiki/An_Open_Letter_to_Hobbyists
+  * http://dunfield.classiccmp.org/altair/d/aebasic.pdf
+
+</WRAP>
+
+{{tag>Interpreters Microsoft linenumbered}}

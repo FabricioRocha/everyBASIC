@@ -1,0 +1,63 @@
+ansi:
+====== ANSI BASIC ======
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The infamous, late and mostly failed attempt to create an official, worldwide specification for BASICs. Only its smallest, ultra-limited and already dated **Minimal BASIC** portion was somehow implemented (mostly because it //already had been//). In fact, the **Standard BASIC** specification has some conflicts with the Minimal spec — and that's why both are treated here in different pages, not in a subset- or extension- relationship; and also why this page is out of standard.
+
+===== Versions and successors =====
+Okay, so here are the ANSI BASICs, and official specification documents are available from each one's page:
+ 
+  *[[.:ansimin|Minimal BASIC]]
+  *[[.:ansifull|Standard or "Full" BASIC]]
+
+
+===== Noteworthy differences =====
+  * Minimal BASIC defined 26 keywords and 11 functions. Standard BASIC defined 176 keywords and 52 functions.
+
+  * Minimal BASIC programs should have lines numbered from 0 to 9999. Standard BASIC would accept 50000 lines of code, but would not allow line number 0. 
+
+  * [[:keywords:LET]] was optional in Minimal BASIC, as in many other real-life BASICs before it. In Full BASIC it became mandatory.
+
+  * Full BASIC defined ''!'' as an abbreviation for the [[:keywords:REM]] comments keyword. Minimal BASIC did not define an abbreviation, but the much more common apostrophe had been adopted by 1970's [[:basics:dartmouth:dartmouth5|Dartmouth Fifth Edition]].
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+===== Curiosities =====
+
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+===== Related to... =====
+/* A bulleted list of links to other under the :basics: namespace , along with a brief description of the relation they have with this one */
+
+==== Influenced by ====
+/*  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences */
+
+==== Influence for ====
+/*  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences */
+
+
+
+
+===== References =====
+/* If the ((citation)) syntax was used elsewhere, they will be listed below this section. You can prepend this list with a list of books, magazines and web pages with information used in this page */
+
+  * https://en.wikipedia.org/wiki/Dartmouth_BASIC
+  * https://en.wikipedia.org/wiki/BASIC
+
+</WRAP>
+
+/* ===== Page tags =====
+  Example below: some tags might be useful for a to-be-implemented search mechanism. Separate tags with spaces, use quotes for a multiple-word tag */
+
+{{tag>Compilers Interpreters Specifications ANSI}}

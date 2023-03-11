@@ -1,0 +1,85 @@
+truebasic
+====== TrueBASIC ======
+/* A single tag that exclusively identifies this BASIC. Should be the same name given to the page. */
+{{tag>truebasic}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+A legitimate, direct descendent of the original [[.:dartmouth:|Dartmouth BASIC]], also created by Kemeny and Kurtz in 1984, should become a cultuated reference. But reality was quite opposite. TrueBASIC has never been so popular as it was criticized. Anyways, as of 2023 it remains [[https://www.truebasic.com/|active as a commercial product]] in three differently priced bundles for Windows, something that shows it acquired a loyal users community.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Windows(XP and newer), 32- and 64-bit
+  * Windows 95 to 8, 32- and 64-bit (up to version 5.5)
+  * Macintosh MacOS 9 (up to version 5.5)
+  * MS-DOS (version 3.05)
+  * Atari ST
+  * IBM OS/2
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+  * The original [[REM]] keyword was supported, but its abbreviation was quite uncommon: ''!'' instead of the more used apostrophe.
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+TrueBASIC has a significant number of extension modules sold at its website, each bringing a new set of statements and functions.
+  * [[.:truebasic:extForms|FORMS]], an interface builder
+  * [[.:truebasic:extPreCalculus|Pre-Calculus]]
+  * [[.:truebasic:extCalculus|Calculus]]
+  * [[.:truebasic:extAlgebra|Algebra]]
+  * [[.:truebasic:extSortSearch|Sorting and Searching Toolkit]]
+  * [[.:truebasic:extAdvStrings|Advanced String Handling]]
+  * [[.:truebasic:extBTree|BTree Tookit]]
+  * [[.:truebasic:extComm|Communications Toolkit]], for serial port usage
+  * [[.:truebasic:extMaths|Complete Mathematics Suite]], which comprehends:
+      * [[.:truebasic:extHugeArith|Huge Arithmetic Toolkit]]
+      * [[.:truebasic:extArith|Complex Arithmetic]]
+  * [[.:truebasic:extGraphics|Complete Graphics Toolkit]], a bundle of other extensions:
+      * [[.:truebasic:ext3d|3D Graphics Toolkit]]
+      * [[.:truebasic:extBusiness|Business Graphics]]
+      * [[.:truebasic:extScientific|Scientific Graphics]]
+      * [[.:truebasic:extStatistics|Statistics Graphics]]
+
+
+
+===== Curiosities =====
+
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+Somehow strangely, TrueBASIC was harshly received. BYTE's "Computing at Chaos Manor" columnist Jerry Pournelle was acid in the September 1985 edition ((https://archive.org/details/byte-magazine-1985-09/page/n349/)). He tried to run a simple 4-line program with numbered lines and could not get past an "//Illegal line number//" error. He also criticized TrueBASIC's environment unusual interface. "I got tired of fighting with TrueBASIC's 'features' after a ouple of hours", he said. "It's funny that so few of us microcomputer users understand how badly we need help or how ugly our BASIC has become. Now we have the Word. Kemeny and Kurtz have called for a 'rebirth known as TrueBASIC' ".
+
+John C. Dvorak said in his "Inside Track" column at  InfoWorld in November 1984((https://books.google.com.br/books?id=pS4EAAAAMBAJ&pg=PA88)) that Kemeny and Kurz "reinvented Pascal, and they've given it the awkward moniker //True BASIC//" with the intention of making money on the ANSI BASIC standards from an "ivory tower".
+
+
+===== Related to... =====
+/* A bulleted list of links to other under the :basics: namespace , along with a brief description of the relation they have with this one */
+
+==== Influenced by ====
+/*  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences */
+  * [[.:ansi:|ANSI BASIC]] had a back-and-forth influence relationship with TrueBASIC 
+
+==== Influence for ====
+/*  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences */
+
+===== Versions and successors =====
+/*  * **link to other page of this section** - no much need of prose here, just links. For versions, there might be a subnamespace */
+
+
+
+===== References =====
+/* If the ((citation)) syntax was used elsewhere, they will be listed below this section. You can prepend this list with a list of books, magazines and web pages with information used in this page */
+
+  * https://en.wikipedia.org/wiki/True_BASIC
+
+</WRAP>
+
+{{tag>Compilers Windows Macintosh Commercial Active ANSI}}

@@ -1,0 +1,49 @@
+====== ASC ======
+
+//Returns the ASCII code for a single or the first character of a longer string//
+
+**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:Altair:altair8K]], [[:basics:a2int:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
+
+**With variations:** 
+
+**Also written as: ** ASCII
+
+===== Usage =====
+  C = ASC("h")
+  C = ASC(A$)
+
+The ASC function is 
+
+==== Variations ====
+
+On some BASICs, like #zx81, only a single character is allowed as argument.
+
+The function is called ASCII in #dec10 BASIC. 
+
+===== Examples =====
+
+A very BASIC one to start with.
+
+<code gwbasic>
+10 INPUT "DROP ME A WORD"; A$
+20 PRINT "HMM, IT STARTS WITH ASCII CHARACTER"; ASC(A$)
+30 END
+</code>
+
+===== Comments =====
+
+
+===== Related keywords =====
+
+
+===== Similar keywords =====
+
+
+===== In other languages... =====
+
+
+===== Other tags =====
+#Functions
+
+===== References =====
+David A. Lien, //The BASIC Handbook//, 2nd edition.

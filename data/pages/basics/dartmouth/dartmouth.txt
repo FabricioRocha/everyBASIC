@@ -1,0 +1,58 @@
+====== Dartmouth BASIC ======
+{{tag>dartmouth}}
+
+<WRAP>
+<WRAP right quarter box round>
+=== Keywords ===
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The original BASIC from John Kemeny and Thomas Kurtz, first released in 1964. Much has been written about it already, so we don't have to tell all its glorious history here. It had 8 versions, the last one released in 1980, and became a major reference to the [[ansibasic|ANSI BASIC]] specifications.
+
+
+===== Where it is/was used =====
+  * GE-225 and DATANET DN-30 (GE-265) ((https://en.wikipedia.org/wiki/Dartmouth_BASIC))
+  * GE-635
+
+===== Noteworthy characteristics =====
+//TO DO: a list or prose text about this BASIC's features, bugs, Easter eggs, tricks, singularities...//
+
+===== Environment and usage =====
+
+//TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set...//
+
+
+===== Extensions =====
+
+//TO DO: Famous libraries tools and extension packages made for this BASIC//
+
+===== Curiosities =====
+
+//TO DO: Historical notes, anecdotes, what people said about it//
+
+===== Related to... =====
+
+
+==== Influenced by ====
+  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences
+
+==== Influence for ====
+  * **[[ansibasic|ANSI BASIC]]** - Prof. Kurtz was a pioneer in the effort of creating a formal standard for the language, and some of the unique features of Dartmouth BASIC made into the paper in spite of the Microsoft dominance on BASIC.
+
+===== Versions and successors =====
+  * [[.:dartmouth1|Version One]]
+  * dartmouth2
+  * dartmouth3
+  * dartmouth4
+  * dartmouth5
+  * dartmouth6
+  * dartmouth7
+  * sbasic
+
+
+===== References =====
+//TO DO: Books, magazines and web pages with information used in this page//
+</WRAP>
+
+
+{{tag>Compilers GE Time-Sharing}}

@@ -1,0 +1,64 @@
+msamiga
+====== Amiga Microsoft BASIC ======
+/* A single tag that exclusively identifies this BASIC. Should be the same name given to the page. */
+{{tag>msamiga}}
+
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The short-lived Microsoft BASIC for Amiga was one of the first implementations of [[structured|structured BASIC]] by Microsoft. It was released shortly after [[msmac]] and both were said to be remarkably similar — as much as we can see what [[msqb]] was about to become.
+
+The Microsoft BASIC for the Amiga officially replaced the original [[amiga|ABasiC]] shipped with the machine, but had only one version, for the Amiga Workbench 1.3.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Amiga 1000
+  * Amiga 500
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+The "Extras" Amiga disk contained MBASIC, shown by an incon entitled "AmigaBASIC". When running, it would show two windows:
+  * "LIST", where a program stored in memory could be seen. It had menus and "advanced editor features" such as cut/copy/paste (quite a blast from the line editors of previous machines);
+  * "BASIC", also known as the "OUTPUT" window, quite similar to the "Immediate" area of future [[qbasic]], where commands could be typed, statements could be tested, variables could be checked and so on.
+
+
+
+===== Extensions =====
+
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+===== Curiosities =====
+
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+===== Related to... =====
+/* A bulleted list of links to other under the :basics: namespace , along with a brief description of the relation they have with this one */
+
+==== Influenced by ====
+/*  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences */
+
+==== Influence for ====
+/*  * **link to other page of this section** - TO DO: which are the noticeable or assumed influences */
+
+===== Versions and successors =====
+/*  * **link to other page of this section** - no much need of prose here, just links. For versions, there might be a subnamespace */
+
+
+</WRAP>
+
+===== References =====
+/* If the ((citation)) syntax was used elsewhere, they will be listed below this section. You can prepend this list with a list of books, magazines and web pages with information used in this page */
+
+  * SANDERS, William B. //The Amiga Microsoft BASIC Programmer's Guide//. Scott, Foresman and Company. Glenview, USA, 1987.
+
+
+
+{{tag>Interpreters Microsoft Amiga Commodore structured}}

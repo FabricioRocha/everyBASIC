@@ -1,0 +1,40 @@
+====== LIST ======
+/* Remove the comments after creating content for each section.*/
+
+If the interpreter or line editor has lines of code stored in memory, show them in order.
+
+**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:minibasicjs:]]
+
+**With variations:** [[:basics:hptsb:]], [[:basics:TI994:ti994ext]] (protection included)
+
+**Also written as: ** /* Alternative spellings and abbreviations this keyword has. No need to refer to a BASIC, there is a section for that later. */
+
+===== Usage =====
+
+It's been only a matter of typing `LIST` on the BASIC screen. If there were no lines stored in memory (the ones which were typed with a line number first), usually nothing would be shown but the interpreter prompt.
+
+==== Variations ====
+
+
+
+===== Examples =====
+
+
+
+===== Comments =====
+LIST was especially important in machines where a real text editor was not used for writing code.
+
+===== Related keywords =====
+/* Keywords that are often or always used along this one */
+
+===== Similar keywords =====
+/* Keywords with the same or similar functionality found in other versions of BASIC */
+
+===== In other languages... =====
+/* For parallels and comparisons with other modern-day languages */
+
+===== Other tags =====
+
+
+===== References =====
+/* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */

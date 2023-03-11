@@ -1,0 +1,95 @@
+ms80basic
+====== Microsoft BASIC-80 ======
+{{tag>ms80basic}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+After the [[altair|Altair BASIC]] in its 8kB version, Microsoft created a more generic and refined version which would be ported to other 8-bit and 16-bit processors and soon would be licensed to form the basis of the most famous BASIC implementations of the decade. The so-called **Microsoft BASIC-80** is the core of many interpreters and compilers listed here.
+
+It was actually tempting to categorize such other BASICs as children of BASIC-80 in this section, but a decision was built upon the fact that BASIC-80 was not released as a stand-alone product nor implemented on a computer in its pure form (as far as I could investigate its history).
+
+Comercially, BASIC-80 has been only a //codebase// written for the Intel 8080 and, by extension, for Zilog's Z-80, very soon ported to Motorola's 6800 and 6809 and MOS Technology 6502. By doing this, Microsoft would try to sell it not to final consumers, but to manufacturers which would bundle customized MS-BASIC with their machines, much like their previous experience with MITS and [[altair|Altair BASIC]].
+
+More than this however, MS BASIC-80 became the //de facto// standard by which many other BASICs were measured in the microcomputer era and the final age of [[linenumbered|numbered-lines BASICs]]. When the folks from [[.dartmouth:|Dartmouth]] and [[.:ANSI:]] came along to define an official standard, the genes of BASIC-80 were already pretty much spread all over, for good and for bad. Many of its idiosyncrasies and the various differences among implementations, either from the original ports or by manufactures customizations, were the beggining of the eternal split which to date holds back any practical idea of a "common BASIC" and the standardization seen in other programming languages ecosystems.
+
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+This page has to be an exception to this site's concepts and treatment of //versions// and //successors//. MS BASIC-80 had many children which share a lot of commonalities but are also way too peculiar.
+
+  * Most direct descendents:
+    * [[mbasic|Microsoft MBASIC]] is something like a stripped-down but direct version of BASIC-80 made for the CP/M operating system, so it could not have hardware-specific features((https://en.wikipedia.org/wiki/MBASIC)).
+    * [[basic86|BASIC-86]], made for for Seattle Computer Products' 8086 card for the S-100 Bus
+    * [[gwbasic|GW-BASIC]] for IBM-PC clones, also known as BASICA for the Big Blue originals
+    * [[msx|MSX BASIC]]
+
+  * "Half-siblings" which were customized enough to form BASIC families on their own:
+    * [[applesoft|Applesoft]]
+    * [[cbm|Commodore BASIC]] in various versions
+    * [[msatari|Microsoft Atari BASIC]]
+    * [[thomson|Thomson BASIC]] for the French manufacturer
+    * [[trs80ms|TRS-80 Microsoft BASICs]], Level II and Level III
+    * [[mscoco|Color BASIC]] for the Tandy Color Computer
+    * [[model100|Model 100]], the N82 version of BASIC-80 for Tandy´s famous portable and its successors
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://en.wikipedia.org/wiki/Microsoft_BASIC
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters Microsoft Z80 8080 6502}}
