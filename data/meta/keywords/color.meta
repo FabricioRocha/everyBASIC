@@ -2,14 +2,6 @@ a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1675993245;s:8:"modifie
 
 Configures colors for characters, background and/or borders of screen
 
-Implemented by:
+Implemented by: ansifull, , cbmv7, cbmv3.5, , atxl, , colorext, , , 
 
-With variations: bw32
-
-Also written as: 
-
-Usage
-
-Variations
-
-In Applesoft BASIC, COLOR accepted only one color code as argument, to be used for foreground in its low-resolution graphics mode.";}s:8:"relation";a:2:{s:10:"references";a:9:{s:19:"basics:bwbasic:bw32";b:1;s:16:"basics:applesoft";b:1;s:11:"keywords:gr";b:1;s:15:"keywords:preset";b:1;s:12:"keywords:ink";b:1;s:14:"keywords:paper";b:1;s:17:"basics:statements";b:0;s:14:"basics:console";b:0;s:15:"basics:graphics";b:0;}s:10:"firstimage";s:0:"";}s:7:"subject";a:3:{i:0;s:10:"statements";i:1;s:7:"console";i:2;s:8:"graphics";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1675993245;s:8:"modified";i:1676724693;}s:7:"creator";s:14:"Fabricio Rocha";s:4:"user";s:10:"supernariz";s:11:"last_change";a:8:{s:4:"date";i:1676724693;s:2:"ip";s:24:"2804:14c:6586:7950::3b9c";s:4:"type";s:1:"E";s:2:"id";s:14:"keywords:color";s:4:"user";s:10:"supernariz";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:260;}s:11:"contributor";a:1:{s:10:"supernariz";s:14:"Fabricio Rocha";}}}
+With variations:  (sets background color),  (through CALL; specific character sets), bw32 (implemented as function, requires parenthesis),";}s:8:"relation";a:2:{s:10:"references";a:23:{s:20:"basics:ansi:ansifull";b:1;s:16:"basics:applesoft";b:1;s:16:"basics:cbm:cbmv7";b:0;s:18:"basics:cbm:cbmv3.5";b:1;s:18:"basics:atari:atari";b:1;s:17:"basics:atari:atxl";b:1;s:20:"basics:msatari:start";b:0;s:24:"basics:trscolor:colorext";b:1;s:14:"basics:gwbasic";b:1;s:10:"basics:msx";b:1;s:16:"basics:freebasic";b:1;s:12:"basics:a2int";b:1;s:12:"basics:ti994";b:1;s:19:"basics:bwbasic:bw32";b:1;s:20:"basics:ugbasic:start";b:0;s:18:"basics:minibasicjs";b:1;s:11:"keywords:gr";b:1;s:15:"keywords:preset";b:1;s:12:"keywords:ink";b:1;s:14:"keywords:paper";b:1;s:17:"basics:statements";b:0;s:14:"basics:console";b:0;s:15:"basics:graphics";b:0;}s:10:"firstimage";s:0:"";}s:7:"subject";a:3:{i:0;s:10:"statements";i:1;s:7:"console";i:2;s:8:"graphics";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1675993245;s:8:"modified";i:1676724693;}s:7:"creator";s:14:"Fabricio Rocha";s:4:"user";s:10:"supernariz";s:11:"last_change";a:8:{s:4:"date";i:1676724693;s:2:"ip";s:24:"2804:14c:6586:7950::3b9c";s:4:"type";s:1:"E";s:2:"id";s:14:"keywords:color";s:4:"user";s:10:"supernariz";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:260;}s:11:"contributor";a:1:{s:10:"supernariz";s:14:"Fabricio Rocha";}}}

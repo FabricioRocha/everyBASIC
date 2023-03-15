@@ -3,8 +3,6 @@
 At least three very different ways to show pictures or create polygons on a graphical screen, according to implementation.
 
 
-A plotting, "turtle-like" statement which takes a string of coded commands for drawing lines from a starting point. 
-
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:trscolor:colorext]], [[:basics:Sinclair:spectrum]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
 
 **With variations:** [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]] (macro language), [[:basics:MSX:]] (macro language), [[:basics:msqb:4.5]] (macro language), [[:basics:ugBASIC:]] (coordinates and DRAW TO form)
