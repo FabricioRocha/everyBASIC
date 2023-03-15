@@ -1,0 +1,71 @@
+trscolor:colormc
+====== Micro Color BASIC ======
+{{tag>colormc}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+This was a version of the original [[..trscolor:|Color BASIC]], with apparently very few differences, which equipped smaller and cheaper microcomputers based on the Motorola 6803 processor. In spite of the similarity, programs saved in one machine (if not as text) would not run at the other, due to differences in tokenization of keywords((https://www.atarimagazines.com/creative/v9n10/39_The_TRS80_MC10_too_lit.php, last check 2023-03-13)). It is still alive as an open-source cross-compiler as of 2023.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Tandy/Radio Shack TRS-80 MC-10 (USA, 1983)
+  * Matra Alice (France, 1983)
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+  * [[https://github.com/gregdionne/mcbasic|mcbasic]], an open-source cross compiler by Greg Dionne, apparently tested on Windows 10 and MacOS, that compiles Micro Color BASIC 1.0 code for the MC-10 computer. As of 2023-03-13, the README file admitted that some keywords like [[:keywords:LPRINT]] and [[:keywords:USR]] were not supported. 
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:trscolor:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+
+  * https://www.obsolete-tears.com/matra-hachette-alice-machine-17.html
+  * https://en.wikipedia.org/wiki/Matra_Alice
+  * //TRS-80 MC-10 Micro Color Computer - Operation and Language Reference Manual//. Radio Shack. USA, 1983.
+
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/

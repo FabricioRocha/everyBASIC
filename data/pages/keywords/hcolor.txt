@@ -15,7 +15,7 @@ Sets foreground color in high-resolution graphics mode
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Applesoft:]]
+**Implemented by:** [[:basics:Applesoft:]], [[:basics:trscolor:colorenh]]
 
 **With variations:** 
 

@@ -16,7 +16,7 @@ Loads into a buffer the contents of a disk sector
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msx:msxdisk]]
+**Implemented by:** [[:basics:trscolor:colordisk]], [[:basics:MSX:msxdisk]]
 
 **With variations:** 
 

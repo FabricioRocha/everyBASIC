@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]]
 
-**With variations:** [[:basics:CBM:cbmv7]]
+**With variations:** [[:basics:CBM:cbmv7]], [[:basics:trscolor:colorext]] (like [[GOTO]]?)
 
 **Also written as: ** 
 

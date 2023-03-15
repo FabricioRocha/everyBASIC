@@ -17,7 +17,7 @@ Sets a color for one or more video attribute(s)
 
 **Implemented by:** [[:basics:GWBASIC:]], [[:basics:FreeBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:trscolor:colorenh]]
 
 **Also written as: ** 
 

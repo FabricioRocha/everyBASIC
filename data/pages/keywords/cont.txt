@@ -15,7 +15,7 @@ Resumes program execution from the instruction right after the one it was when i
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:decbasic:]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:Sinclair:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]]
+**Implemented by:** [[:basics:decbasic:]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]]
 
 **With variations:** 
 

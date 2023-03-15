@@ -15,9 +15,9 @@ Configures colors for characters, background and/or borders of screen
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** 
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:bwbasic:bw32]]
+**With variations:** [[:basics:a2int:]] (sets background color), [[:basics:TI994:]] (through CALL; specific character sets), [[:basics:bwbasic:bw32]] (implemented as function, requires parenthesis), [[:basics:ugBASIC:]] (also with subcommands BACK, BACKGROUND, BORDER and SPRITE), [[:basics:minibasicjs:]]
 
 **Also written as: ** 
 

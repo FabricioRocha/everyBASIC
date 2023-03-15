@@ -15,7 +15,7 @@ Removes lines from a program stored in memory
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:a2int:]], [[:basics:msatari:]]
+**Implemented by:** [[:basics:a2int:]], [[:basics:msatari:]], [[:basics:trscolor:colorext]]
 
 **With variations:** 
 

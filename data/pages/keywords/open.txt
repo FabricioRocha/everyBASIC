@@ -15,7 +15,7 @@ Initializes access to a file or device, configuring its access mode, permissions
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:trs80:level3]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:trs80:level3]], [[:basics:trscolor:]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:CBM:]], [[:basics:Gambas:]]
 

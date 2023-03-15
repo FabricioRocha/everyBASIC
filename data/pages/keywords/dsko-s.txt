@@ -15,7 +15,7 @@ Writes to a disk sector the contents of a logical buffer in memory
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msx:msxdisk|MSX DiskBASIC]]
+**Implemented by:** [[:basics:trscolor:colordisk]], [[:basics:MSX:msxdisk]]
 
 **With variations:** 
 

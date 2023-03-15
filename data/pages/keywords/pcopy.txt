@@ -17,7 +17,7 @@ Copies a page of video memory to another
 
 **Implemented by:** [[:basics:GWBASIC:]], [[:basics:FreeBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:trscolor:colorext]] (copy graphics to a page)
 
 **Also written as: ** 
 

@@ -15,9 +15,9 @@ Returns the number of free bytes available in memory
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:bwbasic:bw32]] (argument is optional; always returns 32000)
 
 **Also written as: ** 
 

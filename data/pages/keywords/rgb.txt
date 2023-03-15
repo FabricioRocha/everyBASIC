@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:trscolor:colorenh]] (set palette to RGB defaults)
 
 **Also written as: ** 
 

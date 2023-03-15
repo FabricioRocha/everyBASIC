@@ -15,7 +15,7 @@ With ON, OFF or STOP, enables, disables or suspends events from a defined timer;
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
 
 **With variations:** 
 

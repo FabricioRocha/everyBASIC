@@ -15,7 +15,7 @@ Initializes and/or configures a video mode; multiple platform-dependant options.
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:msamiga:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:msamiga:]], [[:basics:FreeBASIC:]]
 
 **With variations:** [[:basics:TI994:]] (through CALL; only sets color), [[:basics:ugBASIC:]] (also with subcommands COLUMNS, HEIGHT, HORIZONTAL SCROLL, OFF, ON, ROWS, SWAP, TILES HEIGHT, TILES WIDTH, VERTICAL SCROLL, WIDTH)
 

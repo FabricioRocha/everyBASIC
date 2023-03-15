@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:Atari:atxl]], [[:basics:Gambas:]]
 
-**With variations:** [[:basics:bwbasic:bw32]]
+**With variations:** [[:basics:Atari:]] (statement: use radians instead of degrees; see [[DEG]]), [[:basics:bwbasic:bw32]]
 
 **Also written as: ** 
 

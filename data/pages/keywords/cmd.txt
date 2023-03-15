@@ -4,7 +4,7 @@ Apparently, allows the user to implement a command for the BASIC REPL environmen
 
 **Implemented by:** [[:basics:CBM:]], [[:basics:trs80:level3]], [[:basics:ABasiC:]]
 
-**With variations:** [[:basics:trs80:trsdisk]] (controls interrupts, debugger and communication with TRSDOS), [[:basics:MSX:]]
+**With variations:** [[:basics:trs80:trsdisk]] (controls interrupts, debugger and communication with TRSDOS), [[:basics:MSX:]] (documented but not implemented)
 
 **Also written as: ** /* Alternative spellings and abbreviations this keyword has. No need to refer to a BASIC, there is a section for that later. */
 

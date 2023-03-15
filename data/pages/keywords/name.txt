@@ -17,7 +17,7 @@ Changes the name of a file
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:msatari:]], [[:basics:GWBASIC:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:decbasic:]], [[:basics:trs80:trsdisk]] (for renumbering lines), [[:basics:trs80:level3]] (lines and line references renumbering)
+**With variations:** [[:basics:decbasic:]], [[:basics:trs80:trsdisk]] (for renumbering lines), [[:basics:trs80:level3]] (renumbers lines and line references)
 
 **Also written as: ** 
 

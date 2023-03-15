@@ -1,98 +1,3 @@
-1675909769	2804:14c:6586:7950::3b9c	E	start	supernariz			1338
-1675915618	2804:14c:6586:7950::3b9c	E	basics	supernariz			-20
-1675917896	2804:14c:6586:7950::3b9c	E	basics:atari:atari	supernariz	[References] 		-17
-1675918036	2804:14c:6586:7950::3b9c	E	basics:atari:atari	supernariz			90
-1675918777	2804:14c:6586:7950::3b9c	C	keywords:enter	supernariz	created		2138
-1675943284	189.6.15.229	E	basics:atari:atari	supernariz	[Other tags] 		13
-1675943478	189.6.15.229	E	keywords:list	supernariz	Add Atari		19
-1675959872	2804:14c:6586:7950::3b9c	E	basics:atari:atari	supernariz			2118
-1675967625	2804:14c:6586:7950::3b9c	E	basics:atari:atari	supernariz	[Noteworthy characteristics] 		649
-1675967913	2804:14c:6586:7950::3b9c	E	basics:atari:atari	supernariz	[Influenced by] 		162
-1675968287	2804:14c:6586:7950::3b9c	C	basics:bwbasic	supernariz	created		2180
-1675990371	189.6.15.229	C	keywords:beep	supernariz	created		2089
-1675990536	189.6.15.229	C	keywords:bload	supernariz	created		2106
-1675990657	189.6.15.229	C	keywords:bsave	supernariz	created		2120
-1675990829	189.6.15.229	C	keywords:call	supernariz	created		2135
-1675992309	189.6.15.229	C	keywords:call_absolute	supernariz	created		2135
-1675992501	189.6.15.229	C	keywords:chain	supernariz	created		2120
-1675992630	189.6.15.229	C	keywords:chdir	supernariz	created		2115
-1675992681	189.6.15.229	E	keywords:circle	supernariz			18
-1675992878	189.6.15.229	C	keywords:clear	supernariz	created		2246
-1675992981	189.6.15.229	C	keywords:close	supernariz	created		2119
-1675993139	189.6.15.229	C	keywords:cls	supernariz	created		2189
-1675993245	189.6.15.229	C	keywords:color	supernariz	created		2144
-1675993386	189.6.15.229	C	keywords:com	supernariz	created		2134
-1675993516	189.6.15.229	C	keywords:common	supernariz	created		2139
-1675993586	189.6.15.229	C	keywords:const	supernariz	created		2096
-1675993926	189.6.15.229	C	keywords:data	supernariz	created		2157
-1676028761	2804:14c:6586:7950::3b9c	C	keywords:date	supernariz	created		2123
-1676028920	2804:14c:6586:7950::3b9c	C	keywords:declare	supernariz	created		2166
-1676029091	2804:14c:6586:7950::3b9c	C	keywords:def_fn	supernariz	created		2116
-1676029240	2804:14c:6586:7950::3b9c	C	keywords:def_seg	supernariz	created		2144
-1676029330	2804:14c:6586:7950::3b9c	C	keywords:defdbl	supernariz	created		2150
-1676029435	2804:14c:6586:7950::3b9c	C	keywords:defint	supernariz	created		2167
-1676029530	2804:14c:6586:7950::3b9c	C	keywords:deflng	supernariz	created		2184
-1676029601	2804:14c:6586:7950::3b9c	C	keywords:defsng	supernariz	created		2200
-1676029660	2804:14c:6586:7950::3b9c	E	keywords:defstr	supernariz			-3
-1676029783	2804:14c:6586:7950::3b9c	C	keywords:dim	supernariz	created		2179
-1676029906	2804:14c:6586:7950::3b9c	C	keywords:do	supernariz	created		2166
-1676080307	189.6.15.229	C	keywords:end	supernariz	created		2181
-1676080402	189.6.15.229	C	keywords:environ	supernariz	created		2108
-1676080508	189.6.15.229	C	keywords:erase	supernariz	created		2152
-1676080578	189.6.15.229	C	keywords:error	supernariz	created		2105
-1676080674	189.6.15.229	C	keywords:exit	supernariz	created		2106
-1676080799	189.6.15.229	C	keywords:field	supernariz	created		2168
-1676080912	189.6.15.229	C	keywords:files	supernariz	created		2146
-1676080965	189.6.15.229	E	keywords:for	supernariz			-6
-1676080989	189.6.15.229	E	keywords:for	supernariz	[Examples] 		-1
-1676081214	189.6.15.229	C	keywords:function	supernariz	created		2207
-1676081468	189.6.15.229	C	keywords:get	supernariz	created		2206
-1676081578	189.6.15.229	E	keywords:get	supernariz			43
-1676081840	189.6.15.229	C	keywords:gosub	supernariz	created		2188
-1676083719	189.6.15.229	C	keywords:goto	supernariz	created		2464
-1676083888	189.6.15.229	E	keywords:if	supernariz	[IF] 		55
-1676083934	189.6.15.229	E	keywords:if	supernariz			-6
-1676084098	189.6.15.229	E	keywords:input	supernariz			115
-1676084245	189.6.15.229	C	keywords:ioctl	supernariz	created		2155
-1676084581	189.6.15.229	C	keywords:key	supernariz	created		2164
-1676084665	189.6.15.229	E	keywords:key	supernariz	[KEY] 		26
-1676085012	189.6.15.229	C	keywords:kill	supernariz	created		2099
-1676085110	189.6.15.229	C	keywords:let	supernariz	created		2152
-1676085299	189.6.15.229	C	keywords:line	supernariz	created		2202
-1676085475	189.6.15.229	C	keywords:line_input	supernariz	created		2241
-1676085725	189.6.15.229	C	keywords:locate	supernariz	created		2215
-1676085866	189.6.15.229	C	keywords:lock	supernariz	created		2127
-1676085963	189.6.15.229	C	keywords:lprint	supernariz	created		2172
-1676086180	189.6.15.229	C	keywords:lset	supernariz	created		2156
-1676086384	189.6.15.229	C	keywords:mid	supernariz	created		2203
-1676086582	189.6.15.229	C	keywords:mkdir	supernariz	created		2127
-1676086708	189.6.15.229	E	keywords:new	supernariz			-26
-1676121000	2804:14c:6586:7950::3b9c	E	basics:bwbasic	supernariz			3276
-1676121203	2804:14c:6586:7950::3b9c	E	basics:bwbasic	supernariz	[References] 		86
-1676122129	2804:14c:6586:7950::3b9c	E	basics:bwbasic	supernariz			333
-1676123111	2804:14c:6586:7950::3b9c	E	keywords:do	supernariz			897
-1676123628	2804:14c:6586:7950::3b9c	C	keywords:environs	supernariz	created		2288
-1676123732	2804:14c:6586:7950::3b9c	E	basics:ansibasic	supernariz			4
-1676124166	2804:14c:6586:7950::3b9c	E	basics:bwbasic	supernariz	[References] 		82
-1676126703	2804:14c:6586:7950::3b9c	C	keywords:erl	supernariz	created		2188
-1676126804	2804:14c:6586:7950::3b9c	C	keywords:err	supernariz	created		2175
-1676126833	2804:14c:6586:7950::3b9c	E	keywords:error	supernariz	[References] 		17
-1676126868	2804:14c:6586:7950::3b9c	E	keywords:error	supernariz			60
-1676126890	2804:14c:6586:7950::3b9c	E	keywords:exit	supernariz			21
-1676127997	2804:14c:6586:7950::3b9c	C	basics:gambas	supernariz	created		2615
-1676128752	2804:14c:6586:7950::3b9c	C	basics:liberty	supernariz	created		2643
-1676129547	2804:14c:6586:7950::3b9c	C	basics:cbm	supernariz	created		2545
-1676139470	2804:14c:6586:7950::3b9c	C	basics:ms80basic	supernariz	created		2459
-1676139533	2804:14c:6586:7950::3b9c	E	basics:ms80basic	supernariz			49
-1676139601	2804:14c:6586:7950::3b9c	E	basics:ms80basic	supernariz			11
-1676139715	2804:14c:6586:7950::3b9c	C	basics:ti994	supernariz	created		2051
-1676150939	2804:14c:6586:7950::3b9c	E	basics:ti994	supernariz			674
-1676151016	2804:14c:6586:7950::3b9c	E	basics:ti994	supernariz			76
-1676151039	2804:14c:6586:7950::3b9c	E	basics:ti994	supernariz	[Influenced by] 		3
-1676153171	2804:14c:6586:7950::3b9c	C	basics:msx	supernariz	created		3625
-1676153363	2804:14c:6586:7950::3b9c	E	basics:msx	supernariz	[References] 		196
-1676154413	2804:14c:6586:7950::3b9c	C	basics:decbasic	supernariz	created		2895
-1676154696	2804:14c:6586:7950::3b9c	E	basics:ms80basic	supernariz	[Versions and successors] 		221
 1676195245	2804:14c:6586:7950::3b9c	E	basics:truebasic	supernariz			-128
 1676195356	2804:14c:6586:7950::3b9c	C	keywords:name	supernariz	created		2086
 1676195489	2804:14c:6586:7950::3b9c	C	keywords:next	supernariz	created		2188
@@ -606,15 +511,48 @@
 1678502646	2804:14c:6586:7950::24e0	E	basics:ansi:ansi	supernariz			0
 1678502660	2804:14c:6586:7950::24e0	E	basics:ansi:ansi	supernariz			-2
 1678502954	2804:14c:6586:7950::24e0	E	basics:ansi:ansimin	supernariz			121
-1678509794	2804:14c:6586:7950::24e0	C	basics:bwbasic:bw32	supernariz	created		3221
 1678506692	127.0.0.1	E	basics:bwbasic		external edit		0
+1678506692	127.0.0.1	E	basics:atari:atari		external edit		0
+1678506692	127.0.0.1	E	start		external edit		0
+1678506692	127.0.0.1	E	basics:cbm		external edit		0
+1678506692	127.0.0.1	E	basics:trs80:trs80		external edit		0
+1678509794	2804:14c:6586:7950::24e0	C	basics:bwbasic:bw32	supernariz	created		3221
 1678510454	2804:14c:6586:7950::24e0	E	basics:bwbasic	supernariz			-254
 1678510536	2804:14c:6586:7950::24e0	E	basics:bwbasic	supernariz			4
 1678510731	2804:14c:6586:7950::24e0	E	basics:bwbasic:bw32	supernariz			94
-1678506692	127.0.0.1	E	basics:atari:atari		external edit		0
 1678511001	2804:14c:6586:7950::24e0	E	basics:atari:atari	supernariz			31
 1678511400	2804:14c:6586:7950::24e0	C	basics:atari:atxl	supernariz	created		2085
 1678535108	127.0.0.1	C	keywords:dsko-s		created - external edit		2790
-1678535793	2804:14c:6586:7950::24e0	E	keywords:dsko-s	supernariz	[Related keywords] 		1
 1678535108	127.0.0.1	C	keywords:dski-s		created - external edit		2852
+1678535108	127.0.0.1	E	keywords:draw		external edit		293
+1678535793	2804:14c:6586:7950::24e0	E	keywords:dsko-s	supernariz	[Related keywords] 		1
 1678535804	2804:14c:6586:7950::24e0	E	keywords:dski-s	supernariz	[Related keywords] 		1
+1678546368	2804:14c:6586:7950::24e0	E	start	supernariz			510
+1678546465	2804:14c:6586:7950::24e0	E	start	supernariz			3
+1678629581	2804:14c:6586:7950::24e0	E	keywords:draw	supernariz			1836
+1678629938	2804:14c:6586:7950::24e0	E	basics:cbm	supernariz			-6
+1678630196	2804:14c:6586:7950::24e0	C	basics:cbm:cbmv35	supernariz	created		2312
+1678630387	2804:14c:6586:7950::24e0	E	basics:cbm	supernariz			1
+1678630428	2804:14c:6586:7950::24e0	D	basics:cbm:cbmv35	supernariz	removed		-2312
+1678630436	2804:14c:6586:7950::24e0	C	basics:cbm:cbmv3.5	supernariz	created		2314
+1678631860	2804:14c:6586:7950::24e0	E	keywords:draw	supernariz			1333
+1678631886	2804:14c:6586:7950::24e0	E	keywords:draw	supernariz	[Usage] 		8
+1678631909	2804:14c:6586:7950::24e0	E	keywords:draw	supernariz	[Coordinates: From ... To... To... To...] 		1
+1678631963	2804:14c:6586:7950::24e0	E	keywords:draw	supernariz	[Microsoft's "graphical macro language"] 		2
+1678762932	2804:14c:6586:7950::24e0	C	basics:trscolor	supernariz	created		2973
+1678763951	2804:14c:6586:7950::24e0	C	basics:trscolor:colormc	supernariz	created		2548
+1678764662	2804:14c:6586:7950::24e0	E	basics:trscolor:colormc	supernariz			402
+1678765219	2804:14c:6586:7950::24e0	C	basics:trscolor:colorext	supernariz	created		2786
+1678765830	2804:14c:6586:7950::24e0	C	basics:trscolor:colorenh	supernariz	created		2463
+1678765907	2804:14c:6586:7950::24e0	C	basics:trs80	supernariz	created		6051
+1678765914	2804:14c:6586:7950::24e0	D	basics:trs80:trs80	supernariz	removed		-6051
+1678766051	2804:14c:6586:7950::24e0	E	basics:trs80	supernariz			-8
+1678766140	2804:14c:6586:7950::24e0	E	basics:trscolor	supernariz			1
+1678767407	2804:14c:6586:7950::24e0	E	basics:trscolor	supernariz			-128
+1678813032	200.219.135.4	C	basics:trs80:trs80ii	supernariz	created		2536
+1678506692	127.0.0.1	E	basics:trs80:trs80:trs80ii		external edit		0
+1678813042	200.219.135.4	D	basics:trs80:trs80:trs80ii	supernariz	removed		-2536
+1678813261	200.219.135.4	C	basics:trs80:level2	supernariz	created		2534
+1678813268	200.219.135.4	D	basics:trs80:trs80ii	supernariz	removed		-2536
+1678814684	200.219.135.4	E	basics:trscolor:colorenh	supernariz			724
+1678819658	200.219.135.4	C	basics:atom	supernariz	created		3525

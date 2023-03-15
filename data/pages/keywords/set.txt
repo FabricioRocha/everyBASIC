@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:trs80:level2]]
 
-**With variations:** [[:basics:trs80:]] (tuns pixel on), [[:basics:MicroColorBASIC:]], [[:basics:ugBASIC:]] (as SET TAB)
+**With variations:** [[:basics:trs80:]] (tuns pixel on), [[:basics:trscolor:]] (draw a part of a semigraphical character), [[:basics:trscolor:colormc]], [[:basics:ugBASIC:]] (as SET TAB)
 
 **Also written as: ** 
 

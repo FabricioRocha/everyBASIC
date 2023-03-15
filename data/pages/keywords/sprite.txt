@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:CBM:cbmv7]]
 
-**With variations:** [[:basics:TI994:ti994ext]] (through CALL), [[:basics:ugBASIC:]] (also with subcommands AT, COLOR, COMPRESS, DATA FROM, DISABLE, ENABLE, EXPAND, MAX X, MAX Y, MIN X, MIN Y, MONOCOLOR, MULTICOLOR)
+**With variations:** [[:basics:TI994:ti994ext]] (through CALL), [[:basics:MSX:]] (with ON/OFF/STOP for interrupts by collision), [[:basics:ugBASIC:]] (also with subcommands AT, COLOR, COMPRESS, DATA FROM, DISABLE, ENABLE, EXPAND, MAX X, MAX Y, MIN X, MIN Y, MONOCOLOR, MULTICOLOR)
 
 **Also written as: ** 
 

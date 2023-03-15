@@ -3,7 +3,7 @@
 
 Draws hollow or filled circles, ellipses and their variations.
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:CBM:Simons1]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]]
 
 **With variations:** [[:basics:Sinclair:spectrum]]
 

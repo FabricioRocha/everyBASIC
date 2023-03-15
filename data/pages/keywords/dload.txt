@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:CBM:cbmv4]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:ugBASIC:]]
+**Implemented by:** [[:basics:CBM:cbmv4]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:trscolor:colorext]], [[:basics:ugBASIC:]]
 
 **With variations:** 
 

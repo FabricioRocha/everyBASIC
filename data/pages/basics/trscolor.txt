@@ -1,0 +1,76 @@
+trscolor:
+====== Color BASIC ======
+{{tag>trscolor}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+Mostly known by the Tandy/Radio Shack "CoCo" line of computers, this was a family of BASICs also developed by Microsoft but with some differences to the [[.trs80:|TRS-80]] Level I and Level II BASICs. It equipped a number of contemporary machines with the Motorola 6809 and derived processors with a number of variations.
+
+This page and mentions to //trscolor// throughout this site refer to the "non-extended" Color BASIC; links to its official successors are found below.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Tandy/Radio Shack TRS-80 Color Computer 1 (July 1980)
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+  * [[~colormc|Micro Color BASIC]], quite similar to the original Color BASIC
+  * [[~colorext|Extended Color BASIC]]
+  * [[~colorenh|Enhanced Color BASIC]]
+
+
+===== Extensions =====
+
+  * [[~colordisk|Disk Color BASIC]] 
+
+===== References =====
+
+  * ALBRECHT, Bob. //TRS-80 Color BASIC//. John Wiley & Sons. USA, 1982.
+  * TRS-80 Color Computer Archive (https://colorcomputerarchive.com/), last check 13/03/2023
+  * https://en.wikipedia.org/wiki/TRS-80_Color_Computer , last check 13/03/2023
+  * https://en.wikipedia.org/wiki/Color_BASIC
+  * VALOIS, Roberto. //TRS Color - Guia de Referência//. Editora Campus. Brasil, 1986.
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters Microsoft Tandy TRS-80}}

@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:Gambas:]], [[:basics:ugBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:trscolor:colordisk]] (returns the number of free 'granules'  on disk)
 
 **Also written as: ** 
 

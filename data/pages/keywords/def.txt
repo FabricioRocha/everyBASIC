@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level3]], [[:basics:Sinclair:spectrum]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level3]], [[:basics:trscolor:colorext]], [[:basics:Sinclair:spectrum]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:decbasic:]], [[:basics:Altair:altair12K]] (see FN), [[:basics:Applesoft:tasc]] (does not allow redefinition of a function), [[:basics:trs80:trsdisk]] (with [[FN]] and [[USR]], [[:basics:GWBASIC:]]
 

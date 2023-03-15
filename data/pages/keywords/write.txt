@@ -17,7 +17,7 @@ Output the contents of variables and/or expressions to screen; or redirects furt
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Applesoft:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
 
-**With variations:** 
+**With variations:** [[:basics:trscolor:colordisk]] (writes data to buffer)
 
 **Also written as: ** 
 

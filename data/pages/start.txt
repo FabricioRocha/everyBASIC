@@ -1,13 +1,17 @@
 ====== Welcome to everyBASIC ======
 
-This website has the futile, unattainable, lifelong and pedantic purpose of gathering bits of information and reference about every known implementation of the BASIC language, from the GE-235 mainframe at the Dartmouth College to the one that runs in a single-page application on your web browser, passing by the golden age when BASIC pioneered the idea that //everybody can program a computer//.
+This website has the futile, unattainable, lifelong and pedantic purpose of gathering bits of information and reference about every known implementation of the BASIC language — from the one that run on the GE-235 mainframe at the Dartmouth College to that you can play with in a web page. Okay, maybe we let show a soft spot for that 1975-1985 golden age when BASIC pioneered and spread the idea that **//everybody can program a computer//**.
 
 Much has been written about BASIC and its history, so the main parts of this site strive to be objective and somehow structured:
+
   * The **[[:keywords:|Keywords Reference]]** section compiles references from various books and online sources about statements, functions, commands and special variables found in different BASIC implementations — most of all, their variations, equivalences, relationships with other keywords and use scenarios.
 
   * The infinite **[[:basics:|BASICs]]** section lists known implementations and versions of BASIC throughout history (and they are literally //uncountable// ones), in a sort of hierarchical organization of "families" and relationship with one another.
 
+Some other sections are planned to be created soon.
 
-This website is a wiki, but not open for self-registration, comments and discussion, due to maintenance and security issues. Those who would like to contribute will be welcome to ask me for an account.
+This website is a wiki under open license [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en). In the event of something happening to me, as once sung, its content files are also published (better said //backed up//) at [[https://github.com/FabricioRocha/everyBASIC|GitHub]]. 
 
-//Fabricio Rocha, 2023//
+In spite of being a wiki, I have had terrible experience with spam on this platform and I'd rather not allow self-registration for content edition, comments and discussion for the moment. Those who would like to contribute will be welcome to [[rocha_fabricio@yahoo.com.br|ask me for an account]].
+
+//Fabricio Rocha, 2023-03-11 (launch date)//

@@ -1,0 +1,81 @@
+trscolor:colorext
+====== Extended Color BASIC ======
+{{tag>colorext}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+The Extended version of [[..trscolor:|Color BASIC]] was available as an option for Tandy's Coco since its first version, and became incorporated into ROM in CoCo 2. It was also developed by Microsoft and added to the original version some of the familiar Microsot BASICs features. 
+
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Tandy/Radio Shack TRS-80 Color Computer 1 (USA, 1980)
+  * Tandy Color Computer 2 (USA, 1983) 
+  * Dragon 32 (Wales, 1982)
+  * Prológica CP-400 (Brazil, 1984)
+
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:trscolor:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://colorcomputerarchive.com/repo/Documents/BASIC%20Commands/extendedbasic.txt , last check 2023-03-13
+  * https://en.wikipedia.org/wiki/Prol%C3%B3gica_CP-400
+  * https://en.wikipedia.org/wiki/Extended_Color_BASIC
+  * https://en.wikipedia.org/wiki/TRS-80_Color_Computer
+
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters Tandy Microsoft TRS-80 linenumbered}}

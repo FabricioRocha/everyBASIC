@@ -15,7 +15,7 @@ Turns on "trace" mode, which shows the program line being executed during runtim
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Altair:altair12K]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:ABasiC:]]
+**Implemented by:** [[:basics:Altair:altair12K]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:ABasiC:]]
 
 **With variations:** 
 

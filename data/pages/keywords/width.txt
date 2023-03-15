@@ -1,7 +1,7 @@
 ====== WIDTH ======
 Allows the user to configure the number of characters in each line of a text area, screen, file or device; may set the number of screen lines as well
 
-**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:trscolor:colorenh]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
 
 **With variations:** [[:basics:bwbasic:bw32]], [[:basics:ugBASIC:]] (alias for [[SCREEN]] WIDTH)
 

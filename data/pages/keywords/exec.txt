@@ -17,7 +17,7 @@ Loads a BASIC code text file as if it was typed and promptly runs it
 
 **Implemented by:** [[:basics:Applesoft:]], [[:basics:CBM:Simons1]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:Gambas:]]
+**With variations:** [[:basics:trscolor:]] (transfer control to an address; see [[CALL]]), [[:basics:Gambas:]]
 
 **Also written as: ** 
 

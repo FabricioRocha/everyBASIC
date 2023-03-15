@@ -15,9 +15,9 @@ With a pair of coordinates for a pixel, returns its current color code; a variat
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Atari:atxl]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Atari:atxl]], [[:basics:trs80:level2]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:trs80:]] (returns on/off state of a pixel), [[:basics:ugBASIC:]] (also as POINT AT)
+**With variations:** [[:basics:Atari:]] (for disk operations), [[:basics:trs80:]] (returns on/off state of a pixel), [[:basics:trscolor:]] (check color of part of a semigraphical character), [[:basics:ugBASIC:]] (also as POINT AT)
 
 **Also written as: ** 
 

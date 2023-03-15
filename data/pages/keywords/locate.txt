@@ -17,7 +17,7 @@ Moves the text cursor to a given coordinate, optionally changing its configurati
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:atxl]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]]
 
-**With variations:** [[:basics:TI994:ti994ext]] (through CALL, for sprites), [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]]
+**With variations:** [[:basics:TI994:ti994ext]] (through CALL, for sprites), [[:basics:Atari:]] (graphics: stores the value that controls a point), [[:basics:trscolor:colorenh]] (for high-res text mode), [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]]
 
 **Also written as: ** 
 

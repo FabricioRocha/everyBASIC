@@ -17,7 +17,7 @@ Closes all open files
 
 **Implemented by:** [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:CBM:Simons1]], [[:basics:trs80:]] (turns pixel off), [[:basics:MicroColorBASIC:]]
+**With variations:** [[:basics:CBM:Simons1]], [[:basics:trs80:]] (turns pixel off), [[:basics:trscolor:]] (opposite of [[SET]], turns off part of a semigraphic character), [[:basics:trscolor:colormc]]
 
 **Also written as: ** 
 

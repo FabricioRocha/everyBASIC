@@ -1,7 +1,7 @@
 ====== NEW ======
 Clears from the memory every line of a BASIC program which might eventually be stored.
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:Gambas:]], [[:basics:ugBASIC:]] (only as NEW IMAGE)
 

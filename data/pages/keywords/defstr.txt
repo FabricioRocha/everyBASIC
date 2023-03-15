@@ -1,7 +1,7 @@
 ====== DEFSTR ======
 "Mass declares" a range of letters as string variables
 
-**Implemented by:** [[:basics:Altair:altair12K]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Altair:altair12K]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
 
 **With variations:** 
 

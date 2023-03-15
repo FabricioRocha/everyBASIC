@@ -55,8 +55,8 @@ Commodore's numbering scheme for the versions of its BASIC was, well, awkward. I
   * **[[~:cbmv4|Commodore BASIC V4]]** was launched with the PET/CBM 4000 and 8000 series
   * Then V2 had its second release with the VIC-20, and would later be used with the C64 as well
   * **[[~:cbmv4plus|Commodore BASIC V4+]]** was then released with the CBM-II machines
-  * **[[cbm:cbmv35|Commodore BASIC V3.5]]** came with the C16 and Plus/4 machines
-  * **[[cbm:cbmv7|Commodore BASIC V7]]** was the last released version with the C128
+  * **[[~cbmv3.5|Commodore BASIC V3.5]]** came with the C16 and Plus/4 machines
+  * **[[~cbmv7|Commodore BASIC V7]]** was the last released version with the C128
   
   * **[[https://github.com/mist64/cbmbasic|cbmbasic]]** is an open-source, portable C version of Commodore BASIC V2 which claims to be 100% compatible and has been tested on MacOS X, Linux and Windows NT. 
 

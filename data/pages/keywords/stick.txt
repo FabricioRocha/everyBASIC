@@ -15,7 +15,7 @@ Returns current information, as an integer, about a joystick
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Atari:atxl]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:FreeBASIC:]]
 
 **With variations:** 
 

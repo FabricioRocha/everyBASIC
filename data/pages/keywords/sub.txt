@@ -17,7 +17,7 @@ Starts the definition of a procedure and its instructions block
 
 **Implemented by:** [[:basics:Dartmouth:dartmouth6]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:TI994:ti994ext]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
 
-**With variations:** 
+**With variations:** [[:basics:trscolor:]] (only to complement [[GO]] and make a [[GOSUB]])
 
 **Also written as: ** 
 

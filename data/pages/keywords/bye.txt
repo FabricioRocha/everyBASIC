@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:TI994:]], [[:basics:Atari:atxl]], [[:basics:bwbasic:bw32]]
+**Implemented by:** [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:TI994:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:bwbasic:bw32]]
 
 **With variations:** 
 

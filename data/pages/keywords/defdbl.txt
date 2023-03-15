@@ -15,7 +15,7 @@ Declares a range of single-letters from the ASCII alphabet as double-precision v
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Altair:altair12K]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Altair:altair12K]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
 
 **With variations:** 
 

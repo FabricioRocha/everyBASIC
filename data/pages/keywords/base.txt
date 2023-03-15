@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:bwbasic:bw32]]
 
-**With variations:** [[:basics:MSX:]], [[:basics:FreeBASIC:]]
+**With variations:** [[:basics:MSX:]] (statement for video processor address tables), [[:basics:FreeBASIC:]]
 
 **Also written as: ** 
 

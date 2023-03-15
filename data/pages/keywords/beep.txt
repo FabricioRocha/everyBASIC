@@ -15,7 +15,7 @@ Emits a short sound of a beep
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:GWBASIC:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:FreeBASIC:]]
 
 **With variations:** [[:basics:Sinclair:spectrum]]
 

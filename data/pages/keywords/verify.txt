@@ -17,7 +17,7 @@ Checks the integrity of a file on disk
 
 **Implemented by:** [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:Sinclair:spectrum]]
 
-**With variations:** 
+**With variations:** [[:basics:trscolor:colordisk]] (used with ON/OFF)
 
 **Also written as: ** 
 

@@ -1,29 +1,86 @@
 ====== DRAW ======
 /* Remove the comments after creating content for each section.*/
+At least three very different ways to show pictures or create polygons on a graphical screen, according to implementation.
+
 
 A plotting, "turtle-like" statement which takes a string of coded commands for drawing lines from a starting point. 
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:trscolor:colorext]], [[:basics:Sinclair:spectrum]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:CBM:Simons1]], [[:basics:ugBASIC:]] (coordinates and DRAW TO form)
+**With variations:** [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]] (macro language), [[:basics:MSX:]] (macro language), [[:basics:msqb:4.5]] (macro language), [[:basics:ugBASIC:]] (coordinates and DRAW TO form)
 
-**Also written as: ** /* Alternative spellings and abbreviations this keyword has. No need to refer to a BASIC, there is a section for that later. */
+**Also written as: ** 
+  * dR ([[:basics:CBM:cbmv3.5]])
 
 ===== Usage =====
 
+The official [[:basics:ansi:ansifull|ANSI]] definition for DRAW was somewhat similar to the one which had been already implemented by [[:basics:Applesoft]] BASIC. As such, DRAW is used to show on screen a //predefined shape//.
 
 
-==== Variations ====
-Instead of the "turtle commands" of other MS BASICs DRAW, the [[:basics:applesoft|Applesoft]] apparently works with a predefined shape (*TO DO:* no further details on that so far).
+==== Coordinates: From ... To... To... To... ====
 
+In such implementations, DRAW is somewhat imilar to the [[LINE]] statement found in some BASICs.
 
-===== Examples =====
+In [[:basics:cbm:cbmv3.5|Commodore BASIC V3.5]], it optionally defines a starting X,Y point with [[FROM]] and may have an arbitrary number of [[TO]] coordinates thereafter. Before the coordinates a numerical argument may be used for defining a //color source//:
+  * 0 for the current screen background color
+  * 1 for the current screen foreground color (default, can be ommited, but leave the comma there)
+  * 2 for extra color 1 in multicolor mode
+  * 3 for extra color 2 in multicolor mode
 
-/* This is a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//, //thinbasic//, //vb//, //vbnet//, //xbasic// or //zxbasic//. */
+The following example from //Programmer's Reference Guide for the Commodore Plus/4// uses DRAW with the default foreground color:
 
 <code gwbasic>
-10 PRINT "HELLO"
+5 GRAPHIC 1,1
+
+10 DRAW, 30,85 TO 289,150
+
+20 DRAW, 160,85 TO 310,50 TO 840,100 TO 160,100 TO 80,50 
+
+30 DRAW, TO 319,50
 </code>
+
+==== Microsoft's "graphical macro language" ====
+
+Later [[:basics:ms80basic|Microsoft BASIC-80]]-derived implementations, such as [[:basics:gwbasic|GW-BASIC]], MSX-BASIC and MSQB, had a radically different implementation of DRAW with a striking resemblance to the "turtle graphics" made famous by the Logo language, which enjoyed a certain popularity in the early 1980s.
+
+In such implementations, DRAW only interprets a string made of commands from a "macro language", like this short example from //Linguagem BASIC MSX//:
+
+<code gwbasic>
+DRAW "U20D10L30R40"
+</code> 
+
+
+
+^ command ^ meaning ^ obs ^
+| Un | Up, //n// pixels  |  |
+| En | Up-right, 45°, //n// pixels |  |
+| Rn | Right, //n// pixels |  |
+| Fn | Down-right, 45°, //n// pixels |  |
+| Dn | Down, //n// pixels |  |
+| Gn | Down-left, 45°, //n// pixels |  |
+| Ln | Left, //n// pixels |  |
+| Hn | Up-left, 45°, //n// pixels |  |
+| Cn | Change the "pen" color to //n// | |
+| Mx,y | From current position to coordinates //x,y// | |
+| M±x,±x | From current position to plus/minus //x//, plus/minus //y// | |
+| TAn | Rotates //n// integer degrees, from -360 to 360 (yes, no radians here) | |
+| An | Rotates the whole coordinates system in 90° counter-clockwise, from 0 (default) to 4 | |
+| Pi,o | Paint area with color //i// up to an area with color //o// | Not in [[:basics:msx]] |
+| =V; | Substitutes numerical variable //V// within the commands string (don't forget the semicolon) | To confirm support on [[:basics:msqb]] |
+| Xv$; | Substitutes string variable //v$// within the commands string (don't forget the semicolon) | |
+
+
+Every command can also have a //prefix// which change its behavior:
+
+| B | Only move according to the command, without actually drawing |
+| N | Return to starting point after execution (in other words: perform without changing the current start location) | 
+
+Still about variable substitution, it is possible to join the command string to a numerical string defined elsewhere by using [[VARPTR-S|VARPTR$]] in [[:basics:msqb:]] and [[:basics:gwbasic:]]. A command that waits a numeric argument is "left waiting" with the use of ''='', like the following example:
+
+<code gwbasic>
+DRAW "A0C4BM10,10R=" + VARPTR$(s$)
+</code>
+
 
 ===== Comments =====
 /* Origin of the keyword, opinions, history... */
@@ -39,5 +96,8 @@ Instead of the "turtle commands" of other MS BASICs DRAW, the [[:basics:applesof
 
 ===== References =====
 /* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
+  * MERTEN, Cyndie; MEYER, Sarah. //Programmer's Reference Guide for the Commodore Plus/4//. Scott, Foresman and Company. USA, 1986. Available at https://archive.org/details/Plus-4_Programmers_Reference_Guide , last check 2023-03-12.
+  * //Linguagem BASIC MSX//. Gradiente. Editora ALEPH. Brasil, 1986.
+  * https://robhagemans.github.io/pcbasic/doc/2.0/#DRAW , last checked 2023-03-12
 
 {{tag>Statements Graphics}}

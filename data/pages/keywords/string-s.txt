@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]]
+**Implemented by:** [[:basics:trs80:level2]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]]
 
 **With variations:** [[:basics:msatari:]], [[:basics:bwbasic:bw32]]
 

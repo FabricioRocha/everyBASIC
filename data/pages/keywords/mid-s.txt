@@ -15,9 +15,9 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
 
-**With variations:** [[:basics:trs80:trsdisk]] (can receive a string), [[:basics:trs80:level3]] (can rceive a string)
+**With variations:** [[:basics:trs80:trsdisk]] (can receive a string), [[:basics:trs80:level3]] (can rceive a string), [[:basics:MSX:]] (can be assigned a value, for substitution)
 
 **Also written as: ** 
 

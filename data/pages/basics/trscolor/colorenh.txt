@@ -1,0 +1,80 @@
+trscolor:colorenh
+====== Enhanced Color BASIC ======
+{{tag>colorenh}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+For its third version of the "CoCo" Color Computer in 1986, Tandy wanted an update of its BASIC, but could not get Microsoft to provide anything((https://en.wikipedia.org/wiki/TRS-80_Color_Computer#Color_Computer_3_(1986%E2%80%931991))). So they hired Microware for providing a patch that would piggyback onto Microsoft's [[.:colorext|Extended Color BASIC]] loaded from ROM, adding some new commands (and bugs) to it.
+
+It was also known as "Super Extended Color BASIC"((https://www.cocopedia.com/wiki/index.php/BASIC:BASIC, last check 2023-03-14)).
+
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Tandy Color Computer 3 (USA, 1986)
+
+===== Noteworthy characteristics =====
+
+The CoCo 3 Advanced Color Video Chip, also known as GIME, had improved graphics capabilities. This BASIC extension added a set of graphical statements to take advantage of the new high-resolution video mode, typically started with "H", such as [[:keywords:HPAINT]], [[:keywords:HPRINT]], [[:keywords:HDRAW]] and [[:keywords:HLINE]]. An exception to the H rule was [[:keywords:LOCATE]], which was somewhat similar to its "meaning" in other Microsoft BASICs, but here worked for text output within this high-res mode. Also, this BASIC had commands for defining color palettes for RGB or composite video.
+
+Error handling was improved by [[:keywords:ERLIN]], [[:keywords:ERR]] and [[:keywords:ERRNO]].
+
+
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+/*
+===== Related to... =====
+   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+/* 
+==== Influenced by ====
+ * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+/*
+==== Influence for ====
+  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+/*
+===== Versions and successors =====
+
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:trscolor:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/

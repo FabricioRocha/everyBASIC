@@ -15,7 +15,7 @@ Executes a program stored in memory, or from a given file name; some implementat
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:MicroColorBASIC:]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:TI994:ti994ext]] (as a statement), [[:basics:trs80:trsdisk]] (added filename to load and execute), [[:basics:ugBASIC:]] (as RUN PARALLEL)
 

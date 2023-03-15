@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:decbasic:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:MicroColorBASIC:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:decbasic:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:Dartmouth:dartmouth4]] X* (ON GO TO)
 

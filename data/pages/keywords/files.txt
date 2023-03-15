@@ -15,7 +15,7 @@ Lists the files of a directory, optionally according to a given pattern
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:trscolor:colordisk]], [[:basics:GWBASIC:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:]]
 
 **With variations:** [[:basics:hptsb:]], [[:basics:bwbasic:bw32]]
 

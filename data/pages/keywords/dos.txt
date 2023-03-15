@@ -15,9 +15,9 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Atari:atxl]], [[:basics:msatari:]]
+**Implemented by:** [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trscolor:colordisk]]
 
-**With variations:** 
+**With variations:** [[:basics:Atari:]] (causes a menu to be displayed)
 
 **Also written as: ** 
 

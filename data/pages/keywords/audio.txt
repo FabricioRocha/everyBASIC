@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:ABasiC:]]
 
-**With variations:** 
+**With variations:** [[:basics:trscolor:]] (pass sound output from cassette to TV)
 
 **Also written as: ** 
 

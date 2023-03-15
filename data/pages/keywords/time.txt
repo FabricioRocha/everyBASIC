@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Gambas:]]
+**With variations:** [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:MSX:]] (special variable, can be redefined, counts 1/60 seconds up to 65535), [[:basics:Gambas:]]
 
 **Also written as: ** 
 

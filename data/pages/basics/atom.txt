@@ -1,0 +1,86 @@
+atom
+====== Acorn Atom BASIC ======
+{{tag>atom}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+British Acorn Computers' first microcomputer BASIC was a slightly improved version of its "Acorn System BASIC", and both were a, well, //very peculiar// dialect of the language.
+
+===== Where it is/was used =====
+  * Acorn Atom (UK, 1980)
+
+
+===== Noteworthy characteristics =====
+Atom BASIC was a 32-bit integers BASIC. Floating-point support, with 40 bits, could be added by a ROM expansion. This expansion also included a full set of floating-point versions of the original statements and functions.
+
+It is certainly one of the few that did not implement some "roots" language keywords which existed in [[.dartmouth:dartmouth1|the original Dartmouth BASIC]] such as [[:keywords:DATA]], [[:keywords:READ]] and [[:keywords:DEF]].
+
+By then common, the [[:keywords:PEEK]] and [[:keywords:POKE]] brothers are absent as well. Both were replaced by the ''?'' character, which was not the commonly used abbreviation for [[:keywords:PRINT]], but would either read or set the byte at a given memory location:
+
+<code>
+PRINT ?3200
+?3200 = 255
+</code>
+
+The ''!'' character would be similarly used as a "long version", for reading or writing 4-byte values.  
+
+While ''$'' is commonly used as suffix for string variables, in Atom BASIC it could be used as //prefix//, actually an operator, which would read or write sequences of ASCII character codes ended by Carriage Return (CR). This was used to add string support to the original Acorn Systems BASIC. It //kinda looked like// the strings implementation mode famously pioneered by [[hptsb|HP Time-Shared BASIC]], but would not allow proper "array slicing" operations. [[:keywords:LEN]] and [[:keywords:CH]] were the only string functions available.
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://en.wikipedia.org/wiki/Acorn_System_BASIC , last check 2023-03-14
+
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Interpreters Acorn}}

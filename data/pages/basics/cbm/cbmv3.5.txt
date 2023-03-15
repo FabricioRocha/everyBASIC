@@ -1,0 +1,73 @@
+cbm:cbmv3.5
+====== Commodore BASIC V3.5 ======
+{{tag>cbmv3.5}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+This is the Commodore BASIC version which came with the 16, 116 and Plus/4 machines.
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:cbm:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+
+  * MERTEN, Cyndie; MEYER, Sarah. //Programmer's Reference Guide for the Commodore Plus/4//. Scott, Foresman and Company. USA, 1986. Available at https://archive.org/details/Plus-4_Programmers_Reference_Guide , last check 2023-03-12.
+
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
