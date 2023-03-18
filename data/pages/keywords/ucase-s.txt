@@ -1,7 +1,6 @@
 ====== UCASE$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns a string with all the characters from the given string in upper case
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -48,7 +47,7 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[LCASE-S|LCASE$]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +68,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Function Strings}}

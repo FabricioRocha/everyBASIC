@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:CBM:Simons1]]
 
-**With variations:** 
+**With variations:** [[:basics:Atari:ataplus]] (similar to [[INSTR]], for substring searching), [[:basics:Atari:atxl]] (similar to [[INSTR]], for substring searching)
 
 **Also written as: ** 
 

@@ -1,7 +1,7 @@
-====== MID$ ======
+====== PMMOVE ======
 /* Remove the comments after creating content for each section.*/
 
-Returns a number of characters from a given starting position of a string
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns a number of characters from a given starting position of a string
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:altair]], [[:basics:applesoft]], [[:basics:bwbasic]], [[:basics:decbasic]], [[:basics:gwbasic]], [[:basics:ms80basic]], [[:basics:msqb]], [[:basics:msx]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -27,7 +27,6 @@ Returns a number of characters from a given starting position of a string
 
 ==== Variations ====
 
-In the Microsoft realm, the keyword first appeared in the 8k version of [[:basics:altair|Altair BASIC]].
 
 
 ===== Examples =====
@@ -44,7 +43,7 @@ In the Microsoft realm, the keyword first appeared in the 8k version of [[:basic
 
 
 ===== Comments =====
-MID$ is one of the string manipulation functions first implemented by [[:basics:decbasic|DEC BASIC-PLUS]] which were reproduced in Microsoft BASICs to everlasting fame.
+/* Origin of the keyword, opinions, history... */
 
 
 ===== Related keywords =====
@@ -70,4 +69,3 @@ MID$ is one of the string manipulation functions first implemented by [[:basics:
   
   {{tag>tagName}}
 */
-{{tag>Functions Strings}}

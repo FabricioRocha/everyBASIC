@@ -1,7 +1,7 @@
-====== RTRIM$ ======
+====== PMCLR ======
 /* Remove the comments after creating content for each section.*/
 
-Returns a string which is a copy of the one passed as argument, but without trailing whitespace characters
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns a string which is a copy of the one passed as argument, but without trai
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msqb]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -69,4 +69,3 @@ Returns a string which is a copy of the one passed as argument, but without trai
   
   {{tag>tagName}}
 */
-{{tag>Functions Strings}}

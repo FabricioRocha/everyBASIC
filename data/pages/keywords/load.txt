@@ -15,7 +15,7 @@ Read into memory a program from the filesystem or storage device
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:trscolor:colordisk]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:trscolor:colordisk]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:TI994:ti994ext]] (the name of an auto-executable program at power-up, which affects RANDOMIZE; through CALL loads a subprogram), [[:basics:trs80:level3]] (also the LOAD? variation), [[:basics:ugBASIC:]] (also with subcommands IMAGE, IMAGES, MUSIC, SEQUENCE, TILE and TILES)
 

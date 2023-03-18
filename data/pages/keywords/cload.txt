@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trscolor:]], [[:basics:bwbasic:bw32]]
+**Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trscolor:]], [[:basics:bwbasic:bw32]]
 
 **With variations:** [[:basics:trs80:level2]] (also allowed CLOAD? variation), [[:basics:trscolor:colormc]], [[:basics:MSX:]] (with ?, compares tape to memory program, like [[VERIFY]])
 

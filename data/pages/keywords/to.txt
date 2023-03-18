@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]]
+**Implemented by:** [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]]
 
 **With variations:** 
 

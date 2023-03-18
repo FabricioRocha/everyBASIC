@@ -1,7 +1,7 @@
-====== VARPTR$ ======
+====== PMADR ======
 /* Remove the comments after creating content for each section.*/
 
-Returns the contents of the given string variable for use with [[PLAY]] or [[DRAW]]
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns the contents of the given string variable for use with [[PLAY]] or [[DRA
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msqb]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -23,7 +23,7 @@ Returns the contents of the given string variable for use with [[PLAY]] or [[DRA
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
-It is not easy to understand why this [[:basics:msqb|MS QuickBASIC]] keyword must be used with [[PLAY]] or [[DRAW]] instead of a simple concatenation to the string variable itself, like in ''PLAY "X" + A$.
+
 
 ==== Variations ====
 
@@ -69,4 +69,3 @@ It is not easy to understand why this [[:basics:msqb|MS QuickBASIC]] keyword mus
   
   {{tag>tagName}}
 */
-{{tag>Functions Sound Graphics Memory}}

@@ -1,29 +1,23 @@
-atxl
-====== Atari BASIC XL ======
-{{tag>atxl}}
+altair:altair12k
+====== Altair Extended (12k) BASIC ======
+{{tag>altair12k}}
 
 <WRAP>
 <WRAP right quarter box round>
 == Keywords ==
-//all of [[..:atari:|Atari BASIC]] plus://
+//All of [[..:altair]] and [[..:altair:altair8k]], plus://
 **{{backlinks>.#keywords}}**
 </WRAP>
 
-Atari BASIC XL was released in 1983 as a cartridge for the Atari XL line of 8-bit computers. As such, it was not an extension, but a complete replacement for the original, already aged [[..:atari:|Atari BASIC]].
-
-Comparison of reference manuals for Atari BASIC is actually confusing because the original and the XL version seemed to co-exist for a while. According to an OSS manual for BASIC XL, it seems that this version pretty much incorporates everything from the original Atari BASIC and [[.ataplus|the A+ extension]]. 
-
-Parts were completely replaced under the hood, however. XL implemented loops in a much faster, address-based fashion, and this change alone boosted Atari BASIC out from the backmarkers row of performance.
+In a time where each kilobyte in RAM was a luxury, Microsoft's Extended BASIC for the 12kB Altairs must have been a blast. Some of its commands would take a long time to be implemented in newer microcomputers which used [[..:ms80basic|Microsoft BASIC-80]]-derived interpreters.
 
 ===== Where it is/was used =====
 /* TO DO: Machines and emulators which ran this BASIC. */
-  * Atari XL line
-
+  * The MITS Altair 12kB version, of course
 
 ===== Noteworthy characteristics =====
 /* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
 
-  * The opening ''('' for function arguments is part of the functions names, so there must not be a space between the function name and the parenthesis.
 
 ===== Environment and usage =====
 
@@ -44,7 +38,6 @@ Parts were completely replaced under the hood, however. XL implemented loops in 
 
 ==== Influenced by ====
 /*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
-  * [[..:|Atari BASIC]], the original one, of course
 
 
 ==== Influence for ====
@@ -54,7 +47,7 @@ Parts were completely replaced under the hood, however. XL implemented loops in 
 ===== Versions and successors =====
 /*
   No much need of prose here, just links. Notice the different patterns to create the links:
-    * **[[basics:atari:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[basics:altair:versionTagName|versionTitle]]** - for versions (created under this page)
     * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
 */
 
@@ -66,9 +59,6 @@ Parts were completely replaced under the hood, however. XL implemented loops in 
   You can prepend this with a list of books, magazines and web pages with information
   used in this page
 */
-  * ALBRECHT, Bob; FINKEL, Leroy; BROWN, Gerald R.. //ATARI BASIC XL Edition//. Wiley. USA, 1985.
-  * WILKINSON, Bill; GOLDSTEIN, Diane. //30 Days to Understanding BASIC XL//. Optimized Systems Software, Inc. USA, 1983. Available at https://archive.org/details/BASICXLMANUAL , last check 2023-03-18. 
-  * //A Reference Manual for BASIC XL//. OSS and Atari. USA< 1983. Available at https://archive.org/details/BASICXLMANUAL/page/n179, last check 2023-03-18.
 
 </WRAP>
 
@@ -79,4 +69,3 @@ Parts were completely replaced under the hood, however. XL implemented loops in 
   
   {{tag>Compilers Microsoft Windows Linux}}
 */
-{{tag>Interpreters Atari}}

@@ -1,7 +1,7 @@
-====== UCASE$ ======
+====== BPUT ======
 /* Remove the comments after creating content for each section.*/
 
-Returns a string with all the characters from the given string in upper case
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns a string with all the characters from the given string in upper case
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msqb]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -23,7 +23,7 @@ Returns a string with all the characters from the given string in upper case
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
-Changing all characters of a string to upper case or lower case is a common trick for performing case-insensitive comparisons between strings.
+
 
 ==== Variations ====
 
@@ -52,7 +52,7 @@ Changing all characters of a string to upper case or lower case is a common tric
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-  * [[LCASES|LCASE$]]
+
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -69,4 +69,3 @@ Changing all characters of a string to upper case or lower case is a common tric
   
   {{tag>tagName}}
 */
-{{tag>Function Strings}}

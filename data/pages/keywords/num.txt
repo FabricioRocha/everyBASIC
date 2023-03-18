@@ -17,7 +17,7 @@
 
 **Implemented by:** 
 
-**With variations:** [[:basics:hptsb:]], [[:basics:bwbasic:bw32]]
+**With variations:** [[:basics:hptsb:]] (function), [[:basics:decbasic:]] X* (MAT), [[:basics:Atari:atxl]] (command  for automatic line numbering, like [[AUTO]]), [[:basics:bwbasic:bw32]]
 
 **Also written as: ** 
 

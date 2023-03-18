@@ -1,7 +1,6 @@
 ====== HEX$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns a string containing the hexadecimal representation of the given numerical value
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +14,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:atxl]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]]
 
 **With variations:** 
 
@@ -69,3 +68,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Conversion}}

@@ -1,7 +1,6 @@
 ====== DATE$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Sets the system date, according to the passed formatted string, or returns its current value as a string
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,

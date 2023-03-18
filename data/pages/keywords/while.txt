@@ -15,7 +15,7 @@ Either in the start or end of a loop block, evaluates a Boolean expression and, 
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]]
 
 **With variations:** [[:basics:decbasic:]]
 

@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:Sinclair:]]
 
-**With variations:** [[:basics:Gambas:]]
+**With variations:** [[:basics:Atari:atxl]] (precompiles line numbers into memory addresses), [[:basics:Gambas:]]
 
 **Also written as: ** 
 

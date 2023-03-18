@@ -15,7 +15,7 @@ Returns the integer value immediately lesser than or equal to the given number; 
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:Atari:]] (rounds down negatives), [[:basics:Sinclair:]], [[:basics:Sinclair:spectrum]]
 

@@ -1,7 +1,7 @@
-====== INKEY$ ======
+====== PMCOLOR ======
 /* Remove the comments after creating content for each section.*/
 
-Returns the character (or scan code, for control/special keys) //immediately// available in the keyboard buffer, without blocking
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns the character (or scan code, for control/special keys) //immediately// a
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ms80basic]], [[:basics:msqb]], [[:basics:msx]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -24,13 +24,6 @@ Returns the character (or scan code, for control/special keys) //immediately// a
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
-INKEY$ will **not** stop and wait for the user to type something. If there is //not// a pressed key or a character in the keyboard buffer, it just returns nothing and goes away. Because of that, the most common way to use it was something like:
-
-<code gwbasic>
-240 K$=INKEY$:IF K$ = "" THEN 240
-</code>
-
-It was no big deal in the 8-bit era when the BASIC program was the only thing running at the machine, but in more modern multitasking systems this will often sky-rocket CPU usage and make everything slow. It is necessary to give up some time for the system during the loop — some milliseconds per iteration is enough.
 
 ==== Variations ====
 
@@ -59,11 +52,10 @@ It was no big deal in the 8-bit era when the BASIC program was the only thing ru
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-  * [[GET]]
+
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
-In many modern languages, it is surprisingly difficult to have something like INKEY$ for input in a text-mode application. In C, the hairy //ncurses// library is probably the most used option.
 
 
 ===== References =====
@@ -77,4 +69,3 @@ In many modern languages, it is surprisingly difficult to have something like IN
   
   {{tag>tagName}}
 */
-{{tag>Function Events Console}}

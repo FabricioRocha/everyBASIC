@@ -1,7 +1,7 @@
 ====== INPUT$ ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns, as a string, the given number of characters from the keyboard, or from an optionally given file handler
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -69,3 +69,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Strings Console}}

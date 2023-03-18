@@ -1,7 +1,7 @@
 ====== VARPTR$ ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns the contents of the given string variable; recommended for usage with [[PLAY]] or [[DRAW]]
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -24,6 +24,7 @@
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+It is not easy to understand why this keyword must be used with [[PLAY]] or [[DRAW]] instead of a simple concatenation to the string variable itself, like in ''PLAY "X" + A$, in [[:basics:msqb|MS QuickBASIC]] or [[:basics:gwbasic|GW-BASIC]].
 
 ==== Variations ====
 
@@ -48,7 +49,8 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[DRAW]]
+  * [[PLAY]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +71,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Sound Graphics Memory}}

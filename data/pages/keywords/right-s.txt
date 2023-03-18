@@ -1,7 +1,6 @@
 ====== RIGHT$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns a string containing a number of right-most characters from another string
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +14,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
 
 **With variations:** 
 
@@ -43,12 +42,12 @@
 
 
 ===== Comments =====
-/* Origin of the keyword, opinions, history... */
+This was one of the string manipulation routines first seen in [[:basics:decbasic|DEC's BASIC-PLUS]] that became world-famous by Microsoft BASICs since the 8k version of [[:basics:altair|Altair BASIC]].
 
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[LEFTS|LEFT$]], [[MIDS|MID$]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +68,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Strings}}

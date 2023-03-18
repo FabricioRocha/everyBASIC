@@ -15,7 +15,7 @@ As a function, returns the state of a joystick button or the space bar, as ident
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:GWBASIC:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Atari:]], [[:basics:GWBASIC:]], [[:basics:FreeBASIC:]]
 
 **With variations:** [[:basics:MSX:]] (also used with ON/OFF/STOP for events handling)
 

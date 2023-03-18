@@ -1,7 +1,7 @@
-====== RIGHT$ ======
+====== PMGRAPHICS ======
 /* Remove the comments after creating content for each section.*/
 
-Returns a string containing a number of right-most characters from another string
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns a string containing a number of right-most characters from another strin
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:decbasic]], [[:basics:altair]], [[:basics:applesoft]], [[:basics:ms80basic]], [[:basics:bwbasic]], [[:basics:msatari]], [[:basics:msqb]], [[:basics:msx]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -43,12 +43,12 @@ Returns a string containing a number of right-most characters from another strin
 
 
 ===== Comments =====
-This was one of the string manipulation routines first seen in [[:basics:decbasic|DEC's BASIC-PLUS]] that became world-famous by Microsoft BASICs since the 8k version of [[:basics:altair|Altair BASIC]].
+/* Origin of the keyword, opinions, history... */
 
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-  * [[LEFTS|LEFT$]], [[MIDS|MID$]]
+
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,4 +69,3 @@ This was one of the string manipulation routines first seen in [[:basics:decbasi
   
   {{tag>tagName}}
 */
-{{tag>Functions Strings}}

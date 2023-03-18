@@ -1,7 +1,6 @@
 ====== IOCTL$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns the IOCTL control string for the given device
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -69,3 +68,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions IO}}

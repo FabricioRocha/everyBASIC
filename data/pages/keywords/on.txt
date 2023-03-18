@@ -15,7 +15,7 @@ Followed by a variable or an expression, and [[:keywords:GOTO]] or [[:keywords:G
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:Simons1]], [[:basics:Atari:atxl]], [[:basics:trs80:level2]], [[:basics:trscolor:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:Simons1]], [[:basics:trs80:level2]], [[:basics:trscolor:]]
 
 **With variations:** [[:basics:TI994:ti994ext]] (added ON WARNING, ON BREAK, ON ERROR without GOTO or GOSUB), [[:basics:GWBASIC:]], [[:basics:MSX:]] (used with INTERVAL, KEY, SPRITE, STOP and STRIG followed by GOSUB), [[:basics:ugBASIC:]] (as ON SCROLL..CALL , ON SCROL..GOSUB and ON..PROC)
 

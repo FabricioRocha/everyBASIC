@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
 
 **With variations:** 
 

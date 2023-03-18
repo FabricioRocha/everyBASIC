@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:]], [[:basics:Atari:atxl]]
+**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:]]
 
 **With variations:** 
 

@@ -1,7 +1,7 @@
-====== SPACE$ ======
+====== HSTICK ======
 /* Remove the comments after creating content for each section.*/
 
-Returns a string containing simply the given number of space characters
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns a string containing simply the given number of space characters
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:bwbasic]], [[:basics:msqb]], [[:basics:msx]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -52,7 +52,7 @@ Returns a string containing simply the given number of space characters
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-  * [[SPC]]
+
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -69,4 +69,3 @@ Returns a string containing simply the given number of space characters
   
   {{tag>tagName}}
 */
-{{tag>Functions Strings}}

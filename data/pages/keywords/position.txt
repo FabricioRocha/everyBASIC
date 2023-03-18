@@ -15,9 +15,9 @@ Puts the "file cursor" on a relative location from its current position
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Applesoft:]], [[:basics:Atari:]], [[:basics:Atari:atxl]]
+**Implemented by:** [[:basics:Applesoft:]], [[:basics:Atari:]]
 
-**With variations:** [[:basics:TI994:ti994ext]] (through CALL, for sprites)
+**With variations:** [[:basics:TI994:ti994ext]] (through CALL, for sprites), [[:basics:Atari:atxl]] (X, Y coordinates)
 
 **Also written as: ** 
 

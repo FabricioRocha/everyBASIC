@@ -1,7 +1,6 @@
 ====== RTRIM$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns a string which is a copy of the one passed as argument, but without trailing whitespace characters
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -69,3 +68,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Strings}}

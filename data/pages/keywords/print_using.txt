@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth6]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:altair12K]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:msatari:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msamiga:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth6]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:altair12K]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msamiga:]], [[:basics:FreeBASIC:]]
 
 **With variations:** 
 

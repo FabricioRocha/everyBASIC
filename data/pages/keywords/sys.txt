@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:CBM:]]
 
-**With variations:** 
+**With variations:** [[:basics:Atari:ataplus]] (returns current value for an option configured by [[SET]]), [[:basics:Atari:atxl]] (returns current value for an option configured by [[SET]])
 
 **Also written as: ** 
 

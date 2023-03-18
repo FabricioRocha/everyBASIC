@@ -1,7 +1,7 @@
-====== ENVIRON$ ======
+====== ENDWHILE ======
 /* Remove the comments after creating content for each section.*/
 
-Returns the value (in string form) of an environment variable with the given name
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns the value (in string form) of an environment variable with the given nam
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:bwbasic]], [[:basics:msqb]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -24,11 +24,9 @@ Returns the value (in string form) of an environment variable with the given nam
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
-''ENVIRON$("PATH")''
 
 ==== Variations ====
 
-[[:basics:msqb|MS QuickBASIC]] allows both an assignment of a new value to an environment variable and its retrieval. More over, the function may receive a number as argument, for returning the value of the Nth environment variable.
 
 
 ===== Examples =====
@@ -63,8 +61,6 @@ Returns the value (in string form) of an environment variable with the given nam
 ===== References =====
 /* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
 
-  * https://manpages.ubuntu.com/manpages/xenial/man1/bwbasic.1.html , last checked 2023-02-11
-
 /*
   ===== TAGS =====
   Please use the syntax below for adding tags to this page, separated by spaces (use quotes for tags with spaces).
@@ -73,4 +69,3 @@ Returns the value (in string form) of an environment variable with the given nam
   
   {{tag>tagName}}
 */
-{{tag>Function System}}

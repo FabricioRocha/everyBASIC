@@ -1,34 +1,29 @@
-atxl
-====== Atari BASIC XL ======
-{{tag>atxl}}
+ataplus
+====== Atari BASIC A+ ======
+{{tag>ataplus}}
 
 <WRAP>
 <WRAP right quarter box round>
 == Keywords ==
-//all of [[..:atari:|Atari BASIC]] plus://
 **{{backlinks>.#keywords}}**
 </WRAP>
 
-Atari BASIC XL was released in 1983 as a cartridge for the Atari XL line of 8-bit computers. As such, it was not an extension, but a complete replacement for the original, already aged [[..:atari:|Atari BASIC]].
-
-Comparison of reference manuals for Atari BASIC is actually confusing because the original and the XL version seemed to co-exist for a while. According to an OSS manual for BASIC XL, it seems that this version pretty much incorporates everything from the original Atari BASIC and [[.ataplus|the A+ extension]]. 
-
-Parts were completely replaced under the hood, however. XL implemented loops in a much faster, address-based fashion, and this change alone boosted Atari BASIC out from the backmarkers row of performance.
+A disk-based extension to the original [[..:atari:|Atari BASIC]], made by Shepardson Microsystems and distributed by Optimized Systems Software (OSS) in 1981. It modified some commands and made them faster, while bringing in 43 new instructions for graphics, games development and debugging.
 
 ===== Where it is/was used =====
 /* TO DO: Machines and emulators which ran this BASIC. */
-  * Atari XL line
-
+  * Atari 800
 
 ===== Noteworthy characteristics =====
 /* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
 
-  * The opening ''('' for function arguments is part of the functions names, so there must not be a space between the function name and the parenthesis.
+Commands were implemented for accessing the Atari's "Player-Missile Graphics" (PMG) which had been ignored by the original Atari BASIC.
 
 ===== Environment and usage =====
 
 /* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
 
+The OS/A+ disk should be placed in drive 1 then the machine should be powered on. At the "D1:" prompt, typing BASIC would load the extension. From DOS, the LOAD BINARY FILE menu option could be used for loading A+ from its disk.
 
 ===== Extensions =====
 /* TO DO: Famous libraries tools and extension packages made for this BASIC */
@@ -44,7 +39,6 @@ Parts were completely replaced under the hood, however. XL implemented loops in 
 
 ==== Influenced by ====
 /*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
-  * [[..:|Atari BASIC]], the original one, of course
 
 
 ==== Influence for ====
@@ -66,9 +60,9 @@ Parts were completely replaced under the hood, however. XL implemented loops in 
   You can prepend this with a list of books, magazines and web pages with information
   used in this page
 */
-  * ALBRECHT, Bob; FINKEL, Leroy; BROWN, Gerald R.. //ATARI BASIC XL Edition//. Wiley. USA, 1985.
-  * WILKINSON, Bill; GOLDSTEIN, Diane. //30 Days to Understanding BASIC XL//. Optimized Systems Software, Inc. USA, 1983. Available at https://archive.org/details/BASICXLMANUAL , last check 2023-03-18. 
-  * //A Reference Manual for BASIC XL//. OSS and Atari. USA< 1983. Available at https://archive.org/details/BASICXLMANUAL/page/n179, last check 2023-03-18.
+  * //OSS BASIC A+ for the ATARI 800//. Optimized Systems Software. USA, 1981. Available at https://archive.org/details/Atari_OSS_BASIC_A_3.1_manual , last check 2023-03-15
+  * REISINGER, John M. //A+ Programming in Atari BASIC//. Reston Publishing. USA, 1984. Available at  https://archive.org/details/APlusProgrammingInAtariBasic , last check 2023-03-15
+  * DUNN, Mike. //A New Basic for the Atari//. Available at https://www.atariarchives.org/creativeatari/A_New_Basic_For_the_Atari.php , last check 2023-03-16
 
 </WRAP>
 
@@ -79,4 +73,4 @@ Parts were completely replaced under the hood, however. XL implemented loops in 
   
   {{tag>Compilers Microsoft Windows Linux}}
 */
-{{tag>Interpreters Atari}}
+{{tag>Interpreter Atari extensions OSS Shepardson}}

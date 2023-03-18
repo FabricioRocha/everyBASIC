@@ -1,7 +1,7 @@
-====== LEFT$ ======
+====== MISSILE ======
 /* Remove the comments after creating content for each section.*/
 
-Returns a string containing the given number of left-most characters from another given string
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@ Returns a string containing the given number of left-most characters from anothe
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:decbasic]], [[:basics:altair]], [[:basics:applesoft]],  [[:basics:ms80basic]], [[:basics:msqb]], [[:basics:msx]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** 
 
@@ -23,13 +23,8 @@ Returns a string containing the given number of left-most characters from anothe
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
-[{{ :usborne-introductioncomputerprogramming_lefts.jpg?nolink&200|From Usborne Publishing's //Introduction to Computer Programming//, 1982}}]
 
-The first argument of LEFT$ is the original string; the second is the number of characters to copy, from its left-most position (usually its origin, I don't know yet how right-to-left languages were treated).
 
-<code gwbasic>
-nw$ = LEFT$ (or$, 4)
-</code>
 ==== Variations ====
 
 
@@ -74,4 +69,3 @@ nw$ = LEFT$ (or$, 4)
   
   {{tag>tagName}}
 */
-{{tag>Function Strings}}

@@ -17,7 +17,7 @@ Clears the contents of a static array; completely wipes a dynamic array
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Altair:altair12K]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:Atari:ataplus]] (deletes file), [[:basics:Atari:atxl]] (deletes files)
 
 **Also written as: ** 
 

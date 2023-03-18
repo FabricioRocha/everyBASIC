@@ -1,7 +1,6 @@
 ====== TIME$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns or updates the system time in string format, such as //hh-mm-ss//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -22,12 +21,20 @@
 **Also written as: ** 
 
 ===== Usage =====
-/* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+When used as a function, TIME$ returns a string in the format ''hh:mm:ss''.
 
+<code gwbasic>
+T$ = TIME$
+</code>
+
+The usage of TIME$ for setting the system's time follows a weird syntax of "assignment to a function", instead of a more common parameter format. [[:basics:msqb|MS-QuickBASIC]] will swallow any of ''hh'', ''hh:mm'' and ''hh:mm:ss'' formats.
+
+<code gwbasic>
+TIME$ = "01:20"
+</code> 
 
 ==== Variations ====
-
-
+[[:basics:bwbasic|Bywater BASIC]] does not allow TIME$ to be used as a statement to set the system's time, and its returned string uses the ''HH-MM-SS'' format.
 
 ===== Examples =====
 /*
@@ -48,11 +55,11 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[DATE$]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-
+  * [[TIME]]
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -69,3 +76,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Statements Functions Time}}

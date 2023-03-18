@@ -1,7 +1,6 @@
 ====== SPACE$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns a string containing simply the given number of space characters
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -52,7 +51,7 @@
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-
+  * [[SPC]]
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -69,3 +68,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Strings}}

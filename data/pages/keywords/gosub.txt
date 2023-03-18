@@ -15,7 +15,7 @@ Performs a jump to a line or label; when execution reaches a [[RETURN]], it jump
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:Gambas:]]
 

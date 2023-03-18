@@ -1,7 +1,7 @@
-====== CHR$ ======
+====== TRACEOFF ======
 /* Remove the comments after creating content for each section.*/
 
-Returns the character (one-element string) corresponding to the ASCII code represented by the given numerical argument; may be used for special control characters
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,9 +15,9 @@ Returns the character (one-element string) corresponding to the ASCII code repre
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:applesoft]], [[:basics:bwbasic]], [[:basics:cbm]], [[:basics:msqb]], [[:basics:msx]]
+**Implemented by:** [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
-**With variations:** [[:basics:cbm]]
+**With variations:** 
 
 **Also written as: ** 
 
@@ -27,7 +27,6 @@ Returns the character (one-element string) corresponding to the ASCII code repre
 
 ==== Variations ====
 
-In [[:basics:cbm|Commodore BASIC]], CHR$ is famously used with [[PRINT]] for changing console output, mainly colors, with special control codes.
 
 
 ===== Examples =====
@@ -49,8 +48,7 @@ In [[:basics:cbm|Commodore BASIC]], CHR$ is famously used with [[PRINT]] for cha
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-  * [[PRINT]]
-  * [[VAL]]
+
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -71,4 +69,3 @@ In [[:basics:cbm|Commodore BASIC]], CHR$ is famously used with [[PRINT]] for cha
   
   {{tag>tagName}}
 */
-{{tag>Functions Strings Console}}

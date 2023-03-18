@@ -1,7 +1,6 @@
 ====== MID$ ======
-/* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns a number of characters from a given starting position of a string
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -17,19 +16,18 @@
 
 **Implemented by:** [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
 
-**With variations:** [[:basics:trs80:trsdisk]] (can receive a string), [[:basics:trs80:level3]] (can rceive a string), [[:basics:MSX:]] (can be assigned a value, for substitution)
+**With variations:** [[:basics:Atari:atxl]] (position 0 causes error), [[:basics:trs80:trsdisk]] (can receive a string), [[:basics:trs80:level3]] (can rceive a string), [[:basics:MSX:]] (can be assigned a value, for substitution)
 
 **Also written as: ** 
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+The basic syntax is:
 
+  stringvar$ = MID$ (str, startpos, n)
 
-==== Variations ====
+where ''str'' is the source string, ''startpos'' is the position of the first character of the desired substring (starting from left), and ''n'' is the number of characters to extract.
 
-
-
-===== Examples =====
 /*
   Below is an example of a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be
   //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//,
@@ -39,16 +37,56 @@
   10 PRINT "HELLO"
   </code>
 */
+The following example is from the //[[:basics:msatari|Atari Microsoft BASIC]]// manual:
+
+<code locobasic>
+100 A$ = "GETTHEMIDDLE"
+110 PRINT MID(A$,4,3)
+</code>
+
+
+==== Variations ====
+
+As expected, the numerical arguments to MID$ may vary a lot:
+
+  * ''startpos'' begins from 0 in [[:basics:msx]]
+  * ''startpos'' begins from 1 in [[:basics:msatari:]]
+  * Values for ''startpos'' and ''n'' must be in the 8-bit range of 0 to 255 for most 8-bit BASICs. Strings could not have more than 255 characters in most of them anyway.
+
+''n'' is optional and, if ommited, all characters from ''startpos'' to the end of ''str'' are returned − this stands true for [[:basics:msx]].
+
+If ''n'' from ''startpos'' surpasses the end of ''str'', most BASICs will simply return all characters from ''startpos'' to the end of ''str''. 
+
+Watch out for differences in the effects of a negative value for ''n'' or ''startpos''.
+
+
+=== MID$= for substitutions ===
+
+Some BASICs, especially Microsoft-based ones such as [[:basics:msx|MSX BASIC]] and [[:basics:trs80:level3|TRS-80 Level III BASIC]], allow a strange syntax where MID$ //receives// a string value, which will //replace// the substring found by the function, effectively altering the source string ''str''. An example:
+
+<code locobasic>
+10 A$ = "ABC"
+20 MID$(A$, 1, 1) = "Basic!"
+30 PRINT A$
+</code>
+
+
+
+
+
+===== Examples =====
 
 
 
 ===== Comments =====
 /* Origin of the keyword, opinions, history... */
 
+In the Microsoft realm, the keyword first appeared in the 8k version of [[:basics:altair|Altair BASIC]].
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[left-s|LEFT$]] and [[right-s|RIGHT$]]
+  * [[INSTR]] as a way to find the first character of a substring
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +107,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Strings}}

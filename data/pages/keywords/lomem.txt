@@ -15,7 +15,7 @@ Sets the lower bound of the memory area used for variables storage in BASIC
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Applesoft:]]
+**Implemented by:** [[:basics:Applesoft:]], [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]]
 
 **With variations:** [[:basics:a2int:]] (requires trailing :)
 

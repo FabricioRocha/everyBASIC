@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:CBM:Simons1]], [[:basics:msatari:]], [[:basics:Gambas:]]
 
-**With variations:** [[:basics:Sinclair:spectrum]], [[:basics:ugBASIC:]] (as MOVE TILE)
+**With variations:** [[:basics:Atari:ataplus]] (moves memory blocks), [[:basics:Atari:atxl]] (moves memory blocks), [[:basics:Sinclair:spectrum]], [[:basics:ugBASIC:]] (as MOVE TILE)
 
 **Also written as: ** 
 

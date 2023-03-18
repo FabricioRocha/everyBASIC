@@ -15,7 +15,7 @@ Finishes execution of the program or, according to other combined keywords in so
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:Gambas:]], [[:basics:ugBASIC:]] (also as END [[GAMELOOP]])
 

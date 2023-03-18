@@ -5,7 +5,7 @@ At least three very different ways to show pictures or create polygons on a grap
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:trscolor:colorext]], [[:basics:Sinclair:spectrum]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]] (macro language), [[:basics:MSX:]] (macro language), [[:basics:msqb:4.5]] (macro language), [[:basics:ugBASIC:]] (coordinates and DRAW TO form)
+**With variations:** [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]] (macro language), [[:basics:MSX:]] (macro language), [[:basics:msqb:qb4.5]] (macro language), [[:basics:ugBASIC:]] (coordinates and DRAW TO form)
 
 **Also written as: ** 
   * dR ([[:basics:CBM:cbmv3.5]])
@@ -17,7 +17,7 @@ The official [[:basics:ansi:ansifull|ANSI]] definition for DRAW was somewhat sim
 
 ==== Coordinates: From ... To... To... To... ====
 
-In such implementations, DRAW is somewhat imilar to the [[LINE]] statement found in some BASICs.
+In such implementations, DRAW is somewhat similar to the [[LINE]] statement found in some BASICs.
 
 In [[:basics:cbm:cbmv3.5|Commodore BASIC V3.5]], it optionally defines a starting X,Y point with [[FROM]] and may have an arbitrary number of [[TO]] coordinates thereafter. Before the coordinates a numerical argument may be used for defining a //color source//:
   * 0 for the current screen background color
@@ -39,7 +39,7 @@ The following example from //Programmer's Reference Guide for the Commodore Plus
 
 ==== Microsoft's "graphical macro language" ====
 
-Later [[:basics:ms80basic|Microsoft BASIC-80]]-derived implementations, such as [[:basics:gwbasic|GW-BASIC]], MSX-BASIC and MSQB, had a radically different implementation of DRAW with a striking resemblance to the "turtle graphics" made famous by the Logo language, which enjoyed a certain popularity in the early 1980s.
+Later [[:basics:ms80basic|Microsoft BASIC-80]]-derived implementations, such as [[:basics:gwbasic|GW-BASIC]], [[:basics:msx|MSX-BASIC]] and [[:basics:MSQB|QuickBASIC]], had a radically different implementation of DRAW with a striking resemblance to the "turtle graphics" made famous by the Logo language, which enjoyed a certain popularity in the early 1980s.
 
 In such implementations, DRAW only interprets a string made of commands from a "macro language", like this short example from //Linguagem BASIC MSX//:
 
@@ -85,6 +85,7 @@ DRAW "A0C4BM10,10R=" + VARPTR$(s$)
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
+  * [[varptr-s|VARPTR$]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */

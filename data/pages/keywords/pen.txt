@@ -15,7 +15,7 @@ With arguments, turns on, off or suspended the use of a light pen; used as a fun
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:GWBASIC:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]], [[:basics:GWBASIC:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
 
 **With variations:** 
 

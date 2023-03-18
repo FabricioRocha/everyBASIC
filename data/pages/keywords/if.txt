@@ -1,9 +1,9 @@
 ====== IF ======
 Evaluates a conditional expression with a boolean result
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:ti994ext]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:ti994ext]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
 
-**With variations:** [[:basics:hptsb:]], [[:basics:Applesoft:tasc]] (string-resulting expressions forbidden), [[:basics:TI994:]] (branches only), [[:basics:Gambas:]]
+**With variations:** [[:basics:hptsb:]], [[:basics:Applesoft:tasc]] (string-resulting expressions forbidden), [[:basics:TI994:]] (branches only), [[:basics:Atari:ataplus]] (multiline IF; with semicolon, no [[THEN]] after expression and[[ENDIF]]), [[:basics:Atari:atxl]] (multiline IF; with semicolon, no [[THEN]] after expression and[[ENDIF]]), [[:basics:Gambas:]]
 
 **Also written as: ** /* Alternative spellings and abbreviations this keyword has. No need to refer to a BASIC, there is a section for that later. */
 

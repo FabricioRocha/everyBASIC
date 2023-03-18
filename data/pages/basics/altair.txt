@@ -10,9 +10,9 @@ altair
 
 The famous first product of a certain Micro-Soft, for the allegedly first personal computer in the market, would set the basis of what would soon become a //de facto// standard for the BASIC language.
 
-There were actually three MS-BASICs for the Altair computer, but here they are treated together for simplicity.
+There were actually three MS-BASICs for the Altair computer.
 
-The original version released in July 1975 was made for the 4KB version of the Altair and implemented only 30 keywords. It had only 4 mathematical functions, only one floating-point data type, and no support for string variables nor string manipulation. Most of its keywords were maintained as original in the later/bigger versions, so 4K is the version referred to by this page. 
+The original version released in July 1975 was made for the 4KB version of the Altair and implemented only 30 keywords. It had only 4 mathematical functions, only one floating-point data type, and no support for string variables nor string manipulation. Most of its keywords were maintained as original in the later/bigger versions, so the humble 4K is the version referred to by this page. 
 
 The following version was made for Altairs with dazzling 8KB of RAM. It supported string variables and implemented 61 keywords, among them all of the 4K version, trigonometric functions other than [[keywords:SIN]], [[:keywords:RND]], [[:keywords:PEEK]], [[:keywords:POKE]] and the family of string manipulation functions such as [[:keywords:MIDS|MID$]] and [[:keywords:LEFTS|LEFT$]], imported from [[decbasic|DEC's BASIC-PLUS]], which Bill Gates was acquainted to from his high-school days. This version was adopted as the [[ms80basic|Microsoft BASIC-80]] codebase which would soon rule the first generation of BASICs for microcomputers.
 
