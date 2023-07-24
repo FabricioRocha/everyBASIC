@@ -140,6 +140,9 @@ proc getImplementations {} {
 		set princ [lindex $linPrinc $col]
 		set sub [lindex $linSub $col]
 	}
+	
+	# Checking
+	puts "BASICs found: $basicsLinks"
 
 }
 
@@ -239,8 +242,7 @@ proc kwNameForFile {kw} {
 
 proc kwNameForTitle {kw} {
 	set kft $kw
-	while {[string match {*[)( ]*} $kft]} {
-		set kft [string replace $kft [string first " " $kft] [string first " " $kft] _ ]
+	while {[string match {*[)(]*} $kft]} {
 		set kft [string replace $kft [string first {(} $kft] [string first {(} $kft] ]
 		set kft [string replace $kft [string first {)} $kft] [string first {)} $kft] ]
 	}
