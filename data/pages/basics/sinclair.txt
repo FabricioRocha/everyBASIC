@@ -10,13 +10,16 @@ sinclair
 
 The extremely popular and successful computers from England-based legendary **Sinclair Research** were shipped with BASICs developed by Nine Tiles Networks Ltd, also an English company. These BASICs were pretty similar among its own evolutions and also to [[.:ms80basic:|Microsoft BASIC-80]]-based interpreters which were so common at the time. It was not hard to port programs written for the Sinclair Spectrum to a [[:basics:MSX:]] machine, for example.
 
+Most keywords from its first version, the 4KB BASIC for the tiny ZX80, were ported to its later versions (though with different capabilities sometimes), so the ZX80 version is the Sinclair baseline referred to by this site's [[:keywords:|Keywords]] section. It was an incomplete implementation of [[:basics:ansi:ansimin|ANSI Minimal BASIC]] with integer-only arithmetic in order to fit into 4KB of ROM.
+
 ===== Where it is/was used =====
 /* TO DO: Machines and emulators which ran this BASIC. */
-
+  * Sinclair ZX-80
 
 ===== Noteworthy characteristics =====
 /* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
 
+  * In the 4K version, //every// line of code must start with a command, due to the way the REPL interface and keyboard entry were implemented. This made [[:keywords:LET]] mandatory in assignments, unlike most other BASICs.
 
 ===== Environment and usage =====
 
@@ -49,7 +52,8 @@ Several extensions were published by third-party companies and by Sinclair itsel
     * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
     * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
 */
-  * [[.:sinclair:zx80|The ZX-80]] **4K** was the first Sinclair BASIC, severely limited by the hardware it runned on.
+  * [[.:sinclair:zx81|The ZX-81]] brought a number of new keywords and a mostly complete BASIC for its time
+  * [[.:sinclair:spectrum|Spectrum]] BASIC got colors and graphical instructions
 
 
 ===== References =====
@@ -58,6 +62,9 @@ Several extensions were published by third-party companies and by Sinclair itsel
   You can prepend this with a list of books, magazines and web pages with information
   used in this page
 */
+  * https://en.wikipedia.org/wiki/ZX80
+  * https://www.petervis.com/Sinclair/Sinclair_ZX80_Manual/4k-basic.html , last check 2023-03-02
+
 
 </WRAP>
 

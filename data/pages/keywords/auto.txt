@@ -1,7 +1,7 @@
 ====== AUTO ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Command used for automatic creation of line numbers while a program is being typed in
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -23,6 +23,14 @@
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+AUTO is typically found in the old-style BASIC interpreters where the same "immediate" interface was used for typing in numbered lines of statements to be stored in memory as a program. In its most usual form, just typing ''AUTO'' and the keyboard Enter or Return key will print a line number and a cursor in the following line of the screen.
+
+Optional arguments are often available both for setting the initial line number and the increment for the following lines. In MSX BASIC, for example:
+
+  AUTO 100,10
+
+will result in a sequence of lines like 100, 110, 120, 130 and so on, until the user presses the key combination CTRL+STOP. Just pressing Enter/Return after the number, as an empty line, might stop AUTO as well on some BASICs.
+
 
 
 ==== Variations ====
@@ -48,7 +56,7 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[RENUM]], [[NAME]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +77,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Commands}}

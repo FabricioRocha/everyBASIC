@@ -1,7 +1,7 @@
-====== PRINT_USING ======
+====== PRINT USING ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+A special version of the [[PRINT]] statement for formatted strings output to screen
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth6]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:altair12K]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msamiga:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth6]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:altair12K]], [[:basics:Applesoft:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:Atari:ataplus]], [[:basics:Atari:atxl]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msamiga:]], [[:basics:msqb:QBasic]], [[:basics:FreeBASIC:]]
 
 **With variations:** 
 
@@ -23,10 +23,84 @@
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+PRINT USING allows the use of a "format string" as a template or "mask" for screen output of variables, specially numeric ones. This string is the first argument taken by the statement:
+
+<code zxbasic>
+PRINT USING "**####.##";1.2345
+</code>
+
+In most Microsoft-based BASICs, a semicolon (;) after the format string makes the output to happen where the text cursor is, and a comma (,) will place the output in the next "tab column" (which varies among platforms). Then follows the value(s) or variable(s) whose content is to be formatted — commas are used to separate them.
+
+
+Most characters in the format string are printed literally, except the following ones, which acquire special meanings and effects:
+
+  * ''#'' represents a //position// for one single digit of the numeric value to be printed. It is used in groups. If the value has less digits, the unused positions at the left side will be shown as blank spaces. If the integer portion of the value should have more digits than the number of positions available, the value will be printed preceded by a percent sign (%). If there is a period in the string for a decimal portion, unused positions at its right side will be shown as 0s.
+
+  * ''.'' indicates where the decimal separator falls among the digit positions. Floating-point values will be rounded to fit the available decimal positions. If the rounding causes the number to exceed the available positions, the value will be printed preceded by a percent sign (%).
+
+  * '','' placed right at the left of the decimal period, will cause the number to be printed with commas as //thousands separators// every 3 digits to the left of the decimal period.
+
+  * ''+'' before or after the digits field forces display of the value' sign, either + or - before the number.
+
+  * ''-'' used after the digit positions prints a minus sign (-) //after// negative values. A blank space is shown in its place for positive values.
+
+  * ''<nowiki>**</nowiki>'' before the digit positions causes unused leftmost positions to be filled with asterisks instead of blanks. The two asterisks themselves also add two extra digit positions to the format string.
+
+  * ''$$'', placed before the leftmost digit position, will cause a dollar sign to be printed //immediately// at the left of the first actually printed digit, even if the actual value occupies less positions than predicted.
+
+  * ''**$'', placed before the digits field, will cause a dollar sign to be printed immediately before the first digit position, and the occasional unused space at its left will be filled with asterisks.
+
+  * ''^^^^'', when placed after a digit position, will cause floating-point numbers to be printed in exponential notation. The number of positions for the mantissa (or more precisely //significand//) will be the number of #s before the carets //minus one//. The 10<sup>n</sup> exponent will be shown with sign and two digits. Apparently following a FORTRAN tradition, a double precision value will be shown with D instead of E.
+    * [[:basics:msamiga:|Microsoft BASIC for Amiga]] does not need four carets: one is enough.
+    * [[:basics:decbasic:|DEC BASIC-PLUS]] and [[:basics:trs80:level2|TRS-80 Level 2 BASIC]] (at least in Tandy Model III computer) used up-arrow characters instead of carets.
+
+<code qbasic>
+PRINT USING "#.##^^^^"; 1.234567
+0.12E+01
+
+PRINT USING "###^^^^"; 1.234567
+123E-02
+
+PRINT USING "###^^^^"; 1.2345678
+123D-02
+</code>
+
+For string values, there is a smaller number of options (and their usefulness is not exactly clear):
+
+  * ''!'' prints only the first character of each string in the list of variables.
+
+<code qbasic>
+PRINT USING "!"; "JOHN"
+J
+
+PRINT USING "!!!!"; "JOHN", "PAUL", "GEORGE", "RINGO"
+JPGR
+</code>
+
+  * ''&'' has the meaning of "variable length field", and prints all the characters of the string(s).
+    * This is not available in [[:basics:decbasic:|1972 DEC BASIC-PLUS]], [[:basics:Altair:altair12K|Altair 12kB Extended BASIC]] and [[:basics:trs80:level2|TRS-80 Level 2]].
+    * [[:basics:freebasic|FreeBASIC]] from version 0.21.0b allows ''&'' to be used with numeric values as well, with the effect of printing all the digits the value requires.
+
+
+  * ''\\'' reserves space for 2 characters of a string value. Each blank space inserted between the slashes will add one more character position.
+    * Instead of backslashes, use ''%%'' in [[:basics:trs80:level2|TRS-80 Level 2 BASIC]] and [[:basics:msatari:|Microsoft BASIC for Atari]]. 
+
+<code qbasic>
+PRINT USING "\\"; "JOHN", "PAUL", "GEORGE", "RINGO"
+JOPAGERI
+
+PRINT USING "\ \"; "JOHN", "PAUL", "GEORGE", "RINGO"
+JOHPAUGEORIN
+</code> 
 
 
 ==== Variations ====
+The 1972 manual of [[:basics:decbasic:|DEC BASIC-PLUS]] states that, unlike regular [[PRINT]], using a trailing colon after [[PRINT]] will have no effect with PRINT USING. A trailing semicolon will however avoid a line break after the output.
 
+In [[:basics:msqb:|MS-QuickBASIC and QBASIC]], only a semicolon can be used between the format string and the values list.
+
+PRINT USING clearly had no consideration for locale, right-to-left languages and such.
+ 
 
 
 ===== Examples =====
@@ -44,19 +118,23 @@
 
 ===== Comments =====
 /* Origin of the keyword, opinions, history... */
+The implementation of PRINT USING by [[:basics:Altair:altair12K|Altair 12kB version]] is pretty much similar to the one of [[:basics:decbasic:|DEC BASIC-PLUS]]. As such it descended to other various 8-bit BASICs. Apparently, Apple and Commodore refused to pay any extra for PRINT USING. The statement was not implemented in the Sinclair family as well.
 
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[PRINT]]
+  * [[LPRINT]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
+  * [[FORMAT]]
+
 
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
-
+PRINT USING is rather unique in the style of format strings it uses. In contrast, the loosely similar and contemporary C //printf()// function established a more versatile, more powerful and by large ubiquitous standard for formatted text output.
 
 ===== References =====
 /* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
@@ -69,3 +147,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Statements Console}}

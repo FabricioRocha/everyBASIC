@@ -15,7 +15,7 @@ Returns the value of the given floating-point value rounded to the nearest integ
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:EndBASIC:]]
 
 **With variations:** [[:basics:Altair:altair12K]] (always converts to the lesser integer; overflows in values out of 16-bit range), [[:basics:MSX:]] (rounds negatives down), [[:basics:Gambas:]]
 

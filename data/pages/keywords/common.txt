@@ -15,7 +15,7 @@ Paleolitic method of leaving in memory variables for a program to be executed
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msatari:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:msatari:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
 **With variations:** 
 

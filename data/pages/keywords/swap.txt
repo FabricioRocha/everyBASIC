@@ -15,7 +15,7 @@ Swaps the values of two variables of the same type
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Altair:altair12K]], [[:basics:CBM:cbmv7]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:Altair:altair12K]], [[:basics:CBM:cbmv7]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
 
 **With variations:** 
 

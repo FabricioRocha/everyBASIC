@@ -10,7 +10,7 @@ atari
 
 This site calls "Atari BASIC" the Revision C of the original, buggy and slow BASIC made by Shepherdson Microsystems in 1979 for the first 8-bit home computers from Atari, the videogames giant of the day. It was not bundled with the machines, but sold separately, cramped into an 8kB cartridge which had not been enough for the 6502 port of [[:basics:ms80basic|Microsoft BASIC]]. It went through two revisions right from the start for bug-fixing, and famously implemented a somewhat different flavour of BASIC.
 
-Atari developers eventually got [[:basics:msatari|Microsoft Atari BASIC]] ready by 1981, but Shepherson/Optimized Systems Software (OSS) remained improving and extending the original Atari BASIC for many years and maintained a larger and loyal user base. As of March 2023, two of these following versions are registered here and worth looking. 
+Atari developers eventually got [[:basics:msatari|Microsoft Atari BASIC]] ready by 1981, but Shepherdson/Optimized Systems Software (OSS) remained improving and extending the original Atari BASIC for many years and maintained a larger and loyal user base. As of March 2023, two of these following versions are registered here and worth looking. 
 
 ===== Where it is/was used =====
   * Atari 400

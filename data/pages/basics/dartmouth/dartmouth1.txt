@@ -45,7 +45,7 @@ The very first BASIC ever written, with its 15 keywords.
 
 
 ===== References =====
-//TO DO: Books, magazines and web pages with information used in this page//
+  * //A Manual for Basic - 1 October 1964// - Available at http://www.bitsavers.org/pdf/dartmouth/BASIC_Oct64.pdf last check 2023-03-19
 
 </WRAP>
 

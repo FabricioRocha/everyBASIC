@@ -1,4 +1,4 @@
-====== NO_DSP ======
+====== NO DSP ======
 /* Remove the comments after creating content for each section.*/
 
 //TO DO: A summary of what it does//

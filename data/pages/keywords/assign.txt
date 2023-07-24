@@ -1,7 +1,7 @@
 ====== ASSIGN ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Designates a file to a specific number/handler and opens it
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -22,7 +22,7 @@
 **Also written as: ** 
 
 ===== Usage =====
-/* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+
 
 
 ==== Variations ====
@@ -48,7 +48,8 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[FILES]] and [[MAXFILES]]
+  * [[OPEN]], [[CLOSE]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +70,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Statements Files}}

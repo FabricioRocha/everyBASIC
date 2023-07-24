@@ -1,7 +1,6 @@
 ====== INT ======
-/* Remove the comments after creating content for each section.*/
 
-Returns the integer value immediately lesser than or equal to the given number; in [[[[:basics:applesoft|Applesoft BASIC]] starts [[[[:basics:a2integer|INTEGER BASIC]] if no parameter is given
+Returns the integer value immediately lesser than or equal to the given number, also with a negative argument.
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,16 +14,16 @@ Returns the integer value immediately lesser than or equal to the given number; 
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:zx81]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
 
-**With variations:** [[:basics:Atari:]] (rounds down negatives), [[:basics:Sinclair:]], [[:basics:Sinclair:spectrum]]
+**With variations:** [[:basics:Dartmouth:dartmouth1]] ('always operates by chopping off the fractional part'), [[:basics:Applesoft:]] (also used as a command to invoke [[..:a2int|INTEGER BASIC]]), [[:basics:Sinclair:spectrum]]
 
 **Also written as: ** 
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
-INT is, since [[:basics:dartmouth|Dartmouth BASIC]]'s Third Edition, the "true floor" function in BASIC, which will always return the greatest integer equal or less than the given real number. Previously, the function worked as the [[FIX]] keyword, in what Wikipedia calls "trim-towards-zero" fashion ((https://en.wikipedia.org/wiki/Dartmouth_BASIC#Third_Edition)). The difference is visible when the number to be converted is negative:
+INT has been for long the math floor function of BASIC, to round fractional numbers down to the nearest lesser integer. This is not the same thing of a simple cut off of whatever comes after a decimal point, like [[FIX]] does. The difference is visible when the number to be converted is negative:
 
 <code gwbasic>
 10 A = -12.35
@@ -35,7 +34,8 @@ INT is, since [[:basics:dartmouth|Dartmouth BASIC]]'s Third Edition, the "true f
 
 ==== Variations ====
 
-In Apple II (Plus and later), INT is used without arguments from [[:basics:applesoft|Applesoft FP BASIC]] to clear memory and start [[:basics:a2integer|INTEGER BASIC]].
+In [[:basics:applesoft|Applesoft FP BASIC]] in the Apple II Plus and later computers, INT can also be used as a command, without arguments, for clearing the memory and starting [[:basics:a2int|INTEGER BASIC]].
+
 
 ===== Examples =====
 /*
@@ -51,7 +51,7 @@ In Apple II (Plus and later), INT is used without arguments from [[:basics:apple
 
 
 ===== Comments =====
-/* Origin of the keyword, opinions, history... */
+INT is one of the functions implemented since [[:basics:dartmouth:|Dartmouth BASIC First Edition]], but originally it worked more like the later [[FIX]] function for negative numbers. The manual for [[:basics:dartmouth:dartmouth2|Second Edition/CARDBASIC]] states it clearly: //"INT always operates by chopping off the fractional part".// It became the "true floor" function in BASIC only from [[:basics:dartmouth:dartmouth3|Dartmouth Third Edition]] onwards ((https://en.wikipedia.org/wiki/Dartmouth_BASIC#Third_Edition)).
 
 
 ===== Related keywords =====

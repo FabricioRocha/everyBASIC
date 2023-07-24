@@ -15,7 +15,7 @@ Invokes a subroutine in machine language at a given memory address
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msqb]]
+**Implemented by:** [[:basics:msqb:QBasic]]
 
 **With variations:** 
 

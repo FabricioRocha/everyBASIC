@@ -3,7 +3,7 @@
 
 Returns the memory address of a variable, just as a pointer of other languages
 
-**Implemented by:** [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]]
+**Implemented by:** [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]]
 
 **With variations:** [[:basics:trscolor:colormc]] (undocumented), [[:basics:MSX:]] (negative value requires adding 65535), [[:basics:Gambas:]]
 

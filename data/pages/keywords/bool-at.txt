@@ -1,7 +1,7 @@
 ====== BOOL@ ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Retrieves a Boolean value from a given memory address
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,

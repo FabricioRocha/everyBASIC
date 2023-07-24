@@ -15,9 +15,9 @@ Throws an error, maybe a user-defined one
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]]
+**Implemented by:** [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:Gambas:]]
 
 **Also written as: ** 
 

@@ -27,7 +27,7 @@ Apart from being able to perform only 16-bit integer mathematics, INTEGER BASIC 
 
   * Program line size was limited to 128 characters.
 
-  * It implemented [[keywords:ASC]], but not its counterpart [[keywords:CHRS|CHR$]].
+  * It implemented [[keywords:ASC]], but not its counterpart [[keywords:CHR-S|CHR$]].
 
   * The //device slots// so important for the Apple I/Apple II were accessed by input or output //redirection// with, respectively, [[keywords:IN]] and [[keywords:PR]]. From the moment they were used, commands like [[keywords:INPUT]] and [[keywords:PRINT]] would operate on the chosen device. ''PR#0'' and ''IN#0'' would bring I/O back to the console.
 

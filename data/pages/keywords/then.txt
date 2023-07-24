@@ -2,7 +2,7 @@
 
 Often alongside [[GOTO]] or other statements, jump to another part of the program if a conditional expression, previously evaluated by IF, has been met.
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:MSX:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:Sinclair:]], [[:basics:Sinclair:spectrum]], [[:basics:MSX:]], [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]]
 
 **With variations:** 
 

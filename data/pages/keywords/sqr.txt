@@ -1,7 +1,7 @@
 ====== SQR ======
 Returns the square root of a number
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansimin]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colormc]], [[:basics:trscolor:colorext]], [[:basics:Sinclair:]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth2]], [[:basics:Dartmouth:dartmouth4]], [[:basics:ANSI:ansimin]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colormc]], [[:basics:trscolor:colorext]], [[:basics:Sinclair:zx81]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
 
 **With variations:** 
 

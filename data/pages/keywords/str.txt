@@ -1,7 +1,7 @@
 ====== STR$ ======
 Returns a string representation of a numerical value.
 
-**Implemented by:** [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]], [[:basics:EndBASIC:]]
 
 **With variations:** [[:basics:ugBASIC:]] (see [[STR-S|STR$]])
 

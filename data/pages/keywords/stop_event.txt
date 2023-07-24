@@ -1,4 +1,4 @@
-====== STOP_EVENT ======
+====== STOP EVENT ======
 /* Remove the comments after creating content for each section.*/
 
 //TO DO: A summary of what it does//

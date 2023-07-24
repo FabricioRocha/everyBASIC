@@ -1,7 +1,7 @@
 ====== ADR ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns, as a decimal number, the memory address of a string or string variable
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -52,7 +52,7 @@
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-
+  * [[VARPTR]]
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -69,3 +69,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Memory}}

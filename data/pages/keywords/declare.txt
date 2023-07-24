@@ -15,9 +15,9 @@ Declares a procedure or function, forcing arguments checking and making the use 
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:msqb:QBasic]] (with [[FUNCTION]] or [[SUB]]), [[:basics:msqb:qb4.5]] (for BASIC and non-BASIC)
 
 **Also written as: ** 
 

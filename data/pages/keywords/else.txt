@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Altair:altair12K]], [[:basics:TI994:ti994ext]], [[:basics:CBM:cbmv7]], [[:basics:CBM:Simons1]], [[:basics:Atari:ataplus]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Altair:altair12K]], [[:basics:TI994:ti994ext]], [[:basics:CBM:cbmv7]], [[:basics:CBM:Simons1]], [[:basics:Atari:ataplus]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:EndBASIC:]]
 
 **With variations:** 
 

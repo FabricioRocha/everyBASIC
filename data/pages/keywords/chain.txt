@@ -15,9 +15,9 @@ Arcane method for passing control to another program
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:Applesoft:tasc]] (used with [[CLEAR]] as CLEAR CHAIN), [[:basics:ABasiC:]]
+**With variations:** [[:basics:Applesoft:tasc]] (used with [[CLEAR]] as CLEAR CHAIN), [[:basics:ABasiC:]], [[:basics:msqb:QBasic]] (line number not allowed)
 
 **Also written as: ** 
 

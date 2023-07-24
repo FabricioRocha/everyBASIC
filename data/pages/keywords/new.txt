@@ -1,7 +1,7 @@
 ====== NEW ======
 Clears from the memory every line of a BASIC program which might eventually be stored.
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth4]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
 
 **With variations:** [[:basics:Gambas:]], [[:basics:ugBASIC:]] (only as NEW IMAGE)
 
@@ -14,15 +14,15 @@ It is a command to tell the interpreter, or more specifically the REPL interface
 ==== Variations ====
 
 
-
+/*
 ===== Examples =====
 
-/* This is a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//, //thinbasic//, //vb//, //vbnet//, //xbasic// or //zxbasic//. */
+ This is a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//, //thinbasic//, //vb//, //vbnet//, //xbasic// or //zxbasic//. 
 
 <code gwbasic>
 10 PRINT "HELLO"
 </code>
-
+*/
 ===== Comments =====
 /* Origin of the keyword, opinions, history... */
 

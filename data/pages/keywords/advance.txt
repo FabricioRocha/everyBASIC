@@ -1,7 +1,7 @@
 ====== ADVANCE ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Moves the cursor of a random-access file forward by a number of data items (fields?), even through different records
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -22,8 +22,14 @@
 **Also written as: ** 
 
 ===== Usage =====
-/* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+The ADVANCE statement as implemented by [[:basics:hptsb|HP Time-Shared BASIC]] requires:
+  * a file handler/number, followed by a semicolon
+  * an integer "skip count" or expression which tells the number of items to advance
+  * an integer variable which will receive information about the execution:
+      * 0 if the movement could be performed without problems
+      * the number of items which could not be jumped due to an End-Of-File mark
 
+  ''230 ADVANCE #3; 10, R''
 
 ==== Variations ====
 
@@ -69,3 +75,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Statements Files}}

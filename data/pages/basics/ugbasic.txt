@@ -1,0 +1,102 @@
+ugbasic
+====== ugBASIC ======
+{{tag>ugbasic}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+ugBASIC is a modern, open-source, active (as of March 2023) BASIC cross-compiler able to generate machine code for //multiple// computers built around the Motorola 6809, Zilog Z80 and MOS 6502 8-bit processors which were popular both in the USA and European markets in the 1980s and 1990s. By March 2023, the following machines were listed as supported targets, along with their mnemonics used with the compilers:
+
+  * Atari 400/800 (atari), 1200XL, 600XL, 800XL and XE (atarixl)
+  * Amstrad CPC (cpc)
+  * Commodore VIC-20 (vic20), 64 (c64), 128 (c128) and Plus/4 (plus4)
+  * Dragon 32(d32), 64 and 200-E (d64)
+  * Olivetti PC128 Prodest, an Italian version of 6809-based Thomson MO6 (pc128op)
+  * Thomson MO5 (mo5)
+  * TRS-80 Color Computer (coco)
+  * ColecoVision (coleco)
+  * MSX 1 standard machines (msx1)
+  * SEGA SC-3000 (sc3000) and SG-1000 (sg1000)
+  * Sinclair ZX Spectrum (zx)
+
+Not all of its features work on every machine, but it takes a self-declared (but not that clear) //isomorphic// approach to implement a uniform, old-school BASIC dialect specially oriented to games programming.
+
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * GNU/Linux (ia64)
+  * Microsoft Windows (64 bits)
+
+For 32-bit versions, binaries are not available for download as of March 2023, and the user has to get the sources from ugBASIC's [[https://github.com/spotlessmind1975/ugbasic|GitHub repository]].
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+  * An explanation for the name is in the project's README file at its GitHub repository: "u" for "micro" and "g" for "games".
+
+  * ugBASIC implements //named colors// as keywords, apparently as to abstract the differences in numerical color codes which are usually different in every single target machine. 
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+The command-line compiler is invoked from the command line as ''ugbc.'' followed by the target platform mnemonic. Its arguments are an ASCII source file, ''-o'' and the binary output file, such as in:
+
+  ugcb.msx1 source.bas -o myprog.rom
+  
+Each platform has a [[https://retroprogramming.iwashere.eu/ugbasic:targets|specific output format]] — cartridge ROM image for the //msx1// per the example.
+
+Users of MS-Windows 7 onwards have an IDE available for download at https://spotlessmind1975.itch.io/ugbasic-ide (last check 2023-04-01). From the screenshots, as an IDE it is pretty much a text editor, but it alleviates the burden of downloading and installation of the different assemblers and linkers required for the target platforms: CC65, asm6809 and z88dk.
+
+
+
+/*
+===== Curiosities =====
+ TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+  * [[:basics:atari:|Atari BASIC]] seems to have been a great influence, as told by many of ugBASIC's graphics-related keywords
+
+/*
+==== Influence for ====
+  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+/*
+===== Versions and successors =====
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+  * https://ugbasic.iwashere.eu - ugBASIC homepage, last check 2023-03-31
+  * https://retroprogramming.iwashere.eu/ugbasic:user:index - the keywords index of the ugBASIC User Manual
+
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/
+{{tag>Compilers Cross-Compilers Windows Linux Open-Source Amstrad Atari ColecoVision Commodore Dragon MSX TRS-80 Thomson Sinclair ZX Spectrum Modern Active}}

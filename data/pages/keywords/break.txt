@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Sinclair:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Sinclair:zx81]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:Gambas:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:TI994:]] (set breakpoint)
 

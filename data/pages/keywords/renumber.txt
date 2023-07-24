@@ -1,7 +1,7 @@
 ====== RENUMBER ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Changes the number of each line of a program stored in memory, using a given increment to set the number of every next line.
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -19,10 +19,16 @@
 
 **With variations:** 
 
-**Also written as: ** 
+**Also written as: ** [[RENUM]]
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+
+In Commodore's [[:basics:CBM:Simons1|Simons BASIC]] the command takes two arguments: the new number of the program's first line, and the increment to be used for every next line from there.
+
+<code locobasic>
+RENUMBER 100, 10
+</code>
 
 
 ==== Variations ====
@@ -48,11 +54,11 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[AUTO]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-
+  * [[RENUM]]
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -69,3 +75,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Commands linenumbered}}

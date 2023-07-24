@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:bwbasic:bw32]]
+**Implemented by:** [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]]
 
 **With variations:** [[:basics:GWBASIC:]]  
 
@@ -48,6 +48,7 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
+  * [[CVL]]
 
 
 ===== Similar keywords =====
@@ -69,3 +70,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Conversion Strings}}

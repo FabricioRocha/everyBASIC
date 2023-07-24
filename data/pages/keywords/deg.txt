@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:bwbasic:bw32]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:bwbasic:bw32]], [[:basics:Gambas:]], [[:basics:EndBASIC:]]
 
 **With variations:** [[:basics:Atari:]] (statement, sets option to use degrees instead of radians)
 

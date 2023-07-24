@@ -1,7 +1,7 @@
-====== MKD$ ======
+====== UNMOUNT ======
 /* Remove the comments after creating content for each section.*/
 
-Returns the string representation of a double-precision floating-point number
+//TO DO: A summary of what it does//
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,9 +15,9 @@ Returns the string representation of a double-precision floating-point number
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msqb]], [[:basics:msx]]
+**Implemented by:** [[:basics:EndBASIC:]]
 
-**With variations:** [[:basics:bwbasic]]
+**With variations:** 
 
 **Also written as: ** 
 
@@ -26,7 +26,7 @@ Returns the string representation of a double-precision floating-point number
 
 
 ==== Variations ====
-In [[:basics:bwbasic|Bywater BASIC]], MKD$ and its sister functions [[MKI$]] and [[MKS$]] are implemented but all of them work the same, as there is only one numerical type and no precision distinction. 
+
 
 
 ===== Examples =====
@@ -48,7 +48,7 @@ In [[:basics:bwbasic|Bywater BASIC]], MKD$ and its sister functions [[MKI$]] and
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-  * [[CVD]]
+
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,4 +69,3 @@ In [[:basics:bwbasic|Bywater BASIC]], MKD$ and its sister functions [[MKI$]] and
   
   {{tag>tagName}}
 */
-{{tag>Functions Conversion Strings}}

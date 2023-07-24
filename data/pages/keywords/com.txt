@@ -15,9 +15,9 @@ Activates, deactivates or suspend the listening or polling on a serial port
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Atari:atxl]], [[:basics:GWBASIC:]]
+**Implemented by:** [[:basics:Atari:atxl]], [[:basics:GWBASIC:]], [[:basics:VBDOS:]]
 
-**With variations:** [[:basics:hptsb:]]
+**With variations:** [[:basics:hptsb:]], [[:basics:msqb:QBasic]] (with ON, OFF, STOP)
 
 **Also written as: ** 
 

@@ -1,4 +1,4 @@
-====== END_IF ======
+====== END IF ======
 /* Remove the comments after creating content for each section.*/
 
 //TO DO: A summary of what it does//
@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:FreeBASIC:]], [[:basics:EndBASIC:]]
 
 **With variations:** 
 

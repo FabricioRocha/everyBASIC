@@ -15,7 +15,7 @@ Very much like PRINT, but outputs characters to the system's printer instead of 
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Atari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Atari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:zx81]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
 **With variations:** 
 

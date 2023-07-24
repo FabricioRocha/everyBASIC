@@ -1,4 +1,4 @@
-====== ON_ERROR_RETURN ======
+====== ON ERROR RETURN ======
 /* Remove the comments after creating content for each section.*/
 
 //TO DO: A summary of what it does//

@@ -10,7 +10,7 @@
 
 The most current version of bwBASIC as of 2023 seems to be a strong diversion from 2.20 and previous versions, aimed at making the most for supporting a **LOT** of classic, especially mainframe and time-sharing BASIC dialects.
 
-Some of these are [[:basics:cbasic]], [[:basics:decbasic|DEC BASIC-PLUS]] for RSTS-11 and for PDP-8 and PDP-11, the original [[:basics:dartmouth:|Dartmouth BASIC]], [[:basics:trs80:|TRS-80 BASICs]] of its various levels, [[:basics:ms80basic:mbasic|Microsoft MBASIC for Xenix]] and many others. Even the previous version is emulated, as "bywater2".
+Some of these are [[:basics:cbasic]], [[:basics:decbasic|DEC BASIC-PLUS]] for RSTS-11 and for PDP-8 and PDP-11, the original [[:basics:dartmouth:|Dartmouth BASIC]], [[:basics:trs80:|TRS-80 BASICs]] of its various levels, [[:basics:ms80basic|Microsoft MBASIC for Xenix]] and many others. Even the [[..bwbasic:|previous 2.20]] version is emulated as a dialect, as "bywater2".
 
 This emulation is not always precise and faithful, however. Some arbitrary design choices are made by its maintainers, and it seems that emulation emphasis is on supporting the keywords those BASICs had, while not so much on structural and syntactical oddities.
 
@@ -26,8 +26,8 @@ As one might expect, the number of implemented keywords for all these dialects s
   * GNU/Linux
 
 ===== Noteworthy characteristics =====
-/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
 
+  * The following keywords exist in [[..bwbasic:|bwBASIC 2.20]] but were **not implemented** in the 3.20 dialect: [[:keywords:CHDIR]], [[:keywords:DO_NUM|DO NUM]], [[:keywords:MKDIR]], [[:keywords:STR-S|STR$]], [[:keywords:TROFF]], [[:keywords:TRON]], and apparently also the [[:keywords:DO-LOOP]] and [[:keywords:DO-LOOP_WHILE|DO-LOOP WHILE]] conditional loop structures.
 
 ===== Environment and usage =====
 

@@ -15,9 +15,9 @@ Explicitely invokes a subroutine, optionally with arguments.
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth6]], [[:basics:ANSI:ansifull]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth6]], [[:basics:ANSI:ansifull]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:Applesoft:tasc]] (rejects any extra text following the call), [[:basics:TI994:]] (used to call subprograms CHAR, CLEAR, COLOR, GCHAR, HCHAR, JOYST, KEY, SCREEN, SOUND, VCHAR), [[:basics:MSX:]] (for cartridge programs), [[:basics:MSX:msxdisk]] (extended usage with FORMAT, SYSTEM and VERIFY), [[:basics:ugBASIC:]] (invokes a BASIC procedure)
+**With variations:** [[:basics:Applesoft:tasc]] (rejects any extra text following the call), [[:basics:TI994:]] (used to call subprograms CHAR, CLEAR, COLOR, GCHAR, HCHAR, JOYST, KEY, SCREEN, SOUND, VCHAR), [[:basics:MSX:]] (for cartridge programs), [[:basics:MSX:msxdisk]] (extended usage with FORMAT, SYSTEM and VERIFY), [[:basics:msqb:QBasic]] (also as CALL ABSOLUTE), [[:basics:msqb:qb4.5]] (as CALL ABSOLUTE and CALL INTERRUPT), [[:basics:ugBASIC:]] (invokes a BASIC procedure)
 
 **Also written as: ** 
 

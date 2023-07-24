@@ -1,7 +1,7 @@
 ====== RENUM ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Short for [[RENUMBER]] and does pretty much the same, despite different features sometimes: changes the numbers of lines of a program stored in memory.
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -19,26 +19,27 @@
 
 **With variations:** 
 
-**Also written as: ** 
+**Also written as: ** [[RENUMBER]]
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+RENUM is an interpreter command in line-numbered BASICs and will blow your machine if used as a statement within a program in most if not all BASICs. Well, sort of.
 
+Microsoft line-numbered BASICs such as [[:basics:GWBASIC:|GWBASIC]] and [[:basics:MSX:|MSX]] allow different quantities of arguments. The last one is the new //increment// to apply in every next line number: it is mandatory and must be higher than 1. The first (mandatory) and second (optional) arguments are, respectively, the //new// number of the first line to be renumbered and the //old// line number from which the new number sequence will be applied.
+ 
+<code gwbasic>
+  ' Make the program start from line 100, with a 10 gap between every line
+  RENUM 100,,10
+  
+  ' Maybe after merging code into your program you might want it in a lower line range, from 10000 to 2000 here
+  RENUM 2000, 10000, 10
+</code>
+
+Line numbers used as //targets// for program flow statements such as [[ELSE]], [[GOSUB]], [[GOTO]], [[THEN]], [[RESUME]], [[RETURN]] etc. will be also automatically updated by RENUM in GWBASIC and [[:basics:MSX:|MSX BASIC]].
 
 ==== Variations ====
 
-
-
-===== Examples =====
-/*
-  Below is an example of a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be
-  //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//,
-  //thinbasic//, //vb//, //vbnet//, //xbasic// or //zxbasic//. 
-
-  <code gwbasic>
-  10 PRINT "HELLO"
-  </code>
-*/
+GWBASIC allows both arguments to be replaced by a dot (.), meaning "the lastly edited line".
 
 
 
@@ -48,11 +49,13 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[AUTO]]
+  * [[LIST]], [[LLIST]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-
+  * [[RENUMBER]]
+  * [[NAME]], for TRS-80 BASICs
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -69,3 +72,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Commands linenumbered}}

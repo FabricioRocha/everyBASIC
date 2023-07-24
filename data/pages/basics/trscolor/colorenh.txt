@@ -5,6 +5,7 @@ trscolor:colorenh
 <WRAP>
 <WRAP right quarter box round>
 == Keywords ==
+//All of [[..trscolor:|Color BASIC]] and [[.colorext:|Extended]], plus://
 **{{backlinks>.#keywords}}**
 </WRAP>
 
@@ -21,7 +22,7 @@ It was also known as "Super Extended Color BASIC"((https://www.cocopedia.com/wik
 
 The CoCo 3 Advanced Color Video Chip, also known as GIME, had improved graphics capabilities. This BASIC extension added a set of graphical statements to take advantage of the new high-resolution video mode, typically started with "H", such as [[:keywords:HPAINT]], [[:keywords:HPRINT]], [[:keywords:HDRAW]] and [[:keywords:HLINE]]. An exception to the H rule was [[:keywords:LOCATE]], which was somewhat similar to its "meaning" in other Microsoft BASICs, but here worked for text output within this high-res mode. Also, this BASIC had commands for defining color palettes for RGB or composite video.
 
-Error handling was improved by [[:keywords:ERLIN]], [[:keywords:ERR]] and [[:keywords:ERRNO]].
+Error handling was improved by [[:keywords:ERLIN]], [[:keywords:ERR]] and [[:keywords:ERNO]].
 
 
 

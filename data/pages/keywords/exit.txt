@@ -15,9 +15,9 @@ For leaving a program block
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:ugBASIC:]] (also with subcommands [[IF]], [[PROC]] and PROC IF)
+**With variations:** [[:basics:msqb:QBasic]] (also with [[DEF]]), [[:basics:ugBASIC:]] (also with subcommands [[IF]], [[PROC]] and PROC IF)
 
 **Also written as: ** 
 

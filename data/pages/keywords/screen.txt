@@ -15,15 +15,53 @@ Initializes and/or configures a video mode; multiple platform-dependant options.
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:msamiga:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:msamiga:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:TI994:]] (through CALL; only sets color), [[:basics:ugBASIC:]] (also with subcommands COLUMNS, HEIGHT, HORIZONTAL SCROLL, OFF, ON, ROWS, SWAP, TILES HEIGHT, TILES WIDTH, VERTICAL SCROLL, WIDTH)
+**With variations:** [[:basics:TI994:]] (through CALL; only sets color), [[:basics:msqb:QBasic]] (also as a function), [[:basics:ugBASIC:]] (also with subcommands COLUMNS, HEIGHT, HORIZONTAL SCROLL, OFF, ON, ROWS, SWAP, TILES HEIGHT, TILES WIDTH, VERTICAL SCROLL, WIDTH)
 
 **Also written as: ** 
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+SCREEN is found in some Microsoft-based BASICs from the 8-bit era onwards as a statement to initialize various text or graphic modes. Apart from that brief common definition, there is little in common among its implementations due to hardware capabilities.
+
+Let's start with a syntax comparison. Optional parameters between [ and ]:
+
+  * ''SCREEN mode, colorset'' in [[:basics:trscolor:colorext|Extended Color BASIC]]
+  * ''SCREEN mode [,colordepth] [,startline]'' in [[:basics:ABasiC|Amiga ABasiC]]
+  * ''SCREEN id, cols, lins, colorbits, mode'' in [[:basics::msamiga]]
+  * ''SCREEN mode [,bolColor] [,activepage] [,visiblepage]'' in the [[:basics:msqb|MS-QuickBASIC]] family
+  * ''SCREEN mode [,spritesize] [,bolKeyclick] [,casspeed] [,prntype]'' in [[:basics:msx|MSX BASIC]]
+
+=== Extended Color BASIC ===
+<code locobasic>
+  SCREEN mode, colorset
+</code>
+
+  * //mode// - 0 for text, 1 for graphics
+  * //colorset//
+    * 0 - green, blue, yellow, red
+    * 1 - cyan, magenta, orange, buff (light ocre)
+
+=== MSX ===
+<code locobasic>
+SCREEN mode [,spritesize] [,bolKeyclick] [,casspeed] [,prntype]''
+</code>
+ 
+  * //mode//
+    * 0 - basic text mode, 40x24 (6-bit wide character box)
+    * 1 - text mode, 32x24 (8-bit wide character box)
+    * 2 - high-resolution graphics: 256x192, 16 colors
+    * 3 - low-resolution graphics: 64x48, 16 colors
+  * //spritesize//
+    * 0 - 8x8
+    * 1 - 8x8 expanded
+    * 2 - 16x16
+    * 3 - 16x16 expanded
+  * //bolKeyClick// - 0 turns off click sound when key is pressed; 1 turns this sound on
+  * //casspeed// - 1 for 1200 characters per second; 2 for 2400 characters per second
+  * //prntype// - seems to depend on implementation, but 0 for an ASCII-based national standard, 1 for MSX's standard
 
 ==== Variations ====
 The [[:basics:msqb|MS-QuickBASIC]] family allows the usage of SCREEN as a function that returns the character code or the color currently found at given line and column of a text-mode screen. The optional third parameter, if 0 (default), means the character ASCII code will be returned; any other value causes the foreground color code to be returned.
@@ -49,6 +87,7 @@ The [[:basics:msqb|MS-QuickBASIC]] family allows the usage of SCREEN as a functi
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
   * [[WIDTH]]
+  * [[PCLS]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -57,6 +96,8 @@ The [[:basics:msqb|MS-QuickBASIC]] family allows the usage of SCREEN as a functi
   * [[HGR2]]
   * [[MODE]]
   * [[TEXT]]
+  * [[GRAPHICS]]
+  * [[PMODE]]
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -64,6 +105,7 @@ The [[:basics:msqb|MS-QuickBASIC]] family allows the usage of SCREEN as a functi
 
 ===== References =====
 /* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
+  * //Getting Started with Extended Color BASIC//. Tandy Corp., 1984
 
 /*
   ===== TAGS =====

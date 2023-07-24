@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:trs80:trsdisk]], [[:basics:trs80:level3]], [[:basics:GWBASIC:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]]
+**Implemented by:** [[:basics:trs80:trsdisk]], [[:basics:trs80:level3]], [[:basics:GWBASIC:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]]
 
 **With variations:** [[:basics:bwbasic:]]
 
@@ -26,7 +26,7 @@
 
 
 ==== Variations ====
-
+In [[:basics:bwbasic|Bywater BASIC]], MKI$ and its sister functions [[MKDS|MKD$]] and [[MKSS|MKS$]] are implemented but all of them work the same, as there is only one numerical type and no precision distinction. 
 
 
 ===== Examples =====
@@ -48,7 +48,7 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[CVI]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +69,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Conversion Strings}}

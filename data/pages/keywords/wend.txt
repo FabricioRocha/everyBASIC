@@ -15,7 +15,7 @@ Marks the end of a loop block of instructions which was started with [[WHILE]]
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]]
+**Implemented by:** [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:EndBASIC:]]
 
 **With variations:** 
 

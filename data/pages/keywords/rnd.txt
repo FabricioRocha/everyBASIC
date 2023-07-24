@@ -15,9 +15,9 @@ Returns a random number
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansimin]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Sinclair:zx80]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicmm:]]
+**Implemented by:** [[:basics:ANSI:ansimin]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:ABasiC:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:minibasicmm:]], [[:basics:EndBASIC:]]
 
-**With variations:** [[:basics:Atari:]] (only 0 <= x < 1), [[:basics:trs80:]] (range variations: 0 for 0 to 1, N for 1 to N), [[:basics:trscolor:]] (from 0 to 1 or from 1 to N), [[:basics:bwbasic:bw32]], [[:basics:Gambas:]], [[:basics:ugBASIC:]] (integers, parameter sets upper bound)
+**With variations:** [[:basics:Dartmouth:dartmouth1]] (return value between 0 and 1; argument ignored), [[:basics:Atari:]] (only 0 <= x < 1), [[:basics:trs80:]] (range variations: 0 for 0 to 1, N for 1 to N), [[:basics:trscolor:]] (from 0 to 1 or from 1 to N), [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]] (only between 0 and 1), [[:basics:Gambas:]], [[:basics:ugBASIC:]] (integers, parameter sets upper bound)
 
 **Also written as: ** 
 

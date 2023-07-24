@@ -15,7 +15,7 @@ Output the contents of variables and/or expressions to screen; or redirects furt
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Applesoft:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Applesoft:]], [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
 
 **With variations:** [[:basics:trscolor:colordisk]] (writes data to buffer)
 

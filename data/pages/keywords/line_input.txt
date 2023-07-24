@@ -15,7 +15,7 @@ Reads a line of characters from the keyboard or other input device, without a "s
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msatari:]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:msatari:]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
 
 **With variations:** [[:basics:trs80:trsdisk]] (also with # variation), [[:basics:trs80:level3]] (also as LINE INPUT#LEN)
 

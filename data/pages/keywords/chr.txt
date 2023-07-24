@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]]
+**Implemented by:** [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]], [[:basics:EndBASIC:]]
 
 **With variations:** 
 

@@ -1,0 +1,72 @@
+sinclair:spectrum
+====== Sinclair Spectrum BASIC ======
+{{tag>spectrum}}
+
+<WRAP>
+<WRAP right quarter box round>
+== Keywords ==
+//All of [[..:sinclair|ZX80]] plus://
+**{{backlinks>.#keywords}}**
+</WRAP>
+
+It is possible that the 1982 Spectrum is the most iconic of the Sinclair computers, as much a British symbol as the BBC Micro. It finally brought true graphics and 8 //colours// to the family, with an again-doubled BASIC compared to the [[..:sinclair:zx81|ZX81]], curiously reinstating some keywords from the original [[..:sinclair|ZX80]] version which had been left out by its predecessor. 
+
+===== Where it is/was used =====
+/* TO DO: Machines and emulators which ran this BASIC. */
+  * Sinclair Spectrum 48KB (UK)
+  * Microdigital TK-90X (Brazil)
+
+===== Noteworthy characteristics =====
+/* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
+
+
+===== Environment and usage =====
+
+/* TO DO: notes about the REPL or IDE used, keyboard shortcuts and commands, command-line options for compiling and linking, environment variables which might be set... */
+
+
+===== Extensions =====
+/* TO DO: Famous libraries tools and extension packages made for this BASIC */
+
+
+===== Curiosities =====
+/* TO DO: Historical notes, anecdotes, what people said about it */
+
+
+===== Related to... =====
+/*   * **[[basicTagName|basicTitle]]** - TO DO: a brief description of the relation they have with this one */
+
+
+==== Influenced by ====
+/*  * **[[basicTagName|basicTitle]]** - TO DO: which are the noticeable or assumed influences */
+
+
+==== Influence for ====
+/*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
+
+
+===== Versions and successors =====
+/*
+  No much need of prose here, just links. Notice the different patterns to create the links:
+    * **[[basics:sinclair:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
+*/
+
+
+
+===== References =====
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
+
+</WRAP>
+
+/* ===== Page tags =====
+
+  Follow the example below. Some tags might be useful for a to-be-implemented search mechanism.
+  Separate tags with spaces, use quotes for a multiple-word tag 
+  
+  {{tag>Compilers Microsoft Windows Linux}}
+*/

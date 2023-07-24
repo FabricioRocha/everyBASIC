@@ -15,9 +15,9 @@ Initializes access to a file or device, configuring its access mode, permissions
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:trs80:level3]], [[:basics:trscolor:]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:trs80:level3]], [[:basics:trscolor:]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]]
 
-**With variations:** [[:basics:CBM:]], [[:basics:Gambas:]]
+**With variations:** [[:basics:CBM:]], [[:basics:msqb:QBasic]] (also as OPEN COM), [[:basics:Gambas:]]
 
 **Also written as: ** 
 

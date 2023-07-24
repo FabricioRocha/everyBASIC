@@ -14,7 +14,7 @@ Returns a string which is a copy of the one passed as argument, but without trai
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:bwbasic:bw32]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:Gambas:]]
 
 **With variations:** 
 

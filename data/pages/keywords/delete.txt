@@ -17,7 +17,7 @@ Removes a file from disk
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Altair:altair12K]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:hptsb:]]
+**With variations:** [[:basics:hptsb:]], [[:basics:VBDOS:]] (ISAM instruction)
 
 **Also written as: ** 
 

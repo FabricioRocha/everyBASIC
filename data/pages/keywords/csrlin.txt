@@ -15,7 +15,7 @@ Returns, as an integer, the line number where the console cursor is at
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
 **With variations:** 
 
@@ -24,6 +24,12 @@ Returns, as an integer, the line number where the console cursor is at
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+Found from later versions of [[:basics:ms80|Microsoft BASIC]] onwards, "CurSoR LINe" can be either implemented as a function (as in [[:basics:msx|MSX BASIC]] or as a special variable (as in [[:basics:gwbasic|GWBASIC]]). Usage is the same: attributed to a numerical variable, it returns the integer number of the current vertical coordinate of the text cursor.
+
+  IF CSRLIN = 1 THEN PRINT "Top of screen"
+
+The topmost line number is 1 in GWBASIC; its manual says that 25 is the maximum value and does not tell what happens if the screen has more lines, up to 43 in some special modes of the IBM-PC and compatibles.
+ 
 
 ==== Variations ====
 
@@ -49,6 +55,7 @@ Returns, as an integer, the line number where the console cursor is at
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
   * [[POS]]
+  * [[LOCATE]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,4 +76,4 @@ Returns, as an integer, the line number where the console cursor is at
   
   {{tag>tagName}}
 */
-{{tag>Functions Console}}
+{{tag>Functions "Special Variables" Console}}

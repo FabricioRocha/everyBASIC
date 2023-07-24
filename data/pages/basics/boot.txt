@@ -1,22 +1,28 @@
-zx80
-====== ZX-80 (4K) BASIC ======
-{{tag>zx80}}
+boot
+====== bootBASIC ======
+{{tag>boot}}
 
 <WRAP>
+/* -- UNCOMMENT WHEN KEYWORDS ARE MARKED FOR THIS BASIC
 <WRAP right quarter box round>
 == Keywords ==
 **{{backlinks>.#keywords}}**
 </WRAP>
+*/
 
-The tiny Sinclair ZX-80 had an incomplete implementation of [[:basics:ansi:ansimin|ANSI Minimal BASIC]] made by Nine Tiles Networks, England. It only had integer arithmetic in order to fit into 4KB of ROM.
+A 512-byte integer BASIC interpreter is surely a feat by Oscar Toledo, also known as //nanochess// on GitHub, where bootBASIC's [[https://github.com/nanochess/bootBASIC|source code resides]]. As of June 2023, this project from 2019 seemed to be alive, in spite of its Assembly code being apparently untouched for 3 years already.
+
+ 
 
 ===== Where it is/was used =====
-/* TO DO: Machines and emulators which ran this BASIC. */
-  * Sinclair ZX-80
+According to the project's README file, the NASM-assembled code runs on the Intel 8088-based original IBM PC. There are ports for [[https://github.com/taisukef/bootBASIC_64bit|32-bit and 64-bit Macintoshes as well]].
+
+
+
 
 ===== Noteworthy characteristics =====
 /* TO DO: a list or prose text about this BASIC's features, quirks, Easter eggs, tricks, singularities... */
-  * Every line of code should start with a command, due to the way the REPL interface and keyboard entry were implemented. This made [[:keywords:LET]] mandatory in assignments, unlike most other BASICs.
+
 
 ===== Environment and usage =====
 
@@ -46,15 +52,18 @@ The tiny Sinclair ZX-80 had an incomplete implementation of [[:basics:ansi:ansim
 ===== Versions and successors =====
 /*
   No much need of prose here, just links. Notice the different patterns to create the links:
-    * **[[basics:sinclair:versionTagName|versionTitle]]** - for versions (created under this page)
+    * **[[basics:versionTagName|versionTitle]]** - for versions (created under this page)
     * **[[successorTagName|successorTitle]]** - for a successor (created as sibling of this page)
 */
 
 
 
 ===== References =====
-  * https://en.wikipedia.org/wiki/ZX80
-  * https://www.petervis.com/Sinclair/Sinclair_ZX80_Manual/4k-basic.html , last check 2023-03-02
+/*
+  If the ((citation)) syntax was used elsewhere, they will be listed below this section.
+  You can prepend this with a list of books, magazines and web pages with information
+  used in this page
+*/
 
 </WRAP>
 
@@ -65,4 +74,3 @@ The tiny Sinclair ZX-80 had an incomplete implementation of [[:basics:ansi:ansim
   
   {{tag>Compilers Microsoft Windows Linux}}
 */
-{{tag>Interpreters Sinclair "Nine Tiles"}}

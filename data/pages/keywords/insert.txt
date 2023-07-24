@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:CBM:Simons1]]
 
-**With variations:** 
+**With variations:** [[:basics:VBDOS:]] (ISAM related)
 
 **Also written as: ** 
 

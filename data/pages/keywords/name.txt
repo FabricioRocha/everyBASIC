@@ -1,7 +1,7 @@
 ====== NAME ======
 /* Remove the comments after creating content for each section.*/
 
-Changes the name of a file
+Changes the name of a file on disk; in some implementations is used for renumbering lines and references to them
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,18 +15,46 @@ Changes the name of a file
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:msatari:]], [[:basics:GWBASIC:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:hptsb:]], [[:basics:msatari:]], [[:basics:GWBASIC:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:decbasic:]], [[:basics:trs80:trsdisk]] (for renumbering lines), [[:basics:trs80:level3]] (renumbers lines and line references)
+**With variations:** [[:basics:ANSI:ansifull]] (file attribute), [[:basics:decbasic:]], [[:basics:trs80:trsdisk]] (for renumbering lines), [[:basics:trs80:level3]] (renumbers lines and line references)
 
 **Also written as: ** 
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+In most Microsoft-based BASICs where it exists, NAME is a disk-only, file-related command implemented by extensions, interpreters or compilers with disk support. It takes a //current file name//, the [[AS]] particle and a //new name//:
+
+  NAME "TEST.BAS" AS "MYPROG1.BAS"
+
+If the system supports multiple virtual and/or physical disk drives, the unit specifier may precede filenames. MSX and IBM-PC Microsoft BASICs will use the familiar single-letter-and-colon pattern:
+
+  NAME "A:TEST.BAS" AS "A:MYPROG1.BAS"
+
+Uncertain behaviour might be expected if different drive specifiers are used for the old and new name.
+
+Directory paths are also supported in BASICs that run on an hierarchical filesystem, such as the MS-QB family. Supposedly they should only be allowed with the //current// file name; it remains to be checked what happens if //current// and //new// file names contain paths, both equal and different.
+   
 
 
 ==== Variations ====
 
+TRS-80 BASICs had a different application for NAME: renumbering program lines, just like [[RENUM]] in other Microsoft-derived BASICs.
+
+  NAME 100, 10, 10
+
+Check the [[RENUM]] page for an explanation on the arguments. In [[:basics:trs80:level3|TRS-80 Level III BASIC]], the command automatically updates the target lines of [[GOTO]], [[GOSUB]], [[THEN]], [[ELSE]], [[RESUME]], [[INPUT]]#LEN, [[ON-GOTO]] and [[ON-GOSUB]].
+
+The [[:basics:ANSI:ansifull|ANSI Standard "Full" specification]] lists NAME as one of the "core attributes" for files that could be used in the list of arguments of an [[OPEN]] or [[ASK]] statement:
+
+<code purebasic>
+OPEN #3: NAME "myfile"
+
+! The following command results in "myfile" being stored in N$:
+ASK #3: NAME N$
+</code>
+
+The specification is incredibly confusing about //anything// and whether a file can be renamed is no exception. [[SET]] is mentioned as one of the commands that provide "file operations" (section 11, //caput//), so it //might// be possible to use something like ''SET #3: NAME "newname'', but further mentions to SET in the section are apparently restricted to is usage with "pointer control" as part of the so-called "record operations".
 
 
 ===== Examples =====
@@ -48,11 +76,12 @@ Changes the name of a file
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[OPEN]], [[ASK]], [[SET]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
-
+  * [[RENAME]]
+  * [[RENUM]], [[RENUMBER]]
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
@@ -60,6 +89,9 @@ Changes the name of a file
 
 ===== References =====
 /* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
+
+  * //G2 LEVEL III BASIC Manual//
+  * //Expert DD Plus - Manual de Instruções//. Gradiente/Editora ALEPH, 1989
 
 /*
   ===== TAGS =====
@@ -69,3 +101,4 @@ Changes the name of a file
   
   {{tag>tagName}}
 */
+{{tag>Commands Files}}

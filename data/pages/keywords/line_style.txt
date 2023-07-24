@@ -1,4 +1,4 @@
-====== LINE_STYLE ======
+====== LINE STYLE ======
 /* Remove the comments after creating content for each section.*/
 
 //TO DO: A summary of what it does//

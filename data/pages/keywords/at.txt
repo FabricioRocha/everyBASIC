@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:TI994:ti994ext]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:Sinclair:]], [[:basics:Sinclair:spectrum]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:TI994:ti994ext]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:Sinclair:zx81]], [[:basics:Sinclair:spectrum]]
 
 **With variations:** 
 

@@ -15,7 +15,7 @@ Initiates a conditional loop, whose condition is to be evaluated at the end of e
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:**  [[:basics:bwbasic]], [[:basics:msqb]]
+**Implemented by:** 
 
 **With variations:** 
 

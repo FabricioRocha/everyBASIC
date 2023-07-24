@@ -15,9 +15,9 @@ Show, hide, list, enable, disable, suspend or configure function keys of the key
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:CBM:Simons1]], [[:basics:GWBASIC:]], [[:basics:VBDOS:]]
 
-**With variations:** [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:TI994:]] (through CALL; works like INKEY$), [[:basics:MSX:]] (function keys assignments; also as ON KEY, KEY LIST, with ON/OFF/STOP and argument), [[:basics:bwbasic:bw32]]
+**With variations:** [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:TI994:]] (through CALL; works like INKEY$), [[:basics:MSX:]] (function keys assignments; also as ON KEY, KEY LIST, with ON/OFF/STOP and argument), [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]] (also with ON/OFF/STOP; able to read control keys)
 
 **Also written as: ** 
 

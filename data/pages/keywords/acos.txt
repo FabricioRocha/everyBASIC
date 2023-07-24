@@ -1,7 +1,7 @@
 ====== ACOS ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns the arc-cosine of a number given as an argument from -1 to 1
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -24,12 +24,11 @@
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
-
-==== Variations ====
-
+  PRINT ACOS(0.9)
 
 
-===== Examples =====
+
+
 /*
   Below is an example of a code block, using GeSHi syntax highlighting for //gwbasic//. Other styles of interest might be
   //basic4gl//, //blitzbasic//, //freebasic//, //gambas//, //locobasic//, //purebasic//, //qbasic//, //sdlbasic//,
@@ -43,12 +42,14 @@
 
 
 ===== Comments =====
-/* Origin of the keyword, opinions, history... */
+The arc-cosine is the inverse function of the cosine trigonometric function. It is the length of the arc whose cosine is its argument, and, as a proportion from 0 to 1 of the circle radius, this is the same as the angle, in radians, whose cosine is the argument.
+
+The arc-cosine function can only result in real values if given a value in the range of -1 to 1; a runtime error will happen otherwise.
 
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[COS]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +70,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Trigonometry}}

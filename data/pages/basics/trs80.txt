@@ -18,6 +18,7 @@ While the keyword set in both versions was quite similar, Level I was a 4KB ROM 
 /* TO DO: Machines and emulators which ran this BASIC. */
   * Tandy/Radio Shack TRS-80 Model I
   * Tandy/Radio Shack TRS-80 Model III
+    * Prologica CP-500 (Brazil)
 
 ===== Noteworthy characteristics =====
 

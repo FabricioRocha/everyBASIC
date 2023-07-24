@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Sinclair:zx80]]
+**Implemented by:** [[:basics:Sinclair:]]
 
 **With variations:** 
 

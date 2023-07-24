@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:CBM:Simons1]], [[:basics:msatari:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:CBM:Simons1]], [[:basics:msatari:]], [[:basics:VBDOS:]], [[:basics:Gambas:]]
 
 **With variations:** [[:basics:Atari:ataplus]] (moves memory blocks), [[:basics:Atari:atxl]] (moves memory blocks), [[:basics:Sinclair:spectrum]], [[:basics:ugBASIC:]] (as MOVE TILE)
 

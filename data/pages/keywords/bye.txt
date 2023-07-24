@@ -1,7 +1,7 @@
 ====== BYE ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Command to exit from an interactive interpreter or section
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -69,3 +69,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Commands}}

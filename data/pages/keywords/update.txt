@@ -15,7 +15,7 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:hptsb:]]
+**Implemented by:** [[:basics:hptsb:]], [[:basics:VBDOS:]]
 
 **With variations:** 
 

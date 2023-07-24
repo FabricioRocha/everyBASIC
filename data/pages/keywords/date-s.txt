@@ -14,9 +14,9 @@ Sets the system date, according to the passed formatted string, or returns its c
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]]
+**Implemented by:** [[:basics:GWBASIC:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:VBDOS:]]
 
-**With variations:** [[:basics:decbasic:]]
+**With variations:** [[:basics:decbasic:]], [[:basics:msqb:QBasic]] (used like statement or special variable)
 
 **Also written as: ** 
 

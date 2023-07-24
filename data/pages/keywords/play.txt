@@ -15,9 +15,9 @@ Plays a tune described by a MIDI-ish "musical macro language", a string of octav
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]]
+**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:trscolor:colorext]], [[:basics:GWBASIC:]], [[:basics:VBDOS:]]
 
-**With variations:** [[:basics:CBM:Simons1]], [[:basics:MSX:]] (uses macro language), [[:basics:ugBASIC:]] (note, duration, channels; also with OFF)
+**With variations:** [[:basics:CBM:Simons1]], [[:basics:MSX:]] (uses macro language), [[:basics:msqb:QBasic]] (with ON/OFF/STOP and macro language; also as function and as [[ON]] PLAY [[GOSUB]]), [[:basics:ugBASIC:]] (note, duration, channels; also with OFF)
 
 **Also written as: ** 
 

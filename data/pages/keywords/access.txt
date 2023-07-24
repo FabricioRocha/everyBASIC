@@ -1,7 +1,7 @@
 ====== ACCESS ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Usually combined with [[OPEN]] or [[ASK]], sets or returns the access mode users have to an open file.
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,19 +15,36 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** 
+**With variations:** [[:basics:Gambas:]] (as a function)
 
 **Also written as: ** 
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+In the [[:basics:msqb:|MS-QuickBASIC]] family, [[:basics:VBDOS:]] and [[:basics:FreeBASIC:]], ACCESS is part of an [[OPEN]] statement with a network-shared file. 
+
+  OPEN filepath$ FOR INPUT ACCESS READ AS #1
+
+The [[:basics:ANSI:ansifull|ANSI Standard "Full" BASIC specification]] shows ACCESS as one of the possible arguments for [[OPEN]] and [[ASK]] in the so-called "file operations" (section 11.1). The values it could take or return would be the strings [[INPUT]], [[OUTPUT]] and [[OUTIN]]. If used with ASK, ACCEPT should be followed by a string variable name, which would be loaded with the return value.
+
+<code qbasic>
+OPEN #1: NAME "anyfile.txt", ACCESS INPUT, ORGANIZATION SEQUENTIAL
+
+ASK #1: ACCESS A$
+PRINT A$
+</code>
+
 
 ==== Variations ====
 
+[[:basics:Gambas:]] implements ACCESS purely as a boolean function that returns TRUE if the given filepath can be acessed by the application/user in an optionally given //mode// in the form of a constant from the ''gb'' class (''gb.Read'' if ommited):
 
+<code gambas>
+Print Access ("/root", gb.Write)  ' FALSE
+</code>
 
 ===== Examples =====
 /*
@@ -48,7 +65,8 @@
 
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
-
+  * [[OPEN]]
+  * [[ASK]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
@@ -69,3 +87,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Functions Modifiers Files}}

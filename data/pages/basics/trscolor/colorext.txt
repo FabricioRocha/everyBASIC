@@ -5,6 +5,7 @@ trscolor:colorext
 <WRAP>
 <WRAP right quarter box round>
 == Keywords ==
+//All of [[..trscolor:|Color BASIC]], plus://
 **{{backlinks>.#keywords}}**
 </WRAP>
 

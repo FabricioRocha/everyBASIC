@@ -15,7 +15,7 @@ A conditional branching structure to allow definition of multiple different acti
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:sbasic]], [[:basics:ANSI:ansifull]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:sbasic]], [[:basics:ANSI:ansifull]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]], [[:basics:EndBASIC:]]
 
 **With variations:** [[:basics:Gambas:]]
 

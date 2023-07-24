@@ -15,7 +15,7 @@ Blocks access to records of a shared file; can also be used for protecting a fil
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Applesoft:]], [[:basics:msatari:]], [[:basics:GWBASIC:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
+**Implemented by:** [[:basics:Applesoft:]], [[:basics:msatari:]], [[:basics:GWBASIC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
 
 **With variations:** [[:basics:hptsb:]]
 
