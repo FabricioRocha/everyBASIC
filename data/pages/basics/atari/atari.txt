@@ -89,6 +89,7 @@ But for its side, Atari BASIC had some interesting features as well:
   * https://atariwiki.org/wiki/Wiki.jsp?page=Atari%20BASIC
   * https://en.wikipedia.org/wiki/Atari_BASIC
   * https://archive.org/details/ataribooks-atari-basic
+  * https://goto10retro.com - Excellent read from Paul Lefebvre about everything related to Atari computers, including some valuable BASIC tips. Last check 2024-01-17
 
 </WRAP>
 {{tag>Interpreters linenumbered Atari Atari8bit}}

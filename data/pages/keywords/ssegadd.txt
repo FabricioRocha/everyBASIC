@@ -1,7 +1,7 @@
 ====== SSEGADD ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Returns the address of a string variable or an element of a string array, in the form of segment and offset (far address)
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,

@@ -1,7 +1,7 @@
 ====== BYREF ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Parameter or argument modifier to allow "passing by reference"; also used in variable declarations
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -24,9 +24,29 @@
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+In a more common usage, BYREF is used in the context of a function declaration or a function call, so that if a variable name is used as argument, the function is able to access this variable itself, instead of only receiving a copy of the value it holds.
+
+<code freebasic>
+Sub ChangeVar(ByRef AVar As Integer)
+    AVar = AVar + 1
+End Sub
+
+ChangeVar MyVar  ' increments MyVar itself
+</code>
+
+
 
 ==== Variations ====
 
+In Gambas, a function whose declaration contains a parameter modified by BYREF becomes able to receive the argument as a reference, but it still can come as a value only. The function //call// must also use BYREF in order to force the argument to be passed by reference:
+
+<code gambas>
+MyFunc(ByRef outerVar)
+</code>
+
+FreeBASIC's documentation is more detailed about restrictions and limitations of BYREF and its sister [[BYVAL]] (as an example: arrays are always passed by reference, so BYREF is not only unnecessary but //forbidden//). Also, the //-lang// directive for "language mode" influences such restrictions and the way parameters are passed by default: in the //fb// dialect arguments are mostly passed by value, while in //qb// and //fblite// dialects arguments are passed by reference by default.  
+
+Also, FreeBASIC allows BYREF to be used as a modifier in variable declarations.
 
 
 ===== Examples =====
@@ -49,17 +69,24 @@
 ===== Related keywords =====
 /* Keywords that are often or always used along this one */
 
+  * [[BYVAL]]
 
 ===== Similar keywords =====
 /* Keywords with the same or similar functionality found in other versions of BASIC */
 
+  * [[POINTER]]
 
 ===== In other languages... =====
 /* For parallels and comparisons with other modern-day languages */
 
+BYREF somehow provides a similar effect as that of passing //pointers// as function arguments in the C language.
 
 ===== References =====
 /* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
+
+  * https://www.freebasic.net/wiki/KeyPgByref , last check 2024-03-03
+  * https://gambaswiki.org/wiki/lang/byref , last check 2024-03-03
+  * https://gambaswiki.org/wiki/doc/byref , last check 2024-03-03
 
 /*
   ===== TAGS =====
@@ -69,3 +96,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Modifiers Variables Parameters Arguments}}

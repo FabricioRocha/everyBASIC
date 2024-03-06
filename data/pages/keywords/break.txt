@@ -1,7 +1,7 @@
 ====== BREAK ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Halt a program or leave a loop immediately
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -24,6 +24,7 @@
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+[[:basics:gambas|Gambas]] uses BREAK as a keyword to leave the current loop immediately, usually if a certain condition is met.
 
 ==== Variations ====
 
@@ -61,6 +62,8 @@
 ===== References =====
 /* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
 
+  * https://gambaswiki.org/wiki/lang/break , last check 2024-03-02
+
 /*
   ===== TAGS =====
   Please use the syntax below for adding tags to this page, separated by spaces (use quotes for tags with spaces).
@@ -69,3 +72,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Statements Loops}}

@@ -72,6 +72,8 @@ While ''$'' is commonly used as suffix for string variables, in Atom BASIC it co
   used in this page
 */
   * https://en.wikipedia.org/wiki/Acorn_System_BASIC , last check 2023-03-14
+  * https://site.acornatom.nl , last check 2024-01-07
+  * JOHNSON-DAVIES, David. //Atomic Theory and Practice//. 2nd edition. Acorn Computer Ltd. Cambridge, England, 1980. Available online at https://site.acornatom.nl/boeken/atap_hoglet_20130414_v2.pdf , last check 2024-01-07.
 
 
 </WRAP>
@@ -83,4 +85,4 @@ While ''$'' is commonly used as suffix for string variables, in Atom BASIC it co
   
   {{tag>Compilers Microsoft Windows Linux}}
 */
-{{tag>Interpreters Acorn}}
+{{tag>Interpreters Acorn Line-Numbered}}

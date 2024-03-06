@@ -24,10 +24,14 @@ Allocates memory space for variables of a record structure of a random-access fi
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+Microsoft BASICs implement FIELD as a way of mapping fixed-width chunks read from a random-access file into string variables.
+
+Syntax remains similar: the first argument is a file identifier, then a number of characters, the [[AS]] keyword and the name of the string variable which will store the data. A comma separates each sequence of "size AS variable":
+
+''FIELD #1, 20 AS RN$, 20 AS RS$''
 
 In [[:basics:msx:|MSX BASIC]], FIELD is implemented by the [[:basics:msx:msxdisk|MSX DiskBASIC extension]].
 
-''FIELD #1, 20 AS RN$, 20 AS RS$''
 ==== Variations ====
 
 

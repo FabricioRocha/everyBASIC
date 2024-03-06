@@ -23,11 +23,21 @@ Returns, as an integer, the position of the first character of a string within a
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
+INSTR returns the position of the first character of a given string within another given string.
 
+In some Microsoft BASICs at least, such as [[:basics:MSX]], 0 would be returned if the substring could not be found, meaning that the character count of the searched string started at 1. Syntax is:
+
+  X = INSTR(?startpos?, haystr, needlestr)
+
+where:
+
+  * ''?startpos?'' is an optional start position from where the search would be performed
+  * ''haystr'' is the string to be scanned for the occurence of the substring
+  * ''needlestr'' is the substring we are trying to find in ''haystr''
 
 ==== Variations ====
 
-
+In [[:basics:bbc|BBC BASIC]], the optional start position for the search was the last parameter, after the "hay" and the "needle" arguments.
 
 ===== Examples =====
 /*

@@ -1,7 +1,7 @@
 ====== SETINDEX ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Chooses an ISAM table index within an open file as the current index.
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -24,6 +24,7 @@
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+This keyword is part of the ISAM package available in the //Professional Edition// version of [[:basics:vbdos|Microsoft Visual Basic for DOS]].
 
 ==== Variations ====
 
@@ -69,3 +70,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Statements ISAM Database}}

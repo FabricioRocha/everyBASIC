@@ -44,6 +44,7 @@ The [[:basics:bwbasic:|Bywater BASIC]] manual/README file says: "The ANSI Standa
 /*  * **[[basicTagName|basicTitle]]*** - TO DO: which are the noticeable or assumed influences */
   * [[:basics:truebasic:|TrueBASIC]] - by Kemeny and Kurtz, probably the first admitted attempt to create an implementation according to the standard (or part of it at least)
   * [[:basics:msqb:|Microsoft QuickBASIC]] - probably in order to be able to sell its BASIC to government agencies, Microsoft also had a look at the ANSI standard and took some ideas from it for its highly sucessfull second-generation, structured BASIC
+  * [[:basics:decimal|Decimal BASIC]] - a 21st-century open-source, multiplatform IDE/interpreter which strives to follow the standard
 
 ===== Versions and successors =====
 /*

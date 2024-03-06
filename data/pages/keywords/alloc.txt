@@ -1,7 +1,7 @@
 ====== ALLOC ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Allocates a memory block and returns a pointer to it
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -23,7 +23,7 @@
 
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
-
+Gambas allows two different uses of this function: one for a numerical size and one for storing a string in memory.
 
 ==== Variations ====
 
@@ -39,7 +39,6 @@
   10 PRINT "HELLO"
   </code>
 */
-
 
 
 ===== Comments =====
@@ -61,6 +60,8 @@
 ===== References =====
 /* If you used the ((citation)) syntax elsewhere in the text, they will appear under this section. But you can write some recommendations of books, magazines, etc */
 
+* https://gambaswiki.org/wiki/lang/alloc , last check 2024-02-16
+
 /*
   ===== TAGS =====
   Please use the syntax below for adding tags to this page, separated by spaces (use quotes for tags with spaces).
@@ -69,3 +70,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Function Memory}}

@@ -24,6 +24,20 @@ Returns the handler or the access mode of an [[OPEN]] file
 ===== Usage =====
 /* For inline examples of syntax, write the keyword between '' and '' (two single quotes) */
 
+''VAR = FILEATTR(filenumber, whattoreturn)''
+
+where ''filenumber'' is the numerical identifier of an open file, such as #1, and ''whattoreturn'' can be either:
+
+  * 1 - the function will return the //mode// the file is open, as a number:
+    * 1 - for input
+    * 2 - for output
+    * 4 - random
+    * 8 - for append
+    * 32 - binary
+    * 64 - ISAM
+  * 2 - the function will return the MS-DOS file handle for the file. If the ISAM database package is present, 0 can be returned to indicate that ''filenumber'' is actually an ISAM table.
+
+
 
 ==== Variations ====
 

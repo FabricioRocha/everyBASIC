@@ -3,11 +3,12 @@
 {{tag>@PAGE@}}
 
 <WRAP>
-<WRAP right quarter box round>
+<WRAP right 23% box round>
 == Keywords ==
 **{{backlinks>.#keywords}}**
 </WRAP>
 
+<WRAP 73%>
 //TO DO: A brief explanation about this implementation or specification.//
 
 ===== Where it is/was used =====
@@ -68,3 +69,4 @@
   
   {{tag>Compilers Microsoft Windows Linux}}
 */
+</WRAP>

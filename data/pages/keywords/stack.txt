@@ -1,7 +1,7 @@
 ====== STACK ======
 /* Remove the comments after creating content for each section.*/
 
-//TO DO: A summary of what it does//
+Either defines a new size for the stack memory area or returns the maximum size the stack can have; in Atari machines was used for controlling the time stack
 
 /*
   For the lines below, just create links, separated by commas, to other pages of the BASICs section,
@@ -15,9 +15,9 @@
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:msatari:]], [[:basics:VBDOS:]]
+**Implemented by:** [[:basics:VBDOS:]]
 
-**With variations:** 
+**With variations:** [[:basics:msatari:]]
 
 **Also written as: ** 
 
@@ -69,3 +69,4 @@
   
   {{tag>tagName}}
 */
+{{tag>Statement Function Memory}}
