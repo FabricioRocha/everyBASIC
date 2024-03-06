@@ -2,7 +2,7 @@
 Introduces a single-line comment; sometimes used for embedded //meta-commands// in the code
 
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Atom:]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
 
 **With variations:** [[:basics:Applesoft:tasc]] (contents not ignored if started with !)
 

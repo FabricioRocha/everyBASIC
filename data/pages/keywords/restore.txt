@@ -15,7 +15,7 @@ Arranges for the next usage of [[READ]] to take values from the first [[DATA]] l
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:spectrum]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
 
 **With variations:** [[:basics:TI994:]] (also with files), [[:basics:Atari:atxl]] (accepts offset parameter), [[:basics:msqb:QBasic]] (with optional line or label)
 

@@ -15,9 +15,9 @@ Explicitely declares and allocates memory for a variable; usually mandatory only
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]]
 
-**With variations:** [[:basics:Applesoft:tasc]] (dimensions are 1-based and can not be set by expressions), [[:basics:Atari:]] (mandatory for string variables; won't allow arrays of strings), [[:basics:Atari:atxl]] (allows string arrays as DIM(n, length), [[:basics:msqb:QBasic]] (also with SHARED)
+**With variations:** [[:basics:Applesoft:tasc]] (dimensions are 1-based and can not be set by expressions), [[:basics:Atari:]] (mandatory for string variables; won't allow arrays of strings), [[:basics:Atari:atxl]] (allows string arrays as DIM(n, length), [[:basics:Atom:]], [[:basics:msqb:QBasic]] (also with SHARED)
 
 **Also written as: ** 
 

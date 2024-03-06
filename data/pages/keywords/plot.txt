@@ -15,9 +15,9 @@ Draws a pixel on screen, in the given coordinates
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:CBM:Simons1]], [[:basics:Atari:]], [[:basics:Sinclair:zx81]], [[:basics:Sinclair:spectrum]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:CBM:Simons1]], [[:basics:Atari:]], [[:basics:Sinclair:zx81]], [[:basics:Sinclair:spectrum]], [[:basics:BBC:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]]
 
-**With variations:** [[:basics:msatari:]]
+**With variations:** [[:basics:msatari:]], [[:basics:Atom:]]
 
 **Also written as: ** 
 

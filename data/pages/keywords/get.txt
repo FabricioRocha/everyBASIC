@@ -14,9 +14,9 @@ Reads a record from a device or random-access file; in some BASICs reads the nex
   "Also written as" should list alternative spellings and abbreviations this keyword has. No need to refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:GWBASIC:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:VBDOS:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:VBDOS:]]
 
-**With variations:** [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Applesoft:]], [[:basics:Applesoft:tasc]] (for a numeric variable, defaults to 0 if a non-digit is entered), [[:basics:CBM:]], [[:basics:Atari:atxl]] (special behaviour with graphics), [[:basics:trs80:level3]] (includes GET@ for screen coordinates), [[:basics:trscolor:colorext]] (graphics: reads content from a rectangle into an array), [[:basics:ABasiC:]], [[:basics:msqb:QBasic]] (both for files/devices and for graphics to retrieve a pixels matrix), [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]] (as GET IMAGE), [[:basics:minibasicjs:]]
+**With variations:** [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Applesoft:]], [[:basics:Applesoft:tasc]] (for a numeric variable, defaults to 0 if a non-digit is entered), [[:basics:CBM:]], [[:basics:Atari:atxl]] (special behaviour with graphics), [[:basics:trs80:level3]] (includes GET@ for screen coordinates), [[:basics:trscolor:colorext]] (graphics: reads content from a rectangle into an array), [[:basics:Atom:]] (for files only), [[:basics:ABasiC:]], [[:basics:msqb:QBasic]] (both for files/devices and for graphics to retrieve a pixels matrix), [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]] (as GET IMAGE), [[:basics:minibasicjs:]]
 
 **Also written as: ** 
 

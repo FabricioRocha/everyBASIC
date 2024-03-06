@@ -15,7 +15,7 @@ Defines the upper memory limit for BASIC programs and its variables
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Applesoft:]]
+**Implemented by:** [[:basics:Applesoft:]], [[:basics:BBC:]]
 
 **With variations:** [[:basics:a2int:]] (needs trailing :)
 

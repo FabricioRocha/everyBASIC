@@ -17,7 +17,7 @@ Returns Boolean //true// if end of file was reached by the given file handler
 
 **Implemented by:** [[:basics:TI994:]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:trs80:level3]], [[:basics:trscolor:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]]
 
-**With variations:** 
+**With variations:** [[:basics:BBC:]] (as EOF#)
 
 **Also written as: ** 
 

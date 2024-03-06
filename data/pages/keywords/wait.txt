@@ -17,7 +17,7 @@ Halts program execution until a certain value is either obtained from an input h
 
 **Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:decbasic:]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:msatari:]], [[:basics:GWBASIC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
-**With variations:** [[:basics:MSX:]] (port value watchdog), [[:basics:bwbasic:bw32]], [[:basics:Gambas:]], [[:basics:ugBASIC:]] (with a 'sleep' sense; also used with FIRE, KEY, KEY OR FIRE, PARALLEL, UNTIL, VBL and WHILE), [[:basics:minibasicjs:]]
+**With variations:** [[:basics:Atom:]] (sleep for 1/60s), [[:basics:MSX:]] (port value watchdog), [[:basics:bwbasic:bw32]], [[:basics:Gambas:]], [[:basics:ugBASIC:]] (with a 'sleep' sense; also used with FIRE, KEY, KEY OR FIRE, PARALLEL, UNTIL, VBL and WHILE), [[:basics:minibasicjs:]]
 
 **Also written as: ** 
 

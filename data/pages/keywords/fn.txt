@@ -15,7 +15,7 @@ Returns the result of a certain user-defined function
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:Dartmouth:dartmouth4]], [[:basics:decbasic:]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:trs80:level3]], [[:basics:Sinclair:spectrum]], [[:basics:MSX:]], [[:basics:VBDOS:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth1]], [[:basics:Dartmouth:dartmouth4]], [[:basics:decbasic:]], [[:basics:Altair:altair8K]], [[:basics:Applesoft:]], [[:basics:CBM:]], [[:basics:trs80:level3]], [[:basics:Sinclair:spectrum]], [[:basics:BBC:]], [[:basics:MSX:]], [[:basics:VBDOS:]]
 
 **With variations:** [[:basics:Altair:altair12K]] (accepts longer names and multiple parameters)
 

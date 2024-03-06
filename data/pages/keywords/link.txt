@@ -17,7 +17,7 @@
 
 **Implemented by:** [[:basics:Gambas:]]
 
-**With variations:** [[:basics:TI994:ti994ext]] (through CALL, to make it work like common CALL)
+**With variations:** [[:basics:TI994:ti994ext]] (through CALL, to make it work like common CALL), [[:basics:Atom:]] (executes machine-code subroutine)
 
 **Also written as: ** 
 

@@ -15,7 +15,7 @@ According to the arguments, stores into a given record of a random-access file/d
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:VBDOS:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:trsdisk]], [[:basics:Atom:]], [[:basics:MSX:msxdisk]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:VBDOS:]]
 
 **With variations:** [[:basics:decbasic:]], [[:basics:Atari:atxl]] (special behaviour with graphics), [[:basics:trs80:level3]] (includes the PUT@ variation for screen coordinates), [[:basics:trscolor:colorext]] (copy data from array buffer to rectangular area of the screen), [[:basics:GWBASIC:]], [[:basics:MSX:]] (also used with [[SPRITE]]), [[:basics:msqb:QBasic]] (both for files/devices and for graphics), [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]] (as PUT IMAGE and PUT TILE)
 

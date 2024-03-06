@@ -15,7 +15,7 @@ Returns, as an integer, the number of bytes (or characters) of a given string; m
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:altair8K]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:zx81]], [[:basics:Sinclair:spectrum]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:altair8K]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:zx81]], [[:basics:Sinclair:spectrum]], [[:basics:Atom:]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:ugBASIC:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
 
 **With variations:** [[:basics:msqb:QBasic]] (also for bytes occupied by a variable), [[:basics:Gambas:]]
 

@@ -15,7 +15,7 @@ Command used for automatic creation of line numbers while a program is being typ
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:a2int:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:CBM:Simons1]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]]
+**Implemented by:** [[:basics:a2int:]], [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:CBM:Simons1]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]]
 
 **With variations:** 
 

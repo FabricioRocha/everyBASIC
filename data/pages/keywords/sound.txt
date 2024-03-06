@@ -15,7 +15,7 @@ Generates noise according to some platform-specific parameters
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:CBM:Simons1]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trscolor:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]]
+**Implemented by:** [[:basics:CBM:cbmv7]], [[:basics:CBM:cbmv3.5]], [[:basics:CBM:Simons1]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trscolor:]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]]
 
 **With variations:** [[:basics:TI994:]] (through CALL), [[:basics:trscolor:colormc]], [[:basics:ugBASIC:]] (frequency, duration, channels; also with OFF), [[:basics:minibasicjs:]]
 

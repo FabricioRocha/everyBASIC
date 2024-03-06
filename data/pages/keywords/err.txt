@@ -15,7 +15,7 @@ Returns the code of the most recent error that happened
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:decbasic:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colorenh]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
+**Implemented by:** [[:basics:decbasic:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:colorenh]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]]
 
 **With variations:** [[:basics:TI994:ti994ext]] (through CALL), [[:basics:Atari:ataplus]] (with 0 returns error code, with 1 returns error line), [[:basics:Atari:atxl]] (with 0 returns error code, with 1 returns error line)
 

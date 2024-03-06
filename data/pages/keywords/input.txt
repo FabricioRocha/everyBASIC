@@ -1,9 +1,9 @@
 ====== INPUT ======
 Prompts the user for typing a line of text or numbers, finished by RETURN/ENTER; may be used for reading from devices
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth3]], [[:basics:ANSI:ansimin]], [[:basics:ANSI:ansifull]], [[:basics:hptsb:]], [[:basics:decbasic:]], [[:basics:Altair:]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:msatari:]], [[:basics:trs80:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:Sinclair:]], [[:basics:Atom:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:minibasicmm:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
 
-**With variations:** [[:basics:CBM:]], [[:basics:Atari:]] (no prompt string), [[:basics:Atari:ataplus]] (allowed prompt string, which would replace the ? prompt), [[:basics:Atari:atxl]] (allowed prompt string, which would replace the ? prompt), [[:basics:trs80:trsdisk]] (with the # for sequential files), [[:basics:trs80:level3]] (INPUT#LEN variation)
+**With variations:** [[:basics:CBM:]], [[:basics:Atari:]] (no prompt string), [[:basics:Atari:ataplus]] (allowed prompt string, which would replace the ? prompt), [[:basics:Atari:atxl]] (allowed prompt string, which would replace the ? prompt), [[:basics:trs80:trsdisk]] (with the # for sequential files), [[:basics:trs80:level3]] (INPUT#LEN variation), [[:basics:BBC:]] (also as INPUT#)
 
 **Also written as: ** /* Alternative spellings and abbreviations this keyword has. No need to refer to a BASIC, there is a section for that later. */
 

@@ -17,7 +17,7 @@ Either defines a new size for the stack memory area or returns the maximum size 
 
 **Implemented by:** [[:basics:VBDOS:]]
 
-**With variations:** [[:basics:msatari:]]
+**With variations:** [[:basics:msatari:]] (timer-related function)
 
 **Also written as: ** 
 

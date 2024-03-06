@@ -15,7 +15,7 @@ Turns on "trace" mode, which shows the program line being executed during runtim
   refer to a BASIC, there is a section for that later.
 */
 
-**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:Simons1]], [[:basics:ABasiC:]]
+**Implemented by:** [[:basics:ANSI:ansifull]], [[:basics:a2int:]], [[:basics:Applesoft:]], [[:basics:TI994:]], [[:basics:CBM:Simons1]], [[:basics:BBC:]], [[:basics:ABasiC:]]
 
 **With variations:** [[:basics:Atari:ataplus]] (does not show line number for [[GOTO]] and [[GOSUB]] targets, nor [[FOR]] and [[WHILE]] lines), [[:basics:Atari:atxl]] (does not show line number for [[GOTO]] and [[GOSUB]] targets, nor [[FOR]] and [[WHILE]] lines)
 

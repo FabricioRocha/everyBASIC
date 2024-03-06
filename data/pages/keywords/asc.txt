@@ -2,7 +2,7 @@
 
 //Returns the ASCII code for a single or the first character of a longer string//
 
-**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:Altair:altair8K]], [[:basics:a2int:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
+**Implemented by:** [[:basics:Dartmouth:dartmouth5]], [[:basics:Altair:altair8K]], [[:basics:a2int:]], [[:basics:TI994:]], [[:basics:CBM:]], [[:basics:Atari:]], [[:basics:msatari:]], [[:basics:trs80:level2]], [[:basics:trscolor:]], [[:basics:trscolor:colormc]], [[:basics:BBC:]], [[:basics:GWBASIC:]], [[:basics:MSX:]], [[:basics:bwbasic:]], [[:basics:bwbasic:bw32]], [[:basics:ABasiC:]], [[:basics:msqb:QBasic]], [[:basics:VBDOS:]], [[:basics:FreeBASIC:]], [[:basics:Gambas:]], [[:basics:ugBASIC:]], [[:basics:minibasicjs:]], [[:basics:EndBASIC:]]
 
 **With variations:** 
 
